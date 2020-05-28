@@ -47,7 +47,7 @@ class Page:
             for k in leo_res.keys():
                 sense = leo_res[k][0]['de']
                 upper = min(len(leo_res[k]),const.max_translations)
-                tup = (term, sense, k , json.dumps(leo_res[k][0:upper]))
+                tup = (term, sense, k , json.dumps(leo_res[k][0:upper], ensure_ascii=False))
                 lst.append(tup)
             lst.append((term, term, "reverso", usage))
             self.insert_entry(lst)
