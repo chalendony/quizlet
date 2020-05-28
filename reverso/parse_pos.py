@@ -5,6 +5,7 @@ import reverso.constants as const
 from reverso.download_reverso_page import ReversoDictionary
 import json
 from configparser import ConfigParser
+from reverso.databaseio import config
 
 import psycopg2
 from psycopg2.extras import execute_values
@@ -14,8 +15,10 @@ class Page:
     def __init__(self):
         print(const.postgres_config)
 
-        db = self.config(const.postgres_config)
+        db = config(const.postgres_config)
         print(db)
+
+        ## TODO move this code to databaseio module
         self.conn = psycopg2.connect(
             host=db['host'], database=db['database'], user=db['user'], password=db['password']
         )
@@ -57,22 +60,6 @@ class Page:
 
             # time.sleep(5)
 
-    def config(self, filename, section="postgresql"):
-        print(f"filename {filename}")
-        parser = ConfigParser()
-        parser.read(filename)
-        # get section, default to postgresql
-        db = {}
-        if parser.has_section(section):
-            params = parser.items(section)
-            for param in params:
-                db[param[0]] = param[1]
-        else:
-            raise Exception(
-                "Section {0} not found in the {1} file".format(section, filename)
-            )
-
-        return db
 
     def parse_definition(self, res):
         lst = []

@@ -99,8 +99,8 @@ class Page:
                 usage = nl2.join(usage)
                 usage = usage.replace(lemma+'\n', "") # remove repeated term
                 #print(f"usage {usage}")
-                leo_en = leo.get_english_definitions(leo_res,const.NOUN)
-                leo_de = leo.de_get_german_translation(leo_res,const.NOUN)
+                leo_en = leo.get_english_definitions(leo_res, const.SUBS)
+                leo_de = leo.de_get_german_translation(leo_res, const.SUBS)
                 entry = f"{lemma} @@@ {leo_de} {nl} {leo_en} {nl2} {usage}  §§§{nl}"
                 batch_nouns.append(entry)
             time.sleep(5)

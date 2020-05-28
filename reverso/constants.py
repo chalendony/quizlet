@@ -21,9 +21,14 @@ max_secs = 15
 headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:45.0) Gecko/20100101 Firefox/45.0'}
 reverso_base_url = 'https://dictionary.reverso.net/german-english/'
 
-NOUN = 'subst'
+SUBS = 'subst'
 VERB = 'verb'
 PREP= 'praep'
+EXAMPLE = 'example'
+REVERSO = 'reverso'
+DEFINTION = 'definition'
+ADJADV = 'adjadv'
+PHRASE = 'phrase'
 
 
 nl = "\n"
