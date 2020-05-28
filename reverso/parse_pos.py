@@ -51,7 +51,6 @@ class Page:
                 lst.append(tup)
             lst.append((term, term, "reverso", usage))
             self.insert_entry(lst)
-
             time.sleep(3)
 
     def parse_definition(self, res):

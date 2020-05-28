@@ -12,6 +12,7 @@ import datetime
 import time
 
 
+
 class Noun_Cards:
 
     def __init__(self):
@@ -21,7 +22,7 @@ class Noun_Cards:
 
     def create(self):
         query = """
-            select term ,sense from german 
+            select term ,sense , value from german 
             where ktype = %s 
             ;
             """
@@ -31,8 +32,12 @@ class Noun_Cards:
         for row in records:
             term = row[0]
             sense = row[1]
-            entry = f"{term} @@@ {sense} §§§{const.nl}"
-            #print(entry)
+            value = row[2]
+            leo_res = json.loads(value)
+            #print(leo_res)
+            en = self.format_english(leo_res)
+            entry = f"{term} @@@ {sense} {const.nl} {en} §§§{const.nl}"
+
             batch.append(entry)
             if len(batch) == const.MAX_CARDS:
                 self.write_to_file(batch, self.create_batch_name())
@@ -56,6 +61,14 @@ class Noun_Cards:
         pg.cur.close()
         pg.conn.close()
 
+
+    def format_english(self, lst):
+        tmp = []
+        for i in lst:
+            clean = clean_unicode(i['en'])
+            tmp.append(clean.strip())
+        str = '['+ '; '.join(tmp) + ']'
+        return str
 
 if __name__ == "__main__":
     pg = Noun_Cards()
