@@ -3,7 +3,7 @@ from configparser import ConfigParser
 import psycopg2
 
 
-def config(filename, section="postgresql"):
+def connect(filename, section="postgresql"):
     parser = ConfigParser()
     parser.read(filename)
     # get section, default to postgresql
@@ -17,4 +17,14 @@ def config(filename, section="postgresql"):
             "Section {0} not found in the {1} file".format(section, filename)
         )
 
-    return db
+    conn = psycopg2.connect(
+        host=db['host'], database=db['database'], user=db['user'], password=db['password']
+    )
+    return conn
+
+
+def write_to_file(self, lst, batchnr, filename):
+    f = open(const.cards_path + filename + "_" + str(batchnr) + ".txt", 'w')
+    with f:
+        for i in lst:
+            f.write(f"{i}")

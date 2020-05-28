@@ -64,7 +64,7 @@ class Page:
         ##--------------------------------
         batch_verbs = []
         batch_name_verbs = "leo_verbs"
-        INIT_BATCHNR_VERBS = 17 ## automate this value
+        INIT_BATCHNR_VERBS = 17 ## automate this value - goodness just put a timestamp on it
         batchnr_verbs = INIT_BATCHNR_VERBS
         ##--------------------------------
         # Initialize Batch Nouns

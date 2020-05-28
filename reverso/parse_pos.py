@@ -5,7 +5,7 @@ import reverso.constants as const
 from reverso.download_reverso_page import ReversoDictionary
 import json
 from configparser import ConfigParser
-from reverso.databaseio import config
+from reverso.database_handler import connect
 
 import psycopg2
 from psycopg2.extras import execute_values
@@ -13,21 +13,13 @@ from psycopg2.extras import execute_values
 
 class Page:
     def __init__(self):
-        print(const.postgres_config)
 
-        db = config(const.postgres_config)
-        print(db)
-
-        ## TODO move this code to databaseio module
-        self.conn = psycopg2.connect(
-            host=db['host'], database=db['database'], user=db['user'], password=db['password']
-        )
-
+        self.conn = connect(const.postgres_config)
         self.cur = self.conn.cursor()
         self.reverso = ReversoDictionary()
 
     def insert_entry(self, lst):
-        sql = """INSERT INTO german(lemma, ktype, value)
+        sql = """INSERT INTO german(term, sense, ktype, value)
                  VALUES %s
                  on conflict do nothing;"""
         try:
@@ -43,23 +35,24 @@ class Page:
             lines = list(line for line in (l.strip() for l in f) if line)
         lines = self.reverso.remove_dash(lines)
 
-        for lemma in lines:
+        for term in lines:
             lst = []
-            print(f" lemma:  {lemma}")
-            leo_res = leo.search(lemma)
+            print(f" term:  {term}")
+            leo_res = leo.search(term)
 
-            url = f"{const.reverso_base_url}{lemma}"
+            url = f"{const.reverso_base_url}{term}"
             soup_html = self.reverso.download(url)
             htm_str = HTML(html=soup_html, default_encoding="ISO-8859-15")
             usage = self.parse_definition(htm_str)
             for k in leo_res.keys():
-                tup = (lemma, k, json.dumps(leo_res[k][0:3]))
+                sense = leo_res[k][0]['de']
+                upper = min(len(leo_res[k]),const.max_translations)
+                tup = (term, sense, k , json.dumps(leo_res[k][0:upper]))
                 lst.append(tup)
-            lst.append((lemma, "reverso", usage))
+            lst.append((term, term, "reverso", usage))
             self.insert_entry(lst)
 
-            # time.sleep(5)
-
+            time.sleep(3)
 
     def parse_definition(self, res):
         lst = []
@@ -79,5 +72,6 @@ class Page:
 if __name__ == "__main__":
 
     pg = Page()
-    pg.parse_all_terms("/home/avare/repos/quizlet/data/terms_test.txt")
+    #pg.parse_all_terms("/home/avare/repos/quizlet/data/terms_test.txt")
+    pg.parse_all_terms(const.terms_file)
     pg.shutdown()
