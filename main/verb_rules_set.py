@@ -12,6 +12,7 @@ from reverso.database_handler import connect_alchemy
 import datetime
 import time
 
+aline = "\n----------------\n"
 
 target = const.VERB
 
@@ -43,8 +44,7 @@ class Verb_Cards:
                 # check verb
                 if ('|' in str(d.loc[d['ktype'] == 'verb'].sense)):
                     print("Found Conjugation")
-                    sen = clean_unicode(d.loc[d['ktype'] == 'verb'].sense.to_string(index=False))
-
+                    #sen = clean_unicode(d.loc[d['ktype'] == 'verb'].sense.to_string(index=False))
                     finalstr = self.construct_string(d)
                     entry = f"{term} @@@ {finalstr} §§§"
                     batch.append(entry)
@@ -82,8 +82,21 @@ class Verb_Cards:
         #pg.conn.close()
         pass
 
+    def prune_translations(self, jobj):
+        definition = {}
+        en_translations = []
+        de_conjugation = jobj[0]['de']
+        for i in jobj:
+            ent = i['en']
+            print(f"englsiasdfasdf {ent}")
+            split = ent.split('|')[0]
+            en_translations.append(split.strip())
+        definition[de_conjugation] = en_translations
+        return definition
+
+
     def construct_string(self,  d):
-        # order: sense, translation, reverso, examples, phrase
+        # order: translation, reverso, examples, phrase
         #########################################
         ## Leo Translations
         #########################################
@@ -91,16 +104,8 @@ class Verb_Cards:
         val = d.loc[d['ktype'] == 'verb'].value.values
         if len(val) > 0:
             jobj = json.loads(val[0])
+            jobj = self.prune_translations(jobj)
             bval = json.dumps(jobj, ensure_ascii=False)
-
-
-        # for i in val:
-        #
-        #     s = json.loads(i)
-        #     for j in s:
-        #         en = clean_unicode(j['en'])
-        #         de = clean_unicode(j['de'])
-        #         bval = bval + de + "  "
 
         #########################################
         ## Reverso Translations
@@ -119,10 +124,6 @@ class Verb_Cards:
             jobj = json.loads(exa[0])
             bexa = json.dumps(jobj, ensure_ascii=False)
 
-
-        # for i in exa:
-        #     bexa = bexa + i + "  "
-
         #########################################
         ## Leo Phrases
         #########################################
@@ -132,29 +133,15 @@ class Verb_Cards:
             jobj = json.loads(phr[0])
             bphr = json.dumps(jobj,  ensure_ascii=False)
 
-        # for i in jobj:
-        #     clener = clean_unicode(json.loads(i)['en'])
-        #     print(clener)
-        #
-        #
-        #
-        # bphr = ""
-        #
-        # for i in phr: # leo
-        #     en = clean_unicode(i['en'])
-        #     de = clean_unicode(j['de'])
-        #     bphr = bphr  + en + "  " + de + " "
-
-        #print(f"sense***** {sen}")
         print(f"value***** {bval}")
         print(f"reverso***** {brev}")
         print(f"example***** {bexa}")
         print(f"phrase***** {bphr}")
 
         # concate
-        #finalstr = sen + '\n' + bval + '\n\n' + brev + '\n\n' + bexa + '\n\n' + bphr
-        finalstr = bval + '\n\n' + brev + '\n\n' + bexa + '\n\n' + bphr
+        finalstr = bval + aline + brev + aline + bexa + aline + bphr
         return finalstr
+
 
 
 if __name__ == "__main__":
