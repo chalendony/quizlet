@@ -1,0 +1,7 @@
+vorkommen @@@ {"vorkommen  | kam vor, vorgekommen |": ["to occur", "to appear", "to happen", "to be found", "to be rife with sth.", "to have a familiar ring", "to feel silly", "sth. rings a bell [coll.]"]}
+----------------
+
+----------------
+[{"en": "such a mistake will not happen again", "de": "solch ein Fehler wird nicht wieder vorkommen"}, {"en": "It won't happen again.", "de": "Das soll nicht wieder vorkommen."}, {"en": "It only happens once in a blue moon.", "de": "Das kommt alle Jubeljahre vor."}, {"en": "That seems funny to me.", "de": "Das kommt mir komisch vor."}, {"en": "That sounds funny to me.", "de": "Das kommt mir komisch vor."}, {"en": "It seems to me", "de": "Es kommt mir vor"}]
+----------------
+[{"en": "It must not happen again!", "de": "Das darf nicht wieder vorkommen!"}, {"en": "There's something fishy going on here.", "de": "Das kommt mir spanisch vor."}] §§§
