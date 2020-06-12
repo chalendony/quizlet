@@ -1,0 +1,615 @@
+Feiern @@@ {"(jmdn./etw.) feiern  | feierte, gefeiert |": ["to celebrate (so./sth.)", "to fete", "to make merry"]}
+----------------
+{"feiern
+fei•ern","1 vt","a [Ereignis] to celebrate
+[Party, Fest, Orgie] to hold
+das muss gefeiert werden! that calls for a celebration
+Triumphe feiern to achieve a great triumph, to make one's mark","b (=umjubeln) to fête
+→ gefeiert","2 vi","a (=eine Feier abhalten) to celebrate
+die ganze Nacht feiern to make a night of it","b (=nicht arbeiten) to stay off work"}  
+----------------
+[{"en": "Finally, we can celebrate an economic success.", "de": "Endlich können wir einen wirtschaftlichen Erfolg feiern."}, {"en": "Do you remember the guy that we met at the party?", "de": "Erinnerst du dich an den Typen, dem wir auf der Feier begegnet sind?"}, {"en": "Do you remember the guy we met at the party?", "de": "Erinnerst du dich an den Typen, dem wir auf der Feier begegnet sind?"}]
+----------------
+[{"en": "to push the boat out [coll.] [fig.]", "de": "ganz groß feiern [coll.] [fig.]"}, {"en": "to throw a party", "de": "eine Feier veranstalten"}, {"en": "to mark the occasion", "de": "zur Feier des Tages"}] §§§Gleiche @@@ {"jmdm./etw. gleichen  | glich, geglichen |": ["to resemble so./sth.", "to equal sth.", "to be akin to sth."]}
+----------------
+{}  
+----------------
+[{"en": "same social position", "de": "gleiche soziale Stellung"}, {"en": "Do you still have the same quality?", "de": "Führen Sie noch die gleiche Qualität?"}, {"en": "It's pretty much the same.", "de": "Es ist so ziemlich das gleiche."}]
+----------------
+[{"en": "I'm on my way!", "de": "Gleich! [fig.]"}, {"en": "same difference", "de": "das läuft aufs Gleiche hinaus"}, {"en": "equal pay for equal work![POL.]", "de": "gleicher Lohn für gleiche Arbeit!"}] §§§Mopse @@@ {"etw.acc. mopsen  | mopste, gemopst |": ["to swipe sth.", "to pinch sth.", "to half-inch sth."]}
+----------------
+{"Mops
+m , -es, -\"e","a (Hund) pug (dog)","b (=Dickwanst) roly-poly inf , dumpling inf","c Möpse pl
+sl (=Busen) tits pl sl"}  
+----------------
+
+----------------
+ §§§Peitsche @@@ {"(jmdn.) peitschen  | peitschte, gepeitscht |": ["to lash (so.)", "to whip so.", "to flog so."]}
+----------------
+{"Peitsche
+Peit•sche f , -, -n whip
+er gab seinem Pferd die Peitsche he whipped his horse on
+mit der Peitsche knallen (lit, fig) to crack the whip
+→ Zuckerbrot"}  
+----------------
+
+----------------
+[{"en": "carrot and stick", "de": "Zuckerbrot und Peitsche"}, {"en": "the carrot and the stick", "de": "Zuckerbrot und Peitsche"}, {"en": "the stick and the carrot", "de": "Zuckerbrot und Peitsche [fig.]"}] §§§abarbeiten @@@ {"etw.acc. abarbeiten  | arbeitete ab, abgearbeitet |": ["to complete sth.", "to work off  [TECH.]", "to take down  [TECH.]"]}
+----------------
+{"abarbeiten
+ab+ar•bei•ten, sep","1 vt","a [Schuld] to work off
+[Überfahrt] to work
+(=hinter sich bringen) [Vertragszeit] to work","b (Comput) [Programm] to run
+[Befehl] to execute","2 vr to slave (away), to work like a slave
+→ abgearbeitet"}  
+----------------
+
+----------------
+ §§§abkommen @@@ {"abkommen  | kam ab, abgekommen |": ["to deviate", "to make an agreement", "to make a deal"]}
+----------------
+{"abkommen
+ab+kom•men vi sep irreg aux sein","a von etw abkommen (=abweichen) to leave sth (=abirren) to wander off sth, to stray from sth
+vom Kurs abkommen to deviate from one's course, to leave one's course
+(vom Thema) abkommen to get off the subject, to digress
+vom rechten Weg abkommen (fig) to stray or wander from the straight and narrow","b (=aufgeben)
+von etw abkommen to drop sth, to give sth up
+[von Angewohnheit] to give sth up
+[von Idee, Plan] to abandon or drop sth
+von einer Meinung abkommen to revise one's opinion, to change one's mind
+von diesem alten Brauch kommt man immer mehr ab this old custom is dying out more and more","c (Sport) (=wegkommen) to get away
+schlecht/gut abkommen (=wegkommen) to get away to a bad/good start, to make a bad/good start","d (beim Schießen) to aim
+wie ist sie abgekommen? how well did she shoot?, how was her shot?","Abkommen Ab•kom•men nt , -s, -
+agreement (auch Pol)"}  
+----------------
+
+----------------
+ §§§ablegen @@@ {"etw.acc. ablegen  | legte ab, abgelegt |": ["to take sth. ⇔  off   - clothes", "to discard sth.", "to divest oneself of sth."]}
+----------------
+{"ablegen
+ab+le•gen, sep","1 vt","a (=niederlegen) to put down
+[Last, Waffen] to lay or put down , (Zool) [Eier] to lay","b (=abheften) [Schriftwechsel, Dokumente] to file (away) , (Comput) [Daten] to store","c (=ausziehen) [Hut, Mantel, Kleider] to take off, to remove form","d (=nicht mehr tragen) [Anzug, Kleid] to discard, to cast off
+[Trauerkleidung, Ehering] to take off
+[Orden, Auszeichnungen] to renounce
+abgelegte Kleider cast-off or discarded clothes","e (=aufgeben) [Misstrauen, Scheu, Stolz] to lose, to shed, to cast off liter
+[schlechte Gewohnheit] to give up, to get rid of
+[kindische Angewohnheit] to put aside
+[Namen] to give up","f (=ableisten, machen) [Schwur, Eid] to swear
+[Gelübde] to make
+[Zeugnis] to give
+[Bekenntnis, Beichte, Geständnis] to make
+[Prüfung] to take, to sit , (erfolgreich) to pass","g (Cards) to discard, to throw down","2 vi","a (=abfahren)
+[Schiff] to cast off , (Space) to separate","b (Schriftwechsel ablegen) to file","c (Garderobe ablegen) to take one's things off
+wenn Sie ablegen möchten ... if you would like to take your things or your hats and coats off ...","d (Cards) to discard","3 vt impers
+geh
+(=absehen)
+es auf etw ($) ablegen acc to be out for sth"}  
+----------------
+
+----------------
+ §§§anfallen @@@ {"anfallen  | fiel an, angefallen |": ["to accrue", "to accumulate", "to incur"]}
+----------------
+{"anfallen
+an+fal•len, sep irreg","1 vt","a (=überfallen) to attack
+[Sittenstrolch etc] to assault","b liter Heimweh/Sehnsucht fiel ihn an he was assailed by homesickness/filled with longing","2 vi aux sein (=sich ergeben) to arise
+[Zinsen] to accrue
+[Nebenprodukte] to be obtained
+(=sich anhäufen) to accumulate
+die anfallenden Kosten/Reparaturen/Probleme the costs/repairs/problems incurred
+die anfallende Arbeit the work which comes up"}  
+----------------
+[{"en": "Expenses are incurred.", "de": "Die Kosten fallen an.   infinitive: anfallen"}, {"en": "costs thereby incurred", "de": "die Kosten, die dabei anfallen"}]
+----------------
+ §§§anschließend @@@ {"etw.acc. (an etw.acc.) anschließen  | schloss an, angeschlossen |": ["to connect sth. (to sth.)", "to connect up", "to fasten on"]}
+----------------
+
+----------------
+[{"en": "would be able to rejoin later on", "de": "können sich später wieder anschließen"}]
+----------------
+[{"en": "to go with the flow [fig.]", "de": "sichacc. der Mehrheit anschließen [fig.]"}, {"en": "May I join you?", "de": "Darf ich mich Ihnen anschließen?"}] §§§ascertain @@@ {"etw.acc. ermitteln  | ermittelte, ermittelt |": ["to ascertain sth.", "to ascertain sth.", "to ascertain sth."]}
+----------------
+{"ascertain
+vt ermitteln, feststellen"}  
+----------------
+[{"en": "should endeavorAE to ascertain the reasons", "de": "soll versuchen den Grund festzustellen"}, {"en": "should endeavourBE to ascertain the reasons", "de": "soll versuchen den Grund festzustellen"}]
+----------------
+ §§§aufbewahren @@@ {"etw.acc. (in etw.dat.) aufbewahren  | bewahrte auf, aufbewahrt |": ["to keep sth. (in sth.)", "to set aside", "to store sth."]}
+----------------
+{"aufbewahren
+auf+be•wah•ren ( aufbewahrt ptp ) vt sep to keep
+[Lebensmittel auch] to store
+(=behalten) [alte Zeitungen etc auch] to save
+[Wertsachen etc] to look after
+ein Dokument gut aufbewahren to keep a document in a safe place
+Medikamente kühl aufbewahren to keep medicines in a cool place
+jds Dokumente aufbewahren to be looking after sb's documents, to have sb's documents in one's keeping
+kann ich hier meinen Koffer aufbewahren lassen? can I leave my suitcase here?"}  
+----------------
+
+----------------
+[{"en": "keep in a cool place", "de": "kühl aufbewahren"}] §§§bedenken @@@ {"bedenken  | bedachte, bedacht |": ["to consider", "to preconceive sth.", "to keep sth. in mind"]}
+----------------
+{"bedenken
+be•den•ken ( bedacht ) ptp irreg","1 vt","a (=überlegen) [Sache, Lage, Maßnahme etc] to consider, to think about
+das will wohl bedacht sein geh that calls for careful consideration
+wenn man es recht bedenkt, ... if you think about it properly ...","b (=in Betracht ziehen) [Umstand, Folgen etc] to consider, to take into consideration
+man muss bedenken, dass ... one must take into consideration the fact that ...
+das hättest du früher or vorher bedenken sollen you should have thought about that sooner or before
+ich gebe zu bedenken, dass ... I would ask you to consider that ...
+bedenke, dass du sterben musst remember you are mortal","c (in Testament) to remember
+jdn mit einem Geschenk bedenken geh to give sb a present
+jdn reich bedenken geh to be generous to sb
+ich wurde auch diesmal reich bedacht geh I did very well this time
+mit etw bedacht werden to receive sth
+auch ich wurde bedacht I was not forgotten (either), there was something for me too
+→ Bedachte(r)","2 vr
+geh to think (about it), to reflect
+bedenke dich gut, ehe du ... think well before you ...
+ohne sich lange zu bedenken without stopping to think or reflect
+→ bedacht","Bedenken Be•den•ken nt , -s, -","a usu pl (=Zweifel, Einwand) doubt, reservation, misgiving
+moralische Bedenken moral scruples
+Bedenken haben or tragen geh to have one's doubts (bei about)
+ihm kommen Bedenken he is having second thoughts
+ohne Bedenken vorgehen to act relentlessly or unrelentingly","b no pl (=das Überlegen) consideration ( +gen of), reflection ( +gen (up)on)
+nach langem Bedenken after much thought
+ohne Bedenken without thinking"}  
+----------------
+[{"en": "You ought to consider that ...", "de": "Sie sollten bedenken, dass ..."}, {"en": "Please consider ...", "de": "Bitte bedenken Sie doch ..."}, {"en": "You must consider that ...", "de": "Sie müssen bedenken, dass ..."}]
+----------------
+[{"en": "come to think of it", "de": "wenn man es genau bedenkt"}] §§§begaben @@@ {"sichacc. begeben  | begab, begeben |": ["to befall", "to issue sth.", "to emit sth."]}
+----------------
+{"begaben
+be•ga•ben ( begabt ptp ) vt usu pass
+liter to endow
+mit etw begabt sein to be endowed with sth"}  
+----------------
+[{"en": "issued by private mortgage banks", "de": "von privaten Hypothekenbanken begeben"}]
+----------------
+ §§§begründen @@@ {"begründen  | begründete, begründet |": ["to justify", "to motivate", "to constitute sth."]}
+----------------
+{"begründen
+be•grün•den ( begründet ptp ) vt","a (=Gründe anführen für) to give reasons for , (rechtfertigend) [Forderung, Meinung, Ansicht] to justify
+[Verhalten] to account for
+[Verdacht, Behauptung] to substantiate
+wie or womit begründete er seine Ablehnung? how did he account for or justify his refusal?, what reason(s) did he give for his refusal?
+etw eingehend/näher begründen to give detailed/specific reasons for sth
+ein begründender Satz (Gram) a causal clause
+→ begründet","b (=beginnen, gründen) to establish"}  
+----------------
+
+----------------
+ §§§darstellen @@@ {"jmdn./etw. darstellen  | stellte dar, dargestellt |": ["to play so./sth.", "to represent sth.", "to constitute sth."]}
+----------------
+{"darstellen
+dar+stel•len sep","1 vt","a (=abbilden) to show
+(=ein Bild entwerfen von) to portray, to depict , (Theat) to portray
+[Rolle] to play
+(=beschreiben) to describe , (auf Bildschirm) to display, to show
+etw in einem möglichst günstigen Licht darstellen to show sth in the best possible light
+etw kurz or knapp darstellen to give a short description of sth
+was sollen diese verworrenen Striche darstellen? what are these confused lines supposed to show or (in Zeichnung) be?
+die darstellenden Künste (=Theater) the dramatic or performing arts (=Malerei, Plastik) the visual arts
+er stellt etwas/nichts dar (fig) he has a certain air/doesn't have much of an air about him","b (Math) [Funktion] to plot , (Chem) to produce
+darstellende Geometrie projective geometry","c (=bedeuten) to constitute, to represent","2 vr (=Eindruck vermitteln) to appear (jdm to sb)
+(=sich erweisen) to show oneself
+die Sache stellte sich (als) sehr fragwürdig dar the matter appeared (to be) very dubious
+bei dem Talentwettbewerb stellte er sich als begabter Sänger dar at the talent competition he showed himself to be a gifted singer"}  
+----------------
+[{"en": "It represents", "de": "Es stellt dar"}]
+----------------
+ §§§eingereicht @@@ {"etw.acc. (bei jmdm.) einreichen  | reichte ein, eingereicht |": ["to submit sth. (to so.)", "to pass in", "to tender"]}
+----------------
+
+----------------
+[{"en": "when tendered by the seller", "de": "wenn sie vom Verkäufer eingereicht werden"}]
+----------------
+ §§§entnehmen @@@ {"entnehmen  | entnahm, entnommen |": ["to cull", "to extract sth.", "to remove sth."]}
+----------------
+{"entnehmen
+ent•neh•men ( entnommen ) ptp vt irreg ( aus +dat ) to take out (of), to take (from) , (aus Kasse) [Geld] to withdraw (from) , (einem Buch etc) [Zitat] to take (from) (fig) (=erkennen, folgern) to infer (from), to gather (from)
+wie ich Ihren Worten entnehme, ... I gather from what you say that ..."}  
+----------------
+[{"en": "From my letter you will see that ...", "de": "Meinem Schreiben werden Sie entnehmen, dass ..."}]
+----------------
+ §§§entschlafen @@@ {"entschlafen  | entschlief, entschlafen |   - sterben": ["to pass away    - die", "to pass on    - die", "to pass away peacefully"]}
+----------------
+{"entschlafen
+ent•schla•fen ( entschlafen ptp ) vi irreg aux sein
+geh to fall asleep
+euph auch (=sterben) to pass away
+der/die Entschlafene the deceased, the departed"}  
+----------------
+
+----------------
+ §§§entsinnen @@@ {"sichacc. (jmds./einer Sache) entsinnen  | entsann, entsonnen |": ["to recollect (so./sth.)", "to remember", "to recall so./sth."]}
+----------------
+{"entsinnen
+ent•sin•nen ( entsonnen ) ptp vr irreg ( einer Sache (gen), an etw (acc) sth ) to remember, to recall, to recollect
+wenn ich mich recht entsinne if my memory serves me correctly or right"}  
+----------------
+
+----------------
+ §§§entstellen @@@ {"entstellen  | entstellte, entstellt |": ["to deform", "to deface", "to garble"]}
+----------------
+{"entstellen
+ent•stel•len ( entstellt ptp ) vt (=verunstalten) [Gesicht] to disfigure
+(=verzerren) [Gesicht(szüge)] to distort, to contort (fig) [Bericht, Wahrheit etc] to distort
+etw entstellt wiedergeben to distort or misrepresent sth
+sein von Hass/Schmerz entstelltes Gesicht his face distorted or contorted with hate/pain"}  
+----------------
+
+----------------
+ §§§erhoffen @@@ {"etw.acc. erhoffen  | erhoffte, erhofft |": ["to hope for sth.", "to wish for sth.", "to expect sth. from so./sth."]}
+----------------
+{"erhoffen
+er•hof•fen ( erhofft ptp ) vt to hope for
+sich ($) etw erhoffen dat to hope for sth (von from)
+was erhoffst du dir davon? what do you hope to gain from it?"}  
+----------------
+
+----------------
+ §§§erkennen @@@ {"etw.acc. erkennen  | erkannte, erkannt |": ["to see sth.", "to realizeAE sth. to realiseBE, realizeBE sth.", "to spot sth."]}
+----------------
+{"erkennen
+er•ken•nen ( erkannt ) ptp irreg","1 vt","a (=wieder erkennen, anerkennen, einsehen) to recognize (an +dat by)
+(=wahrnehmen) to see, to make out, to discern
+[Unterschied] to see
+[Situation] to see, to understand
+ich erkannte die Lage sofort I immediately realized what the situation was
+er hat erkannt, dass das nicht stimmte he realized that it wasn't right
+kannst du erkennen, ob das da drüben X ist? can you see or tell if that's X over there?
+jdn für schuldig erkennen (Jur) to find sb guilty
+(jdm) etw zu erkennen geben to indicate sth (to sb)
+jdm zu erkennen geben, dass ... to give sb to understand that ...
+sich zu erkennen geben to reveal oneself (als to be), to disclose one's identity
+erkennen lassen to show, to reveal
+erkenne dich selbst! know thyself!
+du bist erkannt! I see what you're after, I know your game","b (Bibl, obs) to know (Bibl)","2 vi
+erkennen auf ($) +acc (Jur) [auf Freispruch] to grant
+[auf Strafe] to impose, to inflict (Sport) [auf Freistoß etc] to give, to award
+auf drei Jahre Haft erkennen to impose a sentence of three years' imprisonment","wieder erkennen wie•der er•ken•nen vt irreg to recognize
+das/er war nicht wieder zu erkennen it/he was unrecognizable"}  
+----------------
+[{"en": "the sign whereby you will recognize him", "de": "das Zeichen, woran Sie ihn erkennen"}, {"en": "It wasn't visible in the fog.", "de": "Es war im Nebel nicht zu erkennen."}, {"en": "He saw the red light.", "de": "Er erkannte die Gefahr."}]
+----------------
+[{"en": "A friend in need is a friend indeed.", "de": "In der Not erkennt man seine Freunde."}] §§§erläutern @@@ {"etw.acc. erläutern  | erläuterte, erläutert |": ["to comment on sth.", "to exemplify", "to explicate"]}
+----------------
+{"erläutern
+er•läu•tern ( erläutert ptp ) vt to explain, to elucidate
+(=klarstellen auch) to clarify
+[Text] to comment on
+erläuternd explanatory
+erläuternd fügte er hinzu he added in explanation or clarification
+etw anhand von Beispielen erläutern to illustrate sth with examples"}  
+----------------
+
+----------------
+ §§§ermahnen @@@ {"ermahnen  | ermahnte, ermahnt |": ["to exhort", "to admonish so.", "to reprimand so."]}
+----------------
+{"ermahnen
+er•mah•nen ( ermahnt ptp ) vt to exhort form , to admonish, to urge , (warnend) to warn , (Jur) to caution
+jdn zum Fleiß/zur Aufmerksamkeit etc ermahnen to exhort form or urge sb to work hard/to be attentive etc
+muss ich dich immer erst ermahnen? do I always have to remind or tell you first?
+jdn im Guten ermahnen to give sb a friendly warning"}  
+----------------
+
+----------------
+ §§§ermitteln @@@ {"etw.acc. ermitteln  | ermittelte, ermittelt |": ["to determine sth.", "to investigate (a case)", "to identify"]}
+----------------
+{"ermitteln
+er•mit•teln ( ermittelt ptp )","1 vt to determine (auch Chem, Math) , to ascertain
+[Person] to trace
+[Tatsache, Identität] to establish","2 vi to investigate
+gegen jdn ermitteln to investigate sb
+in einem Fall ermitteln to investigate a case"}  
+----------------
+
+----------------
+ §§§erschrecken @@@ {"erschrecken  | erschrak, erschrocken |": ["to startle", "to get frightened", "to startle so."]}
+----------------
+{"erschrecken
+er•schre•cken","1 ( erschreckte pret ) ( erschreckt ptp ) vt to frighten, to scare
+(=bestürzen) to startle, to give a shock or a start
+(=zusammenzucken lassen) to make jump, to give a start, to startle
+es hat mich erschreckt, wie schlecht er aussah it gave me a shock or a start or it startled me to see how bad he looked","2 ( erschreckte or erschrak ) pret ( erschreckt or erschrocken ) ptp vir
+(vi: aux sein) to be frightened (vor +dat by)
+(=bestürzt sein) to be startled
+(=zusammenzucken) to jump, to start
+ich bin erschrocken, wie schlecht er aussah it gave me a shock or a start or I was shocked or startled to see how bad he looked
+sie erschrak bei dem Gedanken, dass ... the thought that ... gave her a start or a scare
+sie erschrak bei dem Knall the bang made her jump
+erschrecken Sie nicht, ich bins nur don't be frightened or afraid, it's only me
+erschrecken Sie nicht, wenn Sie ihn sehen, er ist sehr alt geworden don't be alarmed when you see him, he's aged terribly
+→ erschrocken","Erschrecken Er•schre•cken nt , -s no pl fright, shock"}  
+----------------
+
+----------------
+[{"en": "to scare the pants off so.", "de": "jmdn. zu Tode erschrecken"}, {"en": "to scare the living daylights out of so.", "de": "jmdn. zu Tode erschrecken"}, {"en": "to scare the wits out of so. [coll.]", "de": "jmdn. zu Tode erschrecken [coll.]"}] §§§ersteigert @@@ {"ersteigern  | ersteigerte, ersteigert |": ["to purchase by auction", "to buy sth. at an auction"]}
+----------------
+
+----------------
+
+----------------
+ §§§erwerben @@@ {"etw.acc. erwerben  | erwarb, erworben |": ["to acquire sth.", "to purchase sth.", "to win"]}
+----------------
+{"erwerben
+er•wer•ben ( erworben ) ptp vt irreg to acquire
+[Achtung, Ehre, Vertrauen] to earn, to gain, to win
+[Pokal] to win , (Sport) [Titel] to win, to gain , (käuflich) to purchase
+sich ($) etw erwerben dat to acquire etc sth
+er hat sich ($) große Verdienste um die Firma erworben dat he has done great service for the firm
+→ erworben"}  
+----------------
+[{"en": "acquisition of and participation in companies", "de": "der Erwerb von und Beteiligung an Gesellschaften"}]
+----------------
+ §§§fordern @@@ {"etw.acc. (von jmdm.) fordern  | forderte, gefordert |": ["to demand sth. (from so.)", "to demand sth. (of so.)", "to claim sth."]}
+----------------
+{"fordern
+for•dern","1 vt","a (=verlangen) to demand
+[Preis] to ask , (in Appell, Aufrufen etc) (=erfordern) to call for
+(=Anspruch erheben auf) [Entschädigung, Lohnerhöhung] to claim
+viel/zu viel von jdm fordern to ask or demand a lot/too much of sb, to make too many demands on sb
+→ Rechenschaft","b (fig) (=kosten) [Menschenleben, Opfer] to claim","c (lit, fig) (=herausfordern) to challenge
+er ist noch nie im Leben richtig gefordert worden he has never been faced with a real challenge","d (Sport) to make demands on
+(=das Äußerste abverlangen) to stretch","2 vi to make demands
+er fordert nur, ohne selbst zu geben he demands everything as a right, without giving anything himself","fördern för•dern vt","a (=unterstützen) [Handel, Projekt, Entwicklung, Arbeit, Kunst, Wissenschaft] to support
+(=propagieren) to promote , (finanziell) [bestimmtes Projekt] to sponsor
+[Nachwuchs, Künstler] to support, to help
+[jds Talent, Kunstverständnis, Neigung] to encourage, to foster
+(=voranbringen) [Freundschaft, Frieden] to foster, to promote
+[Verdauung] to aid
+[Appetit] to stimulate
+[Untersuchung, Wahrheitsfindung] to further
+jdn beruflich fördern to help sb in his career","b (=steigern) [Wachstum] to promote
+[Umsatz, Absatz, Produktion, Verbrauch] to boost, to increase","c [Bodenschätze] to extract
+[Kohle, Erz] to mine"}  
+----------------
+
+----------------
+ §§§fortwirken @@@ {"fortwirken  | wirkte fort, fortgewirkt |": ["to continue to have an effect"]}
+----------------
+{"fortwirken
+fort+wir•ken vi sep to continue to have an effect
+das wirkt noch bis heute fort that still has an effect today
+das Gesehene wirkte noch lange in ihm fort what he had seen affected him or went on having an effect on him for a long time
+das Fortwirken klassischer Ideale the continued effect of classical ideals"}  
+----------------
+
+----------------
+ §§§führten @@@ {"(jmdn./etw.) führen  | führte, geführt |": ["to lead (so./sth.)", "to guide", "to manage sth."]}
+----------------
+{}  
+----------------
+[{"en": "Do you sell silk?", "de": "Führen Sie Seide?"}, {"en": "Do you still have the same quality?", "de": "Führen Sie noch die gleiche Qualität?"}, {"en": "may lead to further business", "de": "kann zu weiteren Geschäften führen"}]
+----------------
+[{"en": "to lead so. up (or: down) the garden path", "de": "jmdn. hinters Licht führen"}, {"en": "to throw so. off the scent", "de": "jmdn. hinters Licht führen"}, {"en": "to pull the wool over so.'s eyes", "de": "jmdn. hinters Licht führen"}] §§§gebieten @@@ {"(jmdm. etw.acc.) gebieten  | gebot, geboten | [form.]": ["to command (so. to do sth.)", "sth. demands sth.   infinitive: demand", "to command respect"]}
+----------------
+{"gebieten
+ge•bie•ten ( gebot ) pret ( geboten ) ptp
+geh","1 vt (=verlangen) to demand
+(=befehlen) to command
+jdm etw gebieten to command sb to do sth
+der Ernst der Lage gebietet sofortiges Handeln the seriousness of the situation demands immediate action
+→ Einhalt
+→ Ehrfurcht","2 vi","a liter (=herrschen) to have command (über +acc over)
+über ein Land/Volk gebieten to have dominion over a country/nation","b geh
+(=verfügen)
+über etw ($) gebieten acc [über Geld etc] to have sth at one's disposal
+[über Wissen etc] to have sth at one's command
+→ geboten"}  
+----------------
+[{"en": "in the mountainous parts", "de": "in den bergigen Gebieten"}, {"en": "in the range of politics", "de": "auf politischem Gebiet"}, {"en": "in the East Alpine region", "de": "im Gebiet der Ostalpen"}]
+----------------
+ §§§genesen @@@ {"(von etw.dat.) genesen  | genas, genesen | [form.]": ["to recover (from sth.)", "to convalesce"]}
+----------------
+{"genesen
+ge•ne•sen ( genas ) pret ( genesen ) ptp vi aux sein
+geh to convalesce (fig) to recuperate"}  
+----------------
+
+----------------
+ §§§gewähren @@@ {"jmdm. etw.acc. gewähren  | gewährte, gewährt |": ["to grant so. sth. (or: sth. to so.)", "to impart", "to vouchsafe"]}
+----------------
+{"gewähren
+ge•wäh•ren ( gewährt ptp ) vt to grant
+[Rabatt, Vorteile] to give
+[Sicherheit, Trost, Schutz] to afford, to give
+jdm Unterstützung gewähren to provide sb with support, to support sb
+jdn gewähren lassen geh not to stop sb","gewahren ge•wah•ren ( gewahrt ptp ) vt
+liter to become aware of"}  
+----------------
+[{"en": "on condition that you allow us a deduction", "de": "wenn Sie einen Nachlass gewähren"}, {"en": "for the confidence you have placed in us", "de": "für das uns gewährte Vertrauen"}]
+----------------
+ §§§laben @@@ {"laben  | labte, gelabt |": ["to refresh"]}
+----------------
+{"laben
+la•ben
+liter","1 vr to feast (oneself) (an +dat on) , (an einer Quelle etc) to refresh oneself (mit, an +dat with)
+wir labten uns an dem Anblick we drank in the view, we feasted our eyes on the view","2 vt
+[Mensch] to feast
+[Quelle] to refresh"}  
+----------------
+
+----------------
+ §§§lechzen @@@ {"nach etw.dat. lechzen  | lechzte, gelechzt |": ["to lust for (or: after) sth.", "to drool over sth.", "to be dying for sth. [fig.]"]}
+----------------
+{"lechzen
+lech•zen vi to pant
+[Hund auch] to have its tongue hanging out
+nach etw lechzen to thirst for sth, to crave sth, to long for sth
+mit lechzender Zunge with one's tongue hanging out
+→ Blut"}  
+----------------
+
+----------------
+ §§§lichten @@@ {"lichten  | lichtete, gelichtet |   - ausdünnen": ["to thin out", "to thin out", "to dwindle"]}
+----------------
+{"lichten
+[ 1 ] lich•ten","1 vt [Wald] to thin (out)
+den Steuerdschungel lichten (fig) to cut through the jungle of tax regulations","2 vr
+[Reihen, Wald, Dickicht, Haare] to thin (out)
+[Nebel] to clear, to lift
+[Wolken, Dunkel] to lift
+[Bestände] to go down, to dwindle (fig)
+[Angelegenheit] to be cleared up"}  
+----------------
+[{"en": "The fog lifted.", "de": "Der Nebel lichtete sich."}]
+----------------
+[{"en": "Anchors aweigh!", "de": "Anker lichten"}] §§§locken @@@ {"locken  | lockte, gelockt |": ["to cozen", "to decoy", "to bait"]}
+----------------
+{"locken
+[ 1 ] lo•cken vtr [Haar] to curl
+gelockt [Haar] curly
+[Mensch] curly-haired, curly-headed"}  
+----------------
+
+----------------
+[{"en": "to throw so. off the scent", "de": "jmdn. auf die falsche Fährte locken"}, {"en": "to give so. a bum steer [vulgar] (Amer.)", "de": "jmdn. auf die falsche Fährte locken [coll.]"}] §§§schwärmt @@@ {"schwärmen  | schwärmte, geschwärmt |": ["to gush", "to rhapsodizeAE to rhapsodiseBE, rhapsodizeBE", "to romanticizeAE to romanticiseBE, romanticizeBE"]}
+----------------
+{"Schwarm
+m , -(e)s, -\"e","a swarm
+(=Flugzeugformation) flight","b inf (=Angebeteter) idol
+(=Schauspieler, Popsänger) idol, heart-throb inf
+(=Vorliebe) passion, big thing inf
+der neue Englischlehrer ist ihr Schwarm she's got a crush on the new English teacher inf"}  
+----------------
+
+----------------
+ §§§strömen @@@ {"strömen  | strömte, geströmt |": ["to flow", "to run", "to stream"]}
+----------------
+{"strömen
+strö•men vi aux sein to stream
+[Blut auch, Gas] to flow
+[Menschen] to pour (in into, aus out of)
+bei strömendem Regen in (the) pouring rain"}  
+----------------
+
+----------------
+[{"en": "It's raining cats and dogs.", "de": "Es regnet in Strömen."}, {"en": "The rain came down in sheets.", "de": "Es goss in Strömen."}, {"en": "The rain fell in sheets.", "de": "Es goss in Strömen."}] §§§unterbreiten @@@ {"unterbreiten  | unterbreitete, unterbreitet |": ["to offer", "to submit sth.", "to bring sth. ⇔  forward"]}
+----------------
+{"unterbreiten
+un•ter•brei•ten ( unterbreitet ptp ) vt insep [Plan] to present
+(jdm) einen Vorschlag/ein Angebot unterbreiten to make a proposal/an offer (to sb)"}  
+----------------
+
+----------------
+ §§§verdächtigen @@@ {"jmdn. verdächtigen  | verdächtigte, verdächtigt |": ["to asperse so.", "to suspect so.", "to suspect so. of sth."]}
+----------------
+{"verdächtigen
+ver•däch•ti•gen ( verdächtigt ptp ) vt to suspect ( +gen of)
+ich will niemanden verdächtigen, aber ... I don't want to cast suspicion on anyone, but ...
+er wird verdächtigt, gestohlen zu haben, er wird des Diebstahls verdächtigt he is suspected of theft"}  
+----------------
+[{"en": "The whole thing looks fishy.", "de": "Die ganze Sache sieht verdächtig aus."}]
+----------------
+ §§§verirren @@@ {"verirren  | verirrte, verirrt |": ["to go astray", "to get lost", "to lose one's way"]}
+----------------
+{"verirren
+ver•ir•ren ( verirrt ptp ) vr to get lost, to lose one's way (fig) to go astray
+[Tier, Kugel] to stray
+ein verirrtes Schaf (lit, fig) a lost sheep
+hierhin verirren sich die Touristen nur selten (fig) tourists don't venture out here very often"}  
+----------------
+
+----------------
+ §§§verlernen @@@ {"etw.acc. verlernen  | verlernte, verlernt |": ["to unlearn sth.", "to forget sth."]}
+----------------
+{"verlernen
+ver•ler•nen ( verlernt ptp ) vt to forget, to unlearn
+das Tanzen verlernen to forget how to dance"}  
+----------------
+
+----------------
+ §§§versetzen @@@ {"versetzen  | versetzte, versetzt |": ["to transfer", "to move so./sth.", "to displace"]}
+----------------
+{"versetzen
+ver•set•zen ( versetzt ptp )","1 vt","a (=an andere Stelle setzen) [Gegenstände, Möbel, Schüler] to move, to shift
+[Pflanzen] to transplant, to move
+(=nicht geradlinig anordnen) to stagger","b (beruflich) to transfer, to move
+jdn in einen höheren Rang versetzen to promote sb, to move sb up
+→ Ruhestand","c (Sch, in höhere Klasse) to move or put up","d (Typ, Mus) to transpose","e inf (=verkaufen) to flog (Brit) inf , to sell
+(=verpfänden) to pawn, to hock inf","f inf
+(=nicht erscheinen)
+jdn versetzen to stand sb up inf","g (=in bestimmten Zustand bringen)
+etw in Bewegung versetzen to set sth in motion
+etw in Schwingung versetzen to set sth swinging
+jdn in Wut versetzen to send sb into a rage
+jdn in fröhliche Stimmung versetzen to put sb in a cheerful mood
+jdn in Sorge/Unruhe versetzen to worry/disturb sb
+jdn in Angst (und Schrecken) versetzen to frighten sb, to make sb afraid
+jdn in die Lage versetzen, etw zu tun to put sb in a position to do sth","h (=geben) [Stoß, Schlag, Tritt etc] to give
+jdm eins versetzen inf to belt sb inf , to land sb one (Brit) inf
+jdm einen Stich versetzen (fig) to cut sb to the quick (Brit) , to wound sb (deeply)
+→ Todesstoß","i (=mischen) to mix","j (=antworten) to retort","2 vr","a (=sich an andere Stelle setzen) to move (to another place), to change places","b sich in jdn/in jds Lage/Gefühle versetzen to put oneself in sb's place or position","c sich in eine frühere Zeit/seine Jugend etc versetzen to take oneself back to an earlier period/one's youth etc, to imagine oneself back in an earlier period/one's youth etc"}  
+----------------
+[{"en": "Put yourself in my place.", "de": "Versetzen Sie sich in meine Lage."}, {"en": "He struck him a blow.", "de": "Er versetzte ihm einen Schlag."}, {"en": "He dealt him a blow.", "de": "Er versetzte ihm einen Schlag."}]
+----------------
+[{"en": "to sound the death knell for sth.", "de": "etw.dat. den Todesstoß versetzen"}, {"en": "to stab so. in the back [fig.]", "de": "jmdm. einen Dolchstoß versetzen [fig.]"}] §§§vorhalten @@@ {"vorhalten  | hielt vor, vorgehalten |   - eine Waffe auf ein bewegliches Ziel": ["to lead", "to hold available", "to provision"]}
+----------------
+{"vorhalten
+vor+hal•ten, sep irreg","1 vt","a → vorwerfen → a","b (als Beispiel) jdm jdn/etw vorhalten to hold sb/sth up to sb
+man hält ihm den älteren Bruder als Vorbild vor his elder brother is held up to him as an example
+jdm die Qualen der Hölle vorhalten to hold up the torments of hell before sb's eyes","c (=vor den Körper halten) to hold up , (beim Niesen etc) [Hand, Taschentuch] to put in front of one's mouth
+mit vorgehaltener Pistole at gunpoint
+sich ($) ein Handtuch vorhalten dat to hold up a towel in front of oneself
+→ Spiegel → a","2 vi (=anhalten) to last"}  
+----------------
+
+----------------
+ §§§vorkommen @@@ {"vorkommen  | kam vor, vorgekommen |": ["to occur", "to appear", "to happen"]}
+----------------
+{"vorkommen
+vor+kom•men vi sep irreg aux sein","a auch vi impers (=sich ereignen) to happen
+so etwas ist mir noch nie vorgekommen such a thing has never happened to me before
+dass mir das nicht noch einmal vorkommt! don't let it happen again!
+das soll nicht wieder vorkommen it won't happen again
+das kann schon mal vorkommen it can happen, it has been known to happen (=das ist nicht ungewöhnlich) that happens
+so was soll vorkommen! that's life!","b (=vorhanden sein, auftreten) to occur
+[Pflanzen, Tiere] to be found
+in dem Aufsatz dürfen keine Fehler vorkommen there mustn't be any mistakes in the essay","c (=erscheinen) to seem
+das kommt mir bekannt/merkwürdig vor that seems familiar/strange to me
+sich ($) überflüssig/dumm vorkommen dat to feel superfluous/silly
+sich ($) klug vorkommen dat to think one is clever
+das kommt dir nur so vor it just seems that way or like that to you
+wie kommst du mir denn vor? inf who do you think you are?","d (=nach vorn kommen) to come forward or to the front","e (=herauskommen) to come out","Vorkommen Vor•kom•men nt , -s, - (no pl) (=das Auftreten) occurrence, incidence , (Min) deposit"}  
+----------------
+[{"en": "such a mistake will not happen again", "de": "solch ein Fehler wird nicht wieder vorkommen"}, {"en": "It won't happen again.", "de": "Das soll nicht wieder vorkommen."}, {"en": "It only happens once in a blue moon.", "de": "Das kommt alle Jubeljahre vor."}]
+----------------
+[{"en": "It must not happen again!", "de": "Das darf nicht wieder vorkommen!"}, {"en": "There's something fishy going on here.", "de": "Das kommt mir spanisch vor."}] §§§wirken @@@ {"wirken  | wirkte, gewirkt |": ["to look", "to seem", "to appear"]}
+----------------
+{"wirken
+[ 1 ] wir•ken","1 vi","a geh
+(=tätig sein)
+[Mensch] to work
+[Einflüsse, Kräfte etc] to be at work
+ich werde dahin wirken, dass man ihn befördert I will work for his promotion","b (=Wirkung haben) to have an effect
+(=erfolgreich sein) to work
+als Gegengift wirken to work as an antidote
+als Katalysator wirken to act as a catalyst
+schalldämpfend/abführend wirken to have a soundproofing/laxative effect
+die Pillen wirken gut gegen Bauchschmerzen the pills are good for stomachache
+eine stark wirkende Droge a strong drug","c (=einwirken)
+auf etw ($) wirken acc (esp Chem) to act on sth
+etw auf sich ($) wirken lassen acc to take sth in","d (=erscheinen) to seem, to appear
+nervös/ruhig (auf jdn) wirken to give (sb) the impression of being nervous/calm, to seem nervous/calm (to sb)
+das wirkt auf viele als Provokation many people see that as a provocation
+diese Bemerkung wirkt abstoßend auf mich I find this remark repulsive","e (=zur Geltung kommen) to be effective
+neben diesen Gardinen wirkt das Muster nicht (richtig) the pattern loses its effect next to those curtains
+ich finde, das Bild wirkt I think the picture has something
+die Musik wirkt erst bei einer gewissen Lautstärke you only get the full effect of the music when it's played loud","2 vt
+geh (=tun) [Gutes] to do
+[Wunder] to work
+→ Wunder → a"}  
+----------------
+[{"en": "He was outwardly respectable but ...", "de": "Er wirkte sehr ehrbar, aber ..."}, {"en": "What sort of vibes do you get from him?", "de": "Wie wirkt er auf dich?"}]
+----------------
+[{"en": "to have a sobering effect (on so.)", "de": "wie eine kalte Dusche (auf jmdn.) wirken"}, {"en": "sth. takes years off so.", "de": "etw.nom. lässt jmdn. um Jahre jünger wirken"}, {"en": "to be like a red rag to a bull to so. [coll.]", "de": "wie ein rotes Tuch auf jmdn. wirken [fig.]"}] §§§zerkleinern @@@ {"zerkleinern  | zerkleinerte, zerkleinert |": ["to comminute", "to hackle", "to shred"]}
+----------------
+{"zerkleinern
+zer•klei•nern ( zerkleinert ptp ) vt to cut up
+(=zerhacken) to chop (up)
+(=zerbrechen) to break up
+(=zermahlen) to crush"}  
+----------------
+
+----------------
+ §§§
