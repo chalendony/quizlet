@@ -45,16 +45,15 @@ class Page:
             leo_res = leo.search(term)
             for k in leo_res.keys():
                 sense = leo_res[k][0]['de']
-                upper = min(len(leo_res[k]),const.max_translations) ### TODO: do not over-restrict translations when storing in DB
-                tup = (term, sense, k , json.dumps(leo_res[k][0:upper], ensure_ascii=False), current_timestamp)
+                tup = (term, sense, k , json.dumps(leo_res[k], ensure_ascii=False), current_timestamp)
                 lst.append(tup)
 
-            ### REVERSO
-            url = f"{const.reverso_base_url}{term}"
-            soup_html = self.reverso.download(url)
-            htm_str = HTML(html=soup_html, default_encoding="ISO-8859-15")
-            usage = self.parse_definition(htm_str)
-            lst.append((term, term, "reverso", usage, current_timestamp))
+            # ### REVERSO uncomment to include reverso - sadly reverso does not always have an example sentence and its noisy and redundant (w.r.t leo)
+            # url = f"{const.reverso_base_url}{term}"
+            # soup_html = self.reverso.download(url)
+            # htm_str = HTML(html=soup_html, default_encoding="ISO-8859-15")
+            # usage = self.parse_definition(htm_str)
+            # lst.append((term, term, "reverso", usage, current_timestamp))
 
             self.insert_entry(lst)
             time.sleep(3)

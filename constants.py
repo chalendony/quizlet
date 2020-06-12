@@ -17,7 +17,6 @@ cards_path = "/home/avare/repos/quizlet/data/quizlet_input/"
 min_secs = 10
 #max_secs = 300
 max_secs = 15
-max_translations = 20
 max_card_entries = 5
 
 # html
