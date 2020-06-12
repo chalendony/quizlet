@@ -1,5 +1,10 @@
-German Sets
-verbs: and usage
-adjadv : usage, nomaliz.
 
-timestamp  import into database so i can use time to separate the cards.
+# Development
+- module for each type of Quizlet set
+    -- nouns - done
+    -- verbs and usage - done
+    -- MUST get prepositions
+    -- adjadv usage: nomaliz.
+    -- compound verbs:
+- timestamp export/import into database to separate the sets.
+- refactor configuration

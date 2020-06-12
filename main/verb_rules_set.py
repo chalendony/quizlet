@@ -13,8 +13,8 @@ import datetime
 import time
 
 aline = "\n----------------\n"
-
 target = const.VERB
+
 
 
 class Verb_Cards:
@@ -22,11 +22,9 @@ class Verb_Cards:
         self.target = const.VERB
         self.engine = connect_alchemy(const.postgres_config)
 
-    def create(self):
-        query = """
-            select  * from german 
-            ;
-            """
+    def create(self, target_date):
+
+        query = f"select  * from german where update = '{target_date}';"
         df = pd.read_sql(query, self.engine)
         pd.set_option('display.max_rows', 20)
         pd.set_option('display.max_columns', 20)
@@ -86,9 +84,11 @@ class Verb_Cards:
         definition = {}
         en_translations = []
         de_conjugation = jobj[0]['de']
-        for i in jobj:
+        # TODO: restrict translations
+        upper = min(len(jobj), const.max_card_entries)
+        for i in jobj[0:upper]:
             ent = i['en']
-            print(f"englsiasdfasdf {ent}")
+            print(f"english {ent}")
             split = ent.split('|')[0]
             en_translations.append(split.strip())
         definition[de_conjugation] = en_translations
@@ -98,7 +98,7 @@ class Verb_Cards:
     def construct_string(self,  d):
         # order: translation, reverso, examples, phrase
         #########################################
-        ## Leo Translations
+        ## Leo Translations : TODO get more LEO translations
         #########################################
         bval = ""
         val = d.loc[d['ktype'] == 'verb'].value.values
@@ -108,7 +108,7 @@ class Verb_Cards:
             bval = json.dumps(jobj, ensure_ascii=False)
 
         #########################################
-        ## Reverso Translations
+        ## Reverso Translations :  TODO: only use if there is no LEO
         #########################################
         rev = d.loc[d['ktype'] == 'reverso'].value
         brev = ""
@@ -147,5 +147,5 @@ class Verb_Cards:
 if __name__ == "__main__":
 
     pg = Verb_Cards()
-    pg.create()
+    pg.create('2020-06-12 16:20:18')
     #pg.shutdown()
