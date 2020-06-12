@@ -1,9 +1,7 @@
-29    ableiten @@@ ableiten  | leitete ab, abgeleitet |
+ableiten @@@ ableiten  | leitete ab, abgeleitet |
 ----------------
 
-to deviate, to turn aside, to infer (that ...), to deduce sth. (from sth.), to convey sth., to deflect sth., to derive, to drain off  [TECH.], to tare weight  [TECH.], to dissipate
-----------------
-
+to deviate  ▪  to turn aside  ▪  to infer (that ...)  ▪  to deduce sth. (from sth.)  ▪  to convey sth.  ▪  to deflect sth.  ▪  to derive  ▪  to drain off  [TECH.]  ▪  to tare weight  [TECH.]  ▪  to dissipate
 ----------------
 1 vt
 
@@ -17,16 +15,10 @@ b (=umleiten) [Bach, Fluss] to divert
 2 vr (=sich herleiten) to be derived (aus from)
 ⬝(=logisch folgen) to be deduced (aus from)
 
-
+ §§§etw.acc. (an etw.acc.) anpassen @@@ etw.acc. (an etw.acc.) anpassen  | passte an, angepasst |
 ----------------
 
-----------------
- §§§112    etw.acc. (an etw.acc.) anpassen @@@ etw.acc. (an etw.acc.) anpassen  | passte an, angepasst |
-----------------
-
-to adapt sth. (to sth.), to fit sth. (to sth.), to adjust sth., to match sth., to level sth., to proportion sth., to customizeAE sth. to customiseBE, customizeBE sth., to modulate sth., to realign sth., to trim sth.
-----------------
-
+to adapt sth. (to sth.)  ▪  to fit sth. (to sth.)  ▪  to adjust sth.  ▪  to match sth.  ▪  to level sth.  ▪  to proportion sth.  ▪  to customizeAE sth. to customiseBE, customizeBE sth.  ▪  to modulate sth.  ▪  to realign sth.  ▪  to trim sth.
 ----------------
 
 ----------------
@@ -34,14 +26,10 @@ dem gegenwärtigen Handelsbrauch angepasst   ▪ in line with the current practi
 
 Er hat sich angepasst.   ▪ He has adapted himself.
 
-
-----------------
- §§§44    jmdn. anstupsen @@@ jmdn. anstupsen  | stupste an, angestupst |
+ §§§jmdn. anstupsen @@@ jmdn. anstupsen  | stupste an, angestupst |
 ----------------
 
 to nudge so.
-----------------
-
 ----------------
 1 vt [Wasser] to dam up
 ⬝[Gefühle] to bottle up
@@ -50,16 +38,10 @@ to nudge so.
 ⬝[Gefühle] to build up, to accumulate
 ⬝angestaute Wut pent-up rage
 
-
+ §§§aufarbeiten @@@ aufarbeiten  | arbeitete auf, aufgearbeitet |
 ----------------
 
-----------------
- §§§91    aufarbeiten @@@ aufarbeiten  | arbeitete auf, aufgearbeitet |
-----------------
-
-to rehabilitate, to clear, to process, to finish sth. ⇔  off, to work sth. ⇔  up, to refurbish sth., to do sth. ⇔  up, to reclaim sth., to recondition sth., to reprocess sth.
-----------------
-
+to rehabilitate  ▪  to clear  ▪  to process  ▪  to finish sth. ⇔  off  ▪  to work sth. ⇔  up  ▪  to refurbish sth.  ▪  to do sth. ⇔  up  ▪  to reclaim sth.  ▪  to recondition sth.  ▪  to reprocess sth.
 ----------------
 a (=erneuern) to refurbish, to do up
 ⬝[Möbel etc] to recondition
@@ -74,16 +56,10 @@ d (Phys) [Brennelemente] to reprocess
 wieder aufarbeiten wie•der auf•ar•bei•ten vt to recycle
 ⬝[Atommüll] to reprocess
 
-
+ §§§aufführen @@@ aufführen  | führte auf, aufgeführt |   - in einer Liste
 ----------------
 
-----------------
- §§§204    aufführen @@@ aufführen  | führte auf, aufgeführt |   - in einer Liste
-----------------
-
-to specify, to perform sth., to list sth., to schedule, to tabulate, to stage sth., to itemizeAE sth. to itemiseBE, itemizeBE sth., to quote sth., to give sth., to mention sth.
-----------------
-
+to specify  ▪  to perform sth.  ▪  to list sth.  ▪  to schedule  ▪  to tabulate  ▪  to stage sth.  ▪  to itemizeAE sth. to itemiseBE, itemizeBE sth.  ▪  to quote sth.  ▪  to give sth.  ▪  to mention sth.
 ----------------
 
 ----------------
@@ -95,12 +71,10 @@ sich schulmeisterlich aufführen   ▪ to play the schoolmaster
 
 einen Eiertanz aufführen [fig.]   ▪ to walk on eggshells [fig.]
 
- §§§74    etw.acc. aufwerfen @@@ etw.acc. aufwerfen  | warf auf, aufgeworfen |
+ §§§etw.acc. aufwerfen @@@ etw.acc. aufwerfen  | warf auf, aufgeworfen |
 ----------------
 
-to curl sth. ⇔  up, to pose sth., to bring sth. ⇔  up, to raise sth., to throw up  [TECH.], to throw up the soil  [TECH.], to pose a question, to beg the question   - invite a question, to raise a question, to pose a problem
-----------------
-
+to curl sth. ⇔  up  ▪  to pose sth.  ▪  to bring sth. ⇔  up  ▪  to raise sth.  ▪  to throw up  [TECH.]  ▪  to throw up the soil  [TECH.]  ▪  to pose a question  ▪  to beg the question   - invite a question  ▪  to raise a question  ▪  to pose a problem
 ----------------
 1 vt
 
@@ -120,16 +94,10 @@ d (=zur Sprache bringen) [Frage, Probleme, Thema] to raise, to bring up
 ⬝sich zu etw aufwerfen to set oneself up as sth
 ⬝sich zum Richter aufwerfen to set oneself up as judge
 
-
+ §§§ausarbeiten @@@ ausarbeiten  | arbeitete aus, ausgearbeitet |
 ----------------
 
-----------------
- §§§79    ausarbeiten @@@ ausarbeiten  | arbeitete aus, ausgearbeitet |
-----------------
-
-to flesh out, to elaborate, to map out, to finalizeAE to finaliseBE, finalizeBE, to work sth. ⇔  out, to frame sth., to map sth., to prepare sth., to thrash sth. ⇔  out   - a plan, to write sth. ⇔  up
-----------------
-
+to flesh out  ▪  to elaborate  ▪  to map out  ▪  to finalizeAE to finaliseBE, finalizeBE  ▪  to work sth. ⇔  out  ▪  to frame sth.  ▪  to map sth.  ▪  to prepare sth.  ▪  to thrash sth. ⇔  out   - a plan  ▪  to write sth. ⇔  up
 ----------------
 1 vt to work out
 ⬝(=errichten, entwerfen auch) [System, Gedankengebäude] to elaborate, to draw up
@@ -138,16 +106,10 @@ to flesh out, to elaborate, to map out, to finalizeAE to finaliseBE, finalizeBE,
 
 2 vr (Sport) to have a work-out
 
-
+ §§§etw.acc. beanspruchen @@@ etw.acc. beanspruchen  | beanspruchte, beansprucht |
 ----------------
 
-----------------
- §§§166    etw.acc. beanspruchen @@@ etw.acc. beanspruchen  | beanspruchte, beansprucht |
-----------------
-
-to claim sth., to engross, to require, to task one's memory, to load sth., to stress sth., to strain sth., to lay claim to sth., to task sth., to call for sth.
-----------------
-
+to claim sth.  ▪  to engross  ▪  to require  ▪  to task one's memory  ▪  to load sth.  ▪  to stress sth.  ▪  to strain sth.  ▪  to lay claim to sth.  ▪  to task sth.  ▪  to call for sth.
 ----------------
 a (=fordern) to claim
 ⬝[Gebiet auch] to lay claim to
@@ -171,16 +133,10 @@ d (=strapazieren) [Maschine etc] to use
 ⬝eine höchst beanspruchte Maschine a heavily used machine
 ⬝ihr Beruf beansprucht sie ganz her job is very demanding, her job takes up all her time and energy
 
-
+ §§§bearbeiten @@@ bearbeiten  | bearbeitete, bearbeitet |
 ----------------
 
-----------------
- §§§84    bearbeiten @@@ bearbeiten  | bearbeitete, bearbeitet |
-----------------
-
-to edit, to tool, to machine, to execute, to work on sth., to handle sth., to treat sth., to attend to sth., to deal with sth., to finish sth.
-----------------
-
+to edit  ▪  to tool  ▪  to machine  ▪  to execute  ▪  to work on sth.  ▪  to handle sth.  ▪  to treat sth.  ▪  to attend to sth.  ▪  to deal with sth.  ▪  to finish sth.
 ----------------
 a (=behandeln) to work on
 ⬝[Stein, Holz] to work, to dress
@@ -210,14 +166,10 @@ f [Land] to cultivate
 ----------------
 Gießen und Bearbeiten von Ringträgern   ▪ casting and machining of ring inserts [ENGIN.]
 
-
-----------------
- §§§172    beehren @@@ beehren  | beehrte, beehrt |
+ §§§beehren @@@ beehren  | beehrte, beehrt |
 ----------------
 
-to compliment, to honorAE / honourBE, to grace so./sth. (with one's presence), to favorAE / favourBE so.
-----------------
-
+to compliment  ▪  to honorAE / honourBE  ▪  to grace so./sth. (with one's presence)  ▪  to favorAE / favourBE so.
 ----------------
 1 vt
 ⬝geh to honour (Brit) , to honor (US)
@@ -227,29 +179,19 @@ to compliment, to honorAE / honourBE, to grace so./sth. (with one's presence), 
 2 vr
 ⬝sich beehren, etw zu tun form to have the hono(u)r or privilege of doing sth form
 
-
+ §§§benachteiligen @@@ benachteiligen  | benachteiligte, benachteiligt |
 ----------------
 
-----------------
- §§§5    benachteiligen @@@ benachteiligen  | benachteiligte, benachteiligt |
-----------------
-
-to penalizeAE to penaliseBE, penalizeBE, to discriminate against so., to disadvantage so., to be inferior, to be discriminated against on account of sth.
-----------------
-
+to penalizeAE to penaliseBE, penalizeBE  ▪  to discriminate against so.  ▪  to disadvantage so.  ▪  to be inferior  ▪  to be discriminated against on account of sth.
 ----------------
 
 ----------------
 benachteiligt wegen seines Alters   ▪ handicapped due to his age
 
-
-----------------
- §§§100    etw.acc. bescheren @@@ etw.acc. bescheren  | bescherte, beschert |
+ §§§etw.acc. bescheren @@@ etw.acc. bescheren  | bescherte, beschert |
 ----------------
 
-to bring sth., to bestow sth. on (or: upon) so., to come so.'s way
-----------------
-
+to bring sth.  ▪  to bestow sth. on (or: upon) so.  ▪  to come so.'s way
 ----------------
 a jdn bescheren to give sb a Christmas present/presents
 ⬝jdn mit etw bescheren to give sb sth for Christmas
@@ -260,29 +202,19 @@ b (=zuteil werden lassen)
 ⬝jdm etw bescheren to grant sb sth, to bestow sth upon sb
 ⬝[Gott] to bless sb with sth
 
-
+ §§§etw.acc. bewältigen @@@ etw.acc. bewältigen  | bewältigte, bewältigt |
 ----------------
 
-----------------
- §§§220    etw.acc. bewältigen @@@ etw.acc. bewältigen  | bewältigte, bewältigt |
-----------------
-
-to manage sth., to overcome sth., to tackle sth., to master, to conquer, to cope with sth., to field sth., to accomplish sth., to come to terms with sth., to deal with sth.
-----------------
-
+to manage sth.  ▪  to overcome sth.  ▪  to tackle sth.  ▪  to master  ▪  to conquer  ▪  to cope with sth.  ▪  to field sth.  ▪  to accomplish sth.  ▪  to come to terms with sth.  ▪  to deal with sth.
 ----------------
 
 ----------------
 Wir sehen uns außerstande (or: außer Stande) diesen Ansturm zu bewältigen.   ▪ We are unable to cope with this rush.
 
-
-----------------
- §§§76    (etw.acc.) durcharbeiten @@@ (etw.acc.) durcharbeiten  | arbeitete durch, durchgearbeitet |
+ §§§(etw.acc.) durcharbeiten @@@ (etw.acc.) durcharbeiten  | arbeitete durch, durchgearbeitet |
 ----------------
 
-to work through (sth.), to work sth. over   - examine thoroughly, to wade through sth. [fig.], to work round to  + expression of place
-----------------
-
+to work through (sth.)  ▪  to work sth. over   - examine thoroughly  ▪  to wade through sth. [fig.]  ▪  to work round to  + expression of place
 ----------------
 1 vt
 
@@ -298,16 +230,10 @@ c (=durchkneten) [Teig, Knetmasse] to work or knead thoroughly
 3 vr
 ⬝sich durch etw durcharbeiten to work one's way through sth
 
-
+ §§§eingehen @@@ eingehen  | ging ein, eingegangen |   - Stoff
 ----------------
 
-----------------
- §§§131    eingehen @@@ eingehen  | ging ein, eingegangen |   - Stoff
-----------------
-
-to shrink, to die, to contract, to incur, to assume sth., to fold, sth. dies on so.   - e.g. a plant, an animals, to incur liabilities, to incur liabilities, to gamble
-----------------
-
+to shrink  ▪  to die  ▪  to contract  ▪  to incur  ▪  to assume sth.  ▪  to fold  ▪  sth. dies on so.   - e.g. a plant, an animals  ▪  to incur liabilities  ▪  to incur liabilities  ▪  to gamble
 ----------------
 1 vi
 
@@ -376,12 +302,10 @@ keine Kompromisse eingehen   ▪ to take no prisoners [fig.]   - ruthless, unc
 
 in die ewigen Jagdgründe eingehen [coll.] [fig.]   ▪ to go to the happy hunting ground [coll.] [fig.]
 
- §§§265    eingehen @@@ eingehen  | ging ein, eingegangen |   - Stoff
+ §§§eingehen @@@ eingehen  | ging ein, eingegangen |   - Stoff
 ----------------
 
-to shrink, to die, to contract, to incur, to assume sth., to fold, sth. dies on so.   - e.g. a plant, an animals, to examine closely, to scrutinizeAE to scrutiniseBE, scrutinizeBE, to scrutinizeAE to scrutiniseBE, scrutinizeBE
-----------------
-
+to shrink  ▪  to die  ▪  to contract  ▪  to incur  ▪  to assume sth.  ▪  to fold  ▪  sth. dies on so.   - e.g. a plant, an animals  ▪  to examine closely  ▪  to scrutinizeAE to scrutiniseBE, scrutinizeBE  ▪  to scrutinizeAE to scrutiniseBE, scrutinizeBE
 ----------------
 
 ----------------
@@ -401,12 +325,10 @@ keine Kompromisse eingehen   ▪ to take no prisoners [fig.]   - ruthless, unc
 
 in die ewigen Jagdgründe eingehen [coll.] [fig.]   ▪ to go to the happy hunting ground [coll.] [fig.]
 
- §§§138    entfallen @@@ entfallen  | entfiel, entfallen |
+ §§§entfallen @@@ entfallen  | entfiel, entfallen |
 ----------------
 
-to be dispensed with, to be omitted, to be inapplicable, not to apply, to be allotted to sth., to fall upon so./sth., sth. escapes so.   infinitive: escape, sth. slips so.'s mind
-----------------
-
+to be dispensed with  ▪  to be omitted  ▪  to be inapplicable  ▪  not to apply  ▪  to be allotted to sth.  ▪  to fall upon so./sth.  ▪  sth. escapes so.   infinitive: escape  ▪  sth. slips so.'s mind
 ----------------
 a (fig) (aus dem Gedächtnis) jdm entfallen to slip sb's mind, to escape sb
 ⬝der Name ist mir entfallen the name has slipped my mind, the name escapes me
@@ -432,28 +354,18 @@ das Datum ist mir entfallen   ▪ the date slipped my mind
 
 Die Klausel entfällt.   ▪ The clause is not applicable.
 
-
-----------------
- §§§251    jmdm. (mit etw.dat.) entgegenkommen @@@ jmdm. (mit etw.dat.) entgegenkommen  | kam entgegen, entgegengekommen |
+ §§§jmdm. (mit etw.dat.) entgegenkommen @@@ jmdm. (mit etw.dat.) entgegenkommen  | kam entgegen, entgegengekommen |
 ----------------
 
-to accommodate so. (with sth.), to play to sth., to make concessions to so., to oblige so., to make advances to so., to meet halfway, to meet so. half way, to split the difference
-----------------
-
+to accommodate so. (with sth.)  ▪  to play to sth.  ▪  to make concessions to so.  ▪  to oblige so.  ▪  to make advances to so.  ▪  to meet halfway  ▪  to meet so. half way  ▪  to split the difference
 ----------------
 Entgegenkommen Ent•ge•gen•kom•men nt (=Gefälligkeit) kindness, obligingness
 ⬝(=Zugeständnis) concession, accommodation
 
-
+ §§§etw.dat. entsprechen @@@ etw.dat. entsprechen  | entsprach, entsprochen |
 ----------------
 
-----------------
- §§§182    etw.dat. entsprechen @@@ etw.dat. entsprechen  | entsprach, entsprochen |
-----------------
-
-to answer to sth., to correspond to sth., to be on a par with sth., to come up to sth., to conform to sth., to answer sth., to be up to sth., to correlate with sth., to mate with sth., to meet sth.
-----------------
-
+to answer to sth.  ▪  to correspond to sth.  ▪  to be on a par with sth.  ▪  to come up to sth.  ▪  to conform to sth.  ▪  to answer sth.  ▪  to be up to sth.  ▪  to correlate with sth.  ▪  to mate with sth.  ▪  to meet sth.
 ----------------
 
 ----------------
@@ -485,34 +397,20 @@ wenn die Ware unserem Geschmack entspricht   ▪ if the goods suit our taste
 ----------------
 falls dies dem Handelsbrauch entspricht   ▪ if customary
 
- §§§58    erklingen @@@ erklingen  | erklang, erklungen |
+ §§§erklingen @@@ erklingen  | erklang, erklungen |
 ----------------
 
 to sound
 ----------------
-
+ §§§etw.acc. ermitteln @@@ etw.acc. ermitteln  | ermittelte, ermittelt |
 ----------------
 
+to determine sth.  ▪  to investigate (a case)  ▪  to identify  ▪  to seek  ▪  to ascertain sth.  ▪  to establish sth.  ▪  to detect sth.  ▪  to find sth. ⇔  out  ▪  to calculate sth.  ▪  to go undercover
+----------------
+ §§§etw.acc. erstehen @@@ etw.acc. erstehen  | erstand, erstanden |
 ----------------
 
-----------------
- §§§262    etw.acc. ermitteln @@@ etw.acc. ermitteln  | ermittelte, ermittelt |
-----------------
-
-to determine sth., to investigate (a case), to identify, to seek, to ascertain sth., to establish sth., to detect sth., to find sth. ⇔  out, to calculate sth., to go undercover
-----------------
-
-----------------
-
-----------------
-
-----------------
- §§§70    etw.acc. erstehen @@@ etw.acc. erstehen  | erstand, erstanden |
-----------------
-
-to buy sth., to purchase sth., to acquire sth., to arise, to buy sth. at a bargain price
-----------------
-
+to buy sth.  ▪  to purchase sth.  ▪  to acquire sth.  ▪  to arise  ▪  to buy sth. at a bargain price
 ----------------
 1 vt to astonish, to amaze
 ⬝→ erstaunt
@@ -528,53 +426,33 @@ b (=Erstaunen erregen) to cause astonishment or amazement, to astonish or amaze 
 Erstaunen Er•stau•nen nt astonishment, amazement
 ⬝jdn in Erstaunen (ver)setzen to astonish or amaze sb
 
-
+ §§§erwirtschaften @@@ erwirtschaften  | erwirtschaftete, erwirtschaftet |
 ----------------
 
+to generate  ▪  to produce  ▪  to obtain sth.  ▪  to achieve sth.  ▪  to gain sth.  ▪  to earn sth.  ▪  to earn a return on capital  ▪  to generate payment surpluses  [FINAN.]
 ----------------
- §§§201    erwirtschaften @@@ erwirtschaften  | erwirtschaftete, erwirtschaftet |
-----------------
-
-to generate, to produce, to obtain sth., to achieve sth., to gain sth., to earn sth., to earn a return on capital, to generate payment surpluses  [FINAN.]
+ §§§etw.acc. erwähnen @@@ etw.acc. erwähnen  | erwähnte, erwähnt |
 ----------------
 
-----------------
-
-----------------
-
-----------------
- §§§224    etw.acc. erwähnen @@@ etw.acc. erwähnen  | erwähnte, erwähnt |
-----------------
-
-to mention sth., to allude to sth., to make mention of sth., to bring sth. ⇔  up, to put sth. on record, to refer to sth., to touch on sth., to note sth., to make no mention of sth., to touch on (or: upon)
-----------------
-
+to mention sth.  ▪  to allude to sth.  ▪  to make mention of sth.  ▪  to bring sth. ⇔  up  ▪  to put sth. on record  ▪  to refer to sth.  ▪  to touch on sth.  ▪  to note sth.  ▪  to make no mention of sth.  ▪  to touch on (or: upon)
 ----------------
 
 ----------------
 obenerwähnte (or: oben erwähnte) Prozesse   ▪ above processes
 
-
-----------------
- §§§258    etw.acc. erzeugen @@@ etw.acc. erzeugen  | erzeugte, erzeugt |
+ §§§etw.acc. erzeugen @@@ etw.acc. erzeugen  | erzeugte, erzeugt |
 ----------------
 
-to produce sth., to create sth., to generate, to clone, to engender, to fabricate, to induce, to manufacture sth., to constitute sth., to originate sth.
-----------------
-
-----------------
-
+to produce sth.  ▪  to create sth.  ▪  to generate  ▪  to clone  ▪  to engender  ▪  to fabricate  ▪  to induce  ▪  to manufacture sth.  ▪  to constitute sth.  ▪  to originate sth.
 ----------------
 
 ----------------
 Allzu große Vertrautheit erzeugt Verachtung.   - Sprichwort   ▪ Familiarity breeds contempt.
 
- §§§243    fällen @@@ fällen  | fällte, gefällt |
+ §§§fällen @@@ fällen  | fällte, gefällt |
 ----------------
 
-to hew, to fell sth., to chop sth. ⇔  down, to cut sth., to precipitate, sth. occurs to so.   infinitive: to occur to so., sth. crosses so.'s mind   infinitive: to cross one's mind, sth. comes to mind, sth. suits so.   infinitive: suit, to lumber
-----------------
-
+to hew  ▪  to fell sth.  ▪  to chop sth. ⇔  down  ▪  to cut sth.  ▪  to precipitate  ▪  sth. occurs to so.   infinitive: to occur to so.  ▪  sth. crosses so.'s mind   infinitive: to cross one's mind  ▪  sth. comes to mind  ▪  sth. suits so.   infinitive: suit  ▪  to lumber
 ----------------
 a (=umschlagen) to fell
 
@@ -764,12 +642,10 @@ von Fall zu Fall   ▪ as the case arises
 
 Hochmut kommt vor dem Fall.   ▪ Pride goes before a fall.
 
- §§§1    etw.acc. gestalten @@@ etw.acc. gestalten  | gestaltete, gestaltet |
+ §§§etw.acc. gestalten @@@ etw.acc. gestalten  | gestaltete, gestaltet |
 ----------------
 
-to shape sth., to fashion sth., to form sth., to configure sth., to construct sth., to create sth., to design sth., to frame sth., to moldAE / mouldBE sth., to pattern sth.
-----------------
-
+to shape sth.  ▪  to fashion sth.  ▪  to form sth.  ▪  to configure sth.  ▪  to construct sth.  ▪  to create sth.  ▪  to design sth.  ▪  to frame sth.  ▪  to moldAE / mouldBE sth.  ▪  to pattern sth.
 ----------------
 1 vt [Text, Wohnung] to lay out
 ⬝[Programm, Abend, Layout] to arrange
@@ -796,27 +672,15 @@ neu gestalten neu ge•stal•ten vt to rearrange, to reorder
 ⬝[Beziehungen, Ordnung] to reorganize
 ⬝[Platz, Stadion] to redesign, to give a new layout
 
-
+ §§§etw.acc. hinziehen @@@ etw.acc. hinziehen  | zog hin, hingezogen |
 ----------------
 
+to delay sth.  ▪  to protract sth.  ▪  to draw sth. ⇔  out  ▪  to wear on  ▪  to prolongate  ▪  to drag on  ▪  to retard  ▪  to move to sth.  ▪  to be a long haul  ▪  to delay a lawsuit
 ----------------
- §§§136    etw.acc. hinziehen @@@ etw.acc. hinziehen  | zog hin, hingezogen |
-----------------
-
-to delay sth., to protract sth., to draw sth. ⇔  out, to wear on, to prolongate, to drag on, to retard, to move to sth., to be a long haul, to delay a lawsuit
+ §§§sichacc. hüten @@@ sichacc. hüten  | hütete, gehütet |
 ----------------
 
-----------------
-
-----------------
-
-----------------
- §§§142    sichacc. hüten @@@ sichacc. hüten  | hütete, gehütet |
-----------------
-
-to take care, to herd animals, to watch so./sth., to tend sheep, to keep goal, to stay in bed, to tend a flock, to beware (of) so./sth., to be on one's guard against so./sth., to watch out for so./sth.
-----------------
-
+to take care  ▪  to herd animals  ▪  to watch so./sth.  ▪  to tend sheep  ▪  to keep goal  ▪  to stay in bed  ▪  to tend a flock  ▪  to beware (of) so./sth.  ▪  to be on one's guard against so./sth.  ▪  to watch out for so./sth.
 ----------------
 1 vt to look after, to mind
 ⬝[Vieh etc auch] to tend, to keep watch over liter
@@ -881,38 +745,24 @@ etw.nom. ist ein alter Hut [fig.]   ▪ sth. is ancient history [fig.]
 
 etw.nom. ist ein alter Hut [fig.]   ▪ sth. is old hat [fig.]
 
- §§§234    kentern @@@ kentern  | kenterte, gekentert |
+ §§§kentern @@@ kentern  | kenterte, gekentert |
 ----------------
 
-to turn turtle, to overturn, to turn, to reverse, to capsize (sth.), to weaken
-----------------
-
+to turn turtle  ▪  to overturn  ▪  to turn  ▪  to reverse  ▪  to capsize (sth.)  ▪  to weaken
 ----------------
 a [Schiff] to capsize
 
 b die Ebbe/Flut kentert the tide is turning
 
-
+ §§§knistern @@@ knistern  | knisterte, geknistert |
 ----------------
 
+to crackle  ▪  to crack  ▪  to creak  ▪  to sizzle
 ----------------
- §§§60    knistern @@@ knistern  | knisterte, geknistert |
-----------------
-
-to crackle, to crack, to creak, to sizzle
+ §§§nacharbeiten @@@ nacharbeiten  | arbeitete nach, nachgearbeitet |
 ----------------
 
-----------------
-
-----------------
-
-----------------
- §§§94    nacharbeiten @@@ nacharbeiten  | arbeitete nach, nachgearbeitet |
-----------------
-
-to refinish, to dress, to mend, to rebuild, to work over, to rework sth., to correct sth., to touch sth. ⇔  up, to finish
-----------------
-
+to refinish  ▪  to dress  ▪  to mend  ▪  to rebuild  ▪  to work over  ▪  to rework sth.  ▪  to correct sth.  ▪  to touch sth. ⇔  up  ▪  to finish
 ----------------
 1 vt
 
@@ -925,40 +775,24 @@ c (=nachbilden) to copy, to reproduce
 2 vi
 ⬝wir müssen morgen nacharbeiten we'll have to make up the work tomorrow
 
-
+ §§§nachreichen @@@ nachreichen  | reichte nach, nachgereicht |
 ----------------
 
+to hand in later  ▪  to hand sth. in later  ▪  to file subsequently  [LAW]
 ----------------
- §§§89    nachreichen @@@ nachreichen  | reichte nach, nachgereicht |
-----------------
-
-to hand in later, to hand sth. in later, to file subsequently  [LAW]
+ §§§nachstehen @@@ nachstehen  | stand nach, nachgestanden |
 ----------------
 
-----------------
-
-----------------
-
-----------------
- §§§148    nachstehen @@@ nachstehen  | stand nach, nachgestanden |
-----------------
-
-to be inferior, to rank behind
-----------------
-
+to be inferior  ▪  to rank behind
 ----------------
 
 ----------------
 die nachstehenden Regeln   ▪ the rules set forth hereunder
 
-
-----------------
- §§§206    rütteln @@@ rütteln  | rüttelte, gerüttelt |
+ §§§rütteln @@@ rütteln  | rüttelte, gerüttelt |
 ----------------
 
-to jolt, to jounce, to jiggle, to jog, to shake so./sth., to joggle sth., to vibrate, to compact by vibration  [TECH.], to joggle sth.
-----------------
-
+to jolt  ▪  to jounce  ▪  to jiggle  ▪  to jog  ▪  to shake so./sth.  ▪  to joggle sth.  ▪  to vibrate  ▪  to compact by vibration  [TECH.]  ▪  to joggle sth.
 ----------------
 1 vt to shake (about)
 ⬝[Getreide etc] to riddle, to sieve
@@ -971,27 +805,15 @@ to jolt, to jounce, to jiggle, to jog, to shake so./sth., to joggle sth., to vib
 ⬝an etw ($) rütteln dat [an Tür, Fenster etc] to rattle (at) sth (fig) [an Grundsätzen, Ergebnis etc] to call sth into question
 ⬝daran ist nicht zu rütteln, daran gibt es nichts zu rütteln inf there's no doubt about that
 
-
+ §§§scheppern @@@ scheppern  | schepperte, gescheppert |
 ----------------
 
+to clash  ▪  to clang  ▪  to clank  ▪  to rattle  ▪  to jar
 ----------------
- §§§170    scheppern @@@ scheppern  | schepperte, gescheppert |
-----------------
-
-to clash, to clang, to clank, to rattle, to jar
+ §§§täuschen @@@ täuschen  | täuschte, getäuscht |
 ----------------
 
-----------------
-
-----------------
-
-----------------
- §§§23    täuschen @@@ täuschen  | täuschte, getäuscht |
-----------------
-
-to fox, to cozen, to humbug, to feint, to hocus, to mock, to be mistaken (about so./sth.), to be wrong (about so./sth.), to deceive so., to beguile so.
-----------------
-
+to fox  ▪  to cozen  ▪  to humbug  ▪  to feint  ▪  to hocus  ▪  to mock  ▪  to be mistaken (about so./sth.)  ▪  to be wrong (about so./sth.)  ▪  to deceive so.  ▪  to beguile so.
 ----------------
 1 vt to deceive
 ⬝mit dieser Fälschung täuschte er sogar die Experten he even deceived or fooled the experts with this forgery
@@ -1038,36 +860,20 @@ tauschen tau•schen
 ----------------
 Lass dich nicht täuschen!   ▪ Don't let yourself be fooled!
 
-
-----------------
- §§§231    umhüllen @@@ umhüllen  | umhüllte, umhüllt |
+ §§§umhüllen @@@ umhüllen  | umhüllte, umhüllt |
 ----------------
 
-to infold, to ensheath   or: ensheathe, to muffle, to enwrap, to enclose   rarely: inclose sth., to encase sth., to wrap sth. ⇔  up, to envelop so./sth., to wrap sth. (with sth.), to embosom sth.
+to infold  ▪  to ensheath   or: ensheathe  ▪  to muffle  ▪  to enwrap  ▪  to enclose   rarely: inclose sth.  ▪  to encase sth.  ▪  to wrap sth. ⇔  up  ▪  to envelop so./sth.  ▪  to wrap sth. (with sth.)  ▪  to embosom sth.
+----------------
+ §§§aufsperren @@@ aufsperren  | sperrte auf, aufgesperrt |
 ----------------
 
+to unbar  ▪  to conduct without the use of cash
+----------------
+ §§§veranlassen @@@ veranlassen  | veranlasste, veranlasst |
 ----------------
 
-----------------
-
-----------------
- §§§175    aufsperren @@@ aufsperren  | sperrte auf, aufgesperrt |
-----------------
-
-to unbar, to conduct without the use of cash
-----------------
-
-----------------
-
-----------------
-
-----------------
- §§§152    veranlassen @@@ veranlassen  | veranlasste, veranlasst |
-----------------
-
-to induce, to determine, to prompt, to dispose, to provoke, to put, to see to it that sth. is done, to arrange for sth. to be done, to cause sth., to bring sth. ⇔  about
-----------------
-
+to induce  ▪  to determine  ▪  to prompt  ▪  to dispose  ▪  to provoke  ▪  to put  ▪  to see to it that sth. is done  ▪  to arrange for sth. to be done  ▪  to cause sth.  ▪  to bring sth. ⇔  about
 ----------------
 a etw veranlassen (=in die Wege leiten) to arrange for sth, to see to it that sth is done (=befehlen) to order sth
 ⬝eine Maßnahme veranlassen to arrange for/order a measure to be taken
@@ -1092,36 +898,20 @@ wird Sie veranlassen zu   ▪ will make you
 
 Könnten Sie eine Vorführung veranlassen?   ▪ Could you arrange for a demonstration?
 
-
-----------------
- §§§81    verarbeiten @@@ verarbeiten  | verarbeitete, verarbeitet |
+ §§§verarbeiten @@@ verarbeiten  | verarbeitete, verarbeitet |
 ----------------
 
-to process, to manipulate, to work sth., to treat sth., to use sth., to assimilate sth., to come to terms with sth., to handle sth., to convert, to process data
+to process  ▪  to manipulate  ▪  to work sth.  ▪  to treat sth.  ▪  to use sth.  ▪  to assimilate sth.  ▪  to come to terms with sth.  ▪  to handle sth.  ▪  to convert  ▪  to process data
+----------------
+ §§§etw.acc. vergeuden @@@ etw.acc. vergeuden  | vergeudete, vergeudet |
 ----------------
 
+to waste sth.  ▪  to squander  ▪  to dissipate  ▪  to misdirect  ▪  to dilapidate  ▪  to misspend  ▪  to trifle sth. ⇔  away  ▪  to scatter sth.  ▪  to spend sth.  ▪  to waste time
+----------------
+ §§§(bei etw.dat.) versagen @@@ (bei etw.dat.) versagen  | versagte, versagt |
 ----------------
 
-----------------
-
-----------------
- §§§52    etw.acc. vergeuden @@@ etw.acc. vergeuden  | vergeudete, vergeudet |
-----------------
-
-to waste sth., to squander, to dissipate, to misdirect, to dilapidate, to misspend, to trifle sth. ⇔  away, to scatter sth., to spend sth., to waste time
-----------------
-
-----------------
-
-----------------
-
-----------------
- §§§197    (bei etw.dat.) versagen @@@ (bei etw.dat.) versagen  | versagte, versagt |
-----------------
-
-to fail (at sth.), to flop, to collapse, to break down, to fail to act, to fail to work, to refuse to work, to malfunction, to refuse so. sth., to deny so. sth.
-----------------
-
+to fail (at sth.)  ▪  to flop  ▪  to collapse  ▪  to break down  ▪  to fail to act  ▪  to fail to work  ▪  to refuse to work  ▪  to malfunction  ▪  to refuse so. sth.  ▪  to deny so. sth.
 ----------------
 1 vt
 ⬝jdm/sich etw versagen to deny sb/oneself sth (=verweigern) to refuse sb/oneself sth
@@ -1147,14 +937,10 @@ Er war an dem Versagen schuld.   ▪ He was responsible for the failure.
 
 Schlecht ausgeführte Arbeit war für das Versagen verantwortlich.   ▪ Bad workmanship was responsible for the failure.
 
-
-----------------
- §§§98    vorarbeiten @@@ vorarbeiten  | arbeitete vor, vorgearbeitet |
+ §§§vorarbeiten @@@ vorarbeiten  | arbeitete vor, vorgearbeitet |
 ----------------
 
 to prefabricate
-----------------
-
 ----------------
 1 vi
 ⬝inf to (do) work in advance
@@ -1163,16 +949,10 @@ to prefabricate
 
 3 vr to work one's way forward
 
-
+ §§§vornehmen @@@ vornehmen  | nahm vor, vorgenommen |
 ----------------
 
-----------------
- §§§158    vornehmen @@@ vornehmen  | nahm vor, vorgenommen |
-----------------
-
-to take, to take in hand, to carry sth. ⇔  out, to conduct sth., to do sth., to deal with sth., to take sth. ⇔  up, to undertake sth., to put sth. ⇔  on, to take measurements
-----------------
-
+to take  ▪  to take in hand  ▪  to carry sth. ⇔  out  ▪  to conduct sth.  ▪  to do sth.  ▪  to deal with sth.  ▪  to take sth. ⇔  up  ▪  to undertake sth.  ▪  to put sth. ⇔  on  ▪  to take measurements
 ----------------
 a (=ausführen) to carry out
 ⬝[Umfrage, Änderungen] to carry out, to do
@@ -1197,54 +977,32 @@ f inf (=vorhalten) [Schürze, Serviette] to put on
 
 
 ----------------
-
-----------------
 sichdat. zu viel vornehmen   ▪ to bite off more than one can chew [fig.]
 
- §§§122    etw.acc. vorverlegen @@@ etw.acc. vorverlegen  | verlegte vor, vorverlegt |
+ §§§etw.acc. vorverlegen @@@ etw.acc. vorverlegen  | verlegte vor, vorverlegt |
 ----------------
 
-to bring sth. ⇔  forward, to advance sth., to prepone sth.
-----------------
-
+to bring sth. ⇔  forward  ▪  to advance sth.  ▪  to prepone sth.
 ----------------
 a [Termin] to bring forward
 
 b (Mil) [Front, Gefechtslinie] to push forward
 ⬝das Feuer vorverlegen to increase the range
 
-
-----------------
-
-----------------
- §§§124    etw.acc. vorwärtsbringen @@@ etw.acc. vorwärtsbringen  | brachte vorwärts, vorwärtsgebracht |
+ §§§etw.acc. vorwärtsbringen @@@ etw.acc. vorwärtsbringen  | brachte vorwärts, vorwärtsgebracht |
 ----------------
 
 to advance sth.
 ----------------
-
+ §§§vorübergehen @@@ vorübergehen  | ging vorüber, vorübergegangen |
 ----------------
 
+to go by   - pass  ▪  to pass by  ▪  to pass off   - fade  ▪  to pass  ▪  to suspend sth.  ▪  to suspend sth.  ▪  to lay so. ⇔  off  ▪  to close sth. ⇔  up  ▪  to sojourn  ▪  to pause sth.
+----------------
+ §§§(jmdm.) winken @@@ (jmdm.) winken  | winkte, gewinkt/gewunken |
 ----------------
 
-----------------
- §§§229    vorübergehen @@@ vorübergehen  | ging vorüber, vorübergegangen |
-----------------
-
-to go by   - pass, to pass by, to pass off   - fade, to pass, to suspend sth., to suspend sth., to lay so. ⇔  off, to close sth. ⇔  up, to sojourn, to pause sth.
-----------------
-
-----------------
-
-----------------
-
-----------------
- §§§54    (jmdm.) winken @@@ (jmdm.) winken  | winkte, gewinkt/gewunken |
-----------------
-
-to wave (to so.), to beckon to so., to beck, to beckon so. over, to motion so. aside
-----------------
-
+to wave (to so.)  ▪  to beckon to so.  ▪  to beck  ▪  to beckon so. over  ▪  to motion so. aside
 ----------------
 1 vi to wave (jdm to sb)
 ⬝jdm winken, etw zu tun to signal sb to do sth
@@ -1263,18 +1021,14 @@ to wave (to so.), to beckon to so., to beck, to beckon so. over, to motion so. a
 
 
 ----------------
-
-----------------
 mit dem Zaunpfahl winken   ▪ to give a broad hint
 
 etw.nom. winkt (jmdm.)   infinitive: winken   ▪ sth. beckons (for so.)   - likely to happen [fig.]
 
- §§§209    wirtschaften @@@ wirtschaften  | wirtschaftete, gewirtschaftet |
+ §§§wirtschaften @@@ wirtschaften  | wirtschaftete, gewirtschaftet |
 ----------------
 
-to keep house, to economizeAE to economiseBE, economizeBE, to mismanage, to operate economically, to maladminister, to boost the economy  [ECON.], to keep the economy afloat, to retool the economy  [ECON.], to kickstart the economy
-----------------
-
+to keep house  ▪  to economizeAE to economiseBE, economizeBE  ▪  to mismanage  ▪  to operate economically  ▪  to maladminister  ▪  to boost the economy  [ECON.]  ▪  to keep the economy afloat  ▪  to retool the economy  [ECON.]  ▪  to kickstart the economy
 ----------------
 1 vi
 
@@ -1302,12 +1056,10 @@ in einer modernen Wirtschaft   ▪ in a modern economy
 ----------------
 in die eigene Tasche wirtschaften   ▪ to line one's own pockets
 
- §§§39    zuführen @@@ zuführen  | führte zu, zugeführt |
+ §§§zuführen @@@ zuführen  | führte zu, zugeführt |
 ----------------
 
-to input, to deliver, to furnish, to introduce, to lead in, to apply sth., to carry sth., to convey sth., to load sth., to conduct sth.
-----------------
-
+to input  ▪  to deliver  ▪  to furnish  ▪  to introduce  ▪  to lead in  ▪  to apply sth.  ▪  to carry sth.  ▪  to convey sth.  ▪  to load sth.  ▪  to conduct sth.
 ----------------
 1 vt +dat
 
@@ -1329,8 +1081,4 @@ b (=bringen, zur Verfügung stellen) to bring
 2 vi sep
 ⬝auf etw ($) zuführen acc (lit, fig) to lead to sth
 
-
-----------------
-
-----------------
  §§§
