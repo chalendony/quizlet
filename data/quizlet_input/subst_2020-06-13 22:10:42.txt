@@ -1,0 +1,350 @@
+im @@@ Querschnitt im Lichten 
+ 
+ clear cross-section [TECH.] ▪ clear section [TECH.] ▪ opening ▪ clear diameter ▪ usable clearance ▪ clear area ▪ lucid interval ▪ lucid interval ▪ inside width ▪ clear width [CONSTR.] ▪ headroom [TECH.] ▪ clear height [TECH.] ▪ clearance [TECH.] ▪ headway [TECH.] 
+ 
+----------------
+  
+  §§§
+Lab @@@ das Lab  pl.: die Labe 
+ 
+ chymosin [CHEM.] ▪ lab-ferment [CHEM.] ▪ rennet [CHEM.][ZOOL.] ▪ rennin [CHEM.] ▪ lab-to-lab alignment [TECH.] 
+ 
+----------------
+  
+  §§§
+Abarbeiten @@@ das Abarbeiten  no plural 
+ 
+ attention handling ▪ polling [TELECOM.] 
+ 
+----------------
+  
+  §§§
+Zustand @@@ einwandfreier Zustand 
+ 
+ soundness ▪ impeccable manners ▪ flawless delivery ▪ proper functioning [TECH.] ▪ good repute [LAW] ▪ sound condition [TECH.] ▪ successful operation [TECH.] ▪ clean bill ▪ mechanically correct operation [TECH.] ▪ medically clear risk [INSUR.] ▪ faulty goods ▪ product of good marketable quality [COMM.] 
+ 
+----------------
+  
+  §§§
+Zerkleinern @@@ das Zerkleinern  no plural 
+ 
+ breaking ▪ breakupesp / break-upesp ▪ shearing ▪ comminution [TECH.] ▪ controlled crushing [TECH.] ▪ milling [TECH.] 
+ 
+----------------
+  
+  §§§
+Bescheid @@@ der Bescheid  pl.: die Bescheide 
+ 
+ answer ▪ information  no plural ▪ reply ▪ communication ▪ note ▪ order ▪ ruling ▪ verdict ▪ decision [LAW] ▪ office action (Amer.) [LAW] ▪ official letter (Brit.) [LAW] ▪ administrative decision [ADMIN.] ▪ official order [LAW] ▪ notice [LAW] 
+ 
+----------------
+  
+  §§§
+Beschäftigung @@@ anschließende Beschäftigung 
+ 
+ subsequent employment ▪ single-dip recession [ECON.] ▪ v-shaped recession [ECON.] ▪ precipitation heat treatment [TECH.] 
+ 
+----------------
+  
+  §§§
+Verdächtige @@@ der Verdächtige | die Verdächtige  pl.: die Verdächtigen 
+ 
+ suspect ▪ suspicious business transactions  pl. ▪ suspect ▪ queer matters  pl. 
+ 
+----------------
+  
+  §§§
+Einbruch @@@ der Einbruch  pl.: die Einbrüche 
+ 
+ burglary ▪ break-in ▪ breaking down ▪ intrusion ▪ incursion ▪ irruption ▪ plunge ▪ trespass ▪ invasion ▪ raid ▪ setback ▪ housebreaking [LAW] ▪ breaking and entering [LAW] ▪ retracement [FINAN.] 
+ 
+----------------
+  
+  §§§
+Pfütze @@@ die Pfütze  pl.: die Pfützen 
+ 
+ puddle ▪ the drink [coll.]   - large body of water, sea 
+ 
+----------------
+  
+  §§§
+Bedenken @@@ das Bedenken 
+ 
+ doubt ▪ concern   - worry ▪ consideration ▪ reflection ▪ reservation ▪ reservations  pl. ▪ misgiving  sg., usually in plural: misgivings ▪ qualms  pl. ▪ compunction ▪ demur ▪ scrupulosity ▪ scrupulousness ▪ objection (to sth.) ▪ suggestions and representations 
+ 
+----------------
+  
+  §§§
+Gewebe @@@ das Gewebe  pl.: die Gewebe 
+ 
+ web ▪ stuff ▪ textile ▪ texture ▪ webbing ▪ mesh ▪ gauze ▪ netting ▪ cloth [TECH.][TEXTIL.] ▪ fabric [TECH.][TEXTIL.] ▪ tissue [ANAT.][TECH.][TEXTIL.] ▪ woven fabric [TEXTIL.] ▪ canvas [TECH.][TEXTIL.] ▪ fiber cloth [TEXTIL.] 
+ 
+----------------
+  
+  §§§
+Peitsche @@@ die Peitsche  pl.: die Peitschen 
+ 
+ whip ▪ bullwhip ▪ horsewhip ▪ lash ▪ quirt ▪ planishing hammer [TECH.] ▪ planishing mallet [TECH.] 
+ 
+----------------
+  
+  §§§
+Erkennen @@@ das Erkennen  no plural 
+ 
+ recognition ▪ cognition  no plural ▪ identification ▪ perception function [COMP.] ▪ leak detection [TECH.] ▪ phase fault relay [ELEC.] 
+ 
+----------------
+  
+  §§§
+Erschrecken @@@ das Erschrecken  no plural 
+ 
+ affright   obsolete 
+ 
+----------------
+  
+  §§§
+Wert @@@ angeblicher Wert 
+ 
+ asserted value ▪ the alleged father ▪ pretender 
+ 
+----------------
+  
+  §§§
+einer @@@ Entnehmen einer Probe 
+ 
+ sampling 
+ 
+----------------
+  
+  §§§
+Erwerb @@@ der Erwerb  pl.: die Erwerbe 
+ 
+ acquisition   also  [COMM.][FINAN.] ▪ acquirement   - of knowledge, skill  no plural ▪ earning ▪ buy ▪ purchasing ▪ purchase [COMM.] ▪ buying [COMM.] ▪ acquisition for personal use ▪ acquisition of a company ▪ company acquisition ▪ obtaining for personal use ▪ step acquisition ▪ acquisition in good faith [LAW] ▪ acquisition in bad faith [LAW] 
+ 
+----------------
+  
+  §§§
+Trümmerfeld @@@ das Trümmerfeld  pl.: die Trümmerfelder 
+ 
+ expanse of rubble ▪ debris field 
+ 
+----------------
+  
+  §§§
+Zusammenstoß @@@ der Zusammenstoß  pl.: die Zusammenstöße 
+ 
+ collision ▪ crash   - collision ▪ clash ▪ encounter ▪ impact ▪ impingement ▪ run-in   - argument, dispute ▪ fouling   - pipe [TECH.] ▪ fatal crash 
+ 
+----------------
+  
+  §§§
+Witterung @@@ die Witterung  pl.: die Witterungen 
+ 
+ weather ▪ atmospheric conditions ▪ weather conditions plural noun ▪ scent 
+ 
+----------------
+  
+  §§§
+Spürsinn @@@ der Spürsinn  no plural   - Jagd 
+ 
+ flair ▪ serendipity 
+ 
+----------------
+  
+  §§§
+Schererei @@@ die Schererei  pl.: die Scherereien 
+ 
+ annoyance ▪ bother 
+ 
+----------------
+  
+  §§§
+Kurve @@@ unübersichtliche Kurve 
+ 
+ blind bend ▪ confusing situation 
+ 
+----------------
+  
+  §§§
+Querulant @@@ der Querulant  pl.: die Querulanten 
+ 
+ grumbler ▪ barrater ▪ grouser ▪ bellyacher [coll.] ▪ malcontent ▪ querulous person ▪ griper [coll.] ▪ eight ball (Amer.) [sl.] [MIL.] 
+ 
+----------------
+  
+  §§§
+Absprache @@@ die Absprache  pl.: die Absprachen 
+ 
+ agreement ▪ arrangement ▪ consultation ▪ gentlemen's (or: gentleman's) agreement ▪ convention ▪ unwritten agreement ▪ accord ▪ deal ▪ understanding ▪ verbal agreement [LAW] ▪ prior consultation ▪ collusion [LAW] ▪ anticompetitive (or: anti-competitive) agreement [COMM.] ▪ anti-competitive discussion [COMM.][LAW] 
+ 
+----------------
+  
+  §§§
+Verabredung @@@ die Verabredung  pl.: die Verabredungen 
+ 
+ date   - social appointment ▪ appointment ▪ engagement ▪ agreement ▪ assignation ▪ rendezvous ▪ arrangement ▪ collusion [LAW] ▪ business appointment ▪ gentlemen's (or: gentleman's) agreement ▪ broken appointment 
+ 
+----------------
+  
+  §§§
+Versetzen @@@ das Versetzen  no plural 
+ 
+ stowing [TECH.] ▪ cogging [TECH.] ▪ gobbing ▪ gobbing up ▪ debris filling [TECH.][GEOL.] ▪ packing [TECH.] ▪ waste filling [TECH.] ▪ delayed filling [TECH.] 
+ 
+----------------
+  
+  §§§
+Funktion @@@ stetige Funktion 
+ 
+ continuous function ▪ steady rise ▪ continuous variable ▪ continuous grading [CONSTR.] ▪ continuous random variable ▪ continuous variable ▪ zooming [COMP.] ▪ continuous extrusion [TECH.] ▪ continuous grading [GEOL.] ▪ continuous curve [TECH.] ▪ continuous controlling system [TECH.] ▪ continuous compounding [FINAN.] ▪ continuous air stream [LING.] ▪ constant regulator [TECH.] 
+ 
+----------------
+  
+  §§§
+Geschichte @@@ die Geschichte  pl.: die Geschichten 
+ 
+ story ▪ history   - past events  no plural ▪ history   - study of past events  no plural ▪ tale ▪ history   - record of past events ▪ narrative ▪ cover story ▪ saga ▪ lore ▪ living history ▪ story for reflection ▪ human history ▪ rigmarole ▪ fisherman's story 
+ 
+----------------
+  
+  §§§
+Rütteln @@@ das Rütteln  no plural 
+ 
+ jar ▪ rock ▪ shaking ▪ tail motion ▪ vibration ▪ shake ▪ rocking motion [TECH.] ▪ vibration of piles [TECH.] ▪ vibratory pile driving [TECH.] 
+ 
+----------------
+  
+  §§§
+Versagen @@@ das Versagen  no plural 
+ 
+ failure   also  [ENGIN.][TECH.] ▪ outage ▪ breakdown [TECH.] ▪ malfunction [TECH.] ▪ collapse [ENGIN.] ▪ functional failure [TECH.] ▪ failing [TECH.] ▪ misfiring [TECH.] ▪ failure of the brake [TECH.] ▪ failure of energy supply [TECH.] ▪ social failure [SOCIOL.] ▪ oscillator fallout [AVIAT.] ▪ human error ▪ human failure 
+ 
+----------------
+  
+  §§§
+Index @@@ im Index aufgeführter Großhandelspreis 
+ 
+ indexed wholesale price ▪ indexed commodity 
+ 
+----------------
+  
+  §§§
+Wirtschaften @@@ das Wirtschaften  no plural 
+ 
+ economic activity ▪ economy [ECON.] ▪ pub (Brit.) ▪ inn ▪ saloon (Amer.) ▪ economics plural noun [COMM.] ▪ economic system [ECON.] ▪ free economy ▪ private enterprise ▪ controlled economy ▪ directed economy ▪ industry ▪ domestic industry ▪ home industry 
+ 
+----------------
+  
+  §§§
+Glied @@@ das Glied  pl.: die Glieder 
+ 
+ limb [ANAT.] ▪ link   also  [TECH.] ▪ rank ▪ element [TECH.] ▪ member [MATH.] ▪ member [ZOOL.] ▪ chain link [TECH.] ▪ member [ANAT.] ▪ constituent ▪ antecedent ▪ weakest link ▪ phallus [ANAT.] ▪ virile member [ANAT.] ▪ missing link [BIOL.] 
+ 
+----------------
+  
+  §§§
+Elektrode @@@ umhüllte Elektrode 
+ 
+ coated electrode [TECH.] ▪ covered electrode [TECH.] ▪ covered electrode [TECH.] ▪ covered rod electrode [TECH.] ▪ covered filler wire [TECH.] ▪ closed radioactive source [TECH.] 
+ 
+----------------
+  
+  §§§
+Fällen @@@ das Fällen  no plural 
+ 
+ felling ▪ fall ▪ case   also  [LAW][LING.][MED.] ▪ drop ▪ instance ▪ event ▪ tumble ▪ labefaction ▪ circumstance ▪ decline ▪ plunge ▪ slump ▪ downstream ▪ halyard   or: halliard [NAUT.] 
+ 
+----------------
+  
+  §§§
+Beschäftigter @@@ vorübergehend Beschäftigter 
+ 
+ temporary employee ▪ temporary personnel ▪ temporarily laid off persons ▪ temporarily laid off persons ▪ admission temporaire ▪ temporary single line working [TECH.] ▪ temporary surplus sums of money  pl. [FINAN.] 
+ 
+----------------
+  
+  §§§
+Kentern @@@ das Kentern  no plural 
+ 
+ capsizing [NAUT.] ▪ capsize [NAUT.] ▪ capsizal [NAUT.] ▪ reversing current [GEOL.] ▪ current reversal [GEOL.] ▪ current turn [GEOL.] ▪ reversal [GEOL.] ▪ reversal of current [GEOL.] ▪ tidal change [NAUT.] ▪ tidal turn [GEOL.] ▪ tide change [NAUT.] ▪ tide turn [GEOL.] ▪ turn of current [NAUT.] 
+ 
+----------------
+  
+  §§§
+Auseinandersetzung @@@ heftige Auseinandersetzung 
+ 
+ altercation ▪ battle-royal ▪ battle royal ▪ craving ▪ eagerness ▪ pangs of remorse  pl. ▪ acute pain ▪ intense indignation ▪ backlash ▪ strenuous opposition ▪ throes plural noun ▪ high words ▪ heavy rain ▪ rainstorm 
+ 
+----------------
+  
+  §§§
+Einschränkung @@@ die Einschränkung  pl.: die Einschränkungen 
+ 
+ constraint ▪ cutback ▪ limitation ▪ restraint ▪ restriction   also  [MATH.] ▪ curtailment ▪ austerity ▪ confinement ▪ restrictiveness ▪ retrenchment ▪ stint   - limitation ▪ reduction ▪ reserve ▪ constriction 
+ 
+----------------
+  
+  §§§
+Entgegenkommen @@@ das Entgegenkommen  no plural 
+ 
+ accommodation ▪ concession ▪ obligingness ▪ cooperation ▪ courtesy 
+ 
+----------------
+  
+  §§§
+Umstufung @@@ die Umstufung  pl.: die Umstufungen 
+ 
+ reclassification ▪ pay scale reclassification 
+ 
+----------------
+  
+  §§§
+Auslösung @@@ die Auslösung  pl.: die Auslösungen 
+ 
+ accommodation allowance ▪ cleardown ▪ ransom ▪ producing ▪ triggering off ▪ trip ▪ release [FINAN.][TECH.] ▪ tripping [TECH.] ▪ opening [TECH.] ▪ releasing [TECH.] ▪ activating [TECH.] ▪ activation [TECH.] ▪ clearing [TELECOM.] ▪ daily allowance [FINAN.] 
+ 
+----------------
+  
+  §§§
+Wärme @@@ erzeugte Wärme 
+ 
+ generated heat [TECH.] ▪ quantity of heat produced [TECH.] ▪ produced workpieces [TECH.] ▪ man-made radiation [TECH.] ▪ steam heat [PHYS.] ▪ fabrication stress [TECH.] ▪ inert endothermic gas [TECH.] ▪ inert exothermic gas [TECH.] ▪ artificially induced actinic effect [TECH.] ▪ mechanically generated sparks [TECH.] ▪ pyrotoxin [MED.] ▪ hydraulically induced formation fracture [TECH.] ▪ hydraulically induced reservoir fracture [TECH.] ▪ hydraulically induced formation fracture [TECH.] ▪ hydraulically induced reservoir fracture [TECH.] 
+ 
+----------------
+  
+  §§§
+Daten @@@ ermittelte Daten 
+ 
+ observed data ▪ measured aggregate breaking force [TECH.] ▪ measured aggregate breaking load [TECH.] ▪ aggregate tensile strength [TECH.] ▪ measured spinning loss factor [TECH.] ▪ computed value ▪ calculated load value [TECH.] ▪ maximum experimental safe gap [abbr.: MESG] [ELEC.] ▪ rotation property [TECH.] ▪ rotational property [TECH.] 
+ 
+----------------
+  
+  §§§
+Zuordnung @@@ eindeutige Zuordnung 
+ 
+ unambiguous assignment ▪ explicit authority ▪ clear position ▪ unique identifier [COMP.] ▪ clear indication [ELEC.] ▪ unique type reference   - for accessories [ELEC.] ▪ target account [FINAN.] ▪ determinate fault [TECH.] ▪ precise instruction 
+ 
+----------------
+  
+  §§§
+Beschreibung @@@ eingehende Beschreibung 
+ 
+ narrow description ▪ incoming mail ▪ inbound e-mail ▪ close examination ▪ perusal ▪ disquisition ▪ extensive inspection ▪ receipts plural noun [COMM.] ▪ losses outstanding and premium reserves [FINAN.] ▪ inwards reinsurance [INSUR.] ▪ full particulars ▪ incoming exchanges ▪ incoming call ▪ incoming or reverse flow business ▪ incoming order ▪ assumed business [INSUR.] ▪ inbound telemarketing [COMM.] 
+ 
+----------------
+  
+  §§§
+Bodenschatz @@@ der Bodenschatz  pl.: die Bodenschätze 
+ 
+ resource ▪ fuel mineral resource [TECH.] ▪ solid fuel mineral resource [TECH.] ▪ mineral extraction 
+ 
+----------------
+  
+  §§§
+Eroberung @@@ die Eroberung  pl.: die Eroberungen 
+ 
+ conquest ▪ capture 
+ 
+----------------
+  
+  §§§
