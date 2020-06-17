@@ -45,48 +45,37 @@ def search(term):
         print(e)
 
     korpora_examples = get_korpora_examples(response)
-    print(korpora_examples)
+    #print(korpora_examples)
 
     selector = ".dwdswb-lesart"
     lesart = response.html.find(selector)
     #print(f"Number entries: {len(lesart)}")
+    fin = {}
 
-    lst = []
     if len(lesart) > 0:
+        lst = []
+
         for i in lesart:
+
             if 'id' in i.attrs:
+                d = {}
                 id = i.attrs['id']
+
                 definition = get_definition(id,response)
-                print(definition)
-                lst.append(definition + "\n")
+                #print(definition)
+                #lst.append(definition + "\n")
 
                 examples_level1 = get_examples_level1(id,response.html)
-                print(f"examples: {examples_level1}")
+                #print(f"examples: {examples_level1}")
 
-                #examples_level2 = get_examples_level2(id, i)
-                #print(f"examples-2: {examples_level2}")
+                d["id"] = id
+                d["definition"] = definition
+                d["examples"] = examples_level1
+                lst.append(d)
+    fin['korpora_examples'] =   korpora_examples
+    fin['inline_examples'] = lst
 
-                #"#d-1-1-1 > div.dwdswb-lesart-content > div.dwdswb-lesart > div.dwdswb-lesart-content > div.dwdswb-verwendungsbeispiele"
-                # selector = f".dwdswb-kompetenzbeispiel"
-                #"#d-1-1-1 > div.dwdswb-lesart-content > div.dwdswb-verwendungsbeispiele"
-                #"#d-1-1-1 > div.dwdswb-lesart-content > div.dwdswb-lesart > div.dwdswb-lesart-content > div.dwdswb-verwendungsbeispiele"
-                # ex = i.find(selector)
-                # if len(ex) > 0:
-                #     for j in ex:
-                #        print(f"text {j.text}")
-                #        lst.append(j.text + "\n")
-                # else:
-                #     print(f"alternative examples: ")
-                #     selector = "div.dwds-gb-list > div"
-                #     lesart = response.html.find(selector)
-                #     print(f"length {len(lesart)}")
-                #     if len(lesart) > 0:
-                #         for i in lesart:
-                #             print(i.text)
-                #             lst.append(i.text + "\n")
-                #     else:
-                #         print("***********************  No Translations obtained **********************")
-    return lst
+    return fin
 
 def get_korpora_examples(res):
     lst = []
@@ -140,4 +129,5 @@ def clean_text(txt):
 
 
 if __name__ == "__main__":
-    search('erwerben')
+    res = search('erwerben')
+    print(res)

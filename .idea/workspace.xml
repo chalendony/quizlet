@@ -3,20 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2ec03d32-e368-4a72-8551-923c6d1b2152" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/constants.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dwds/dwds.py" beforeDir="false" afterPath="$PROJECT_DIR$/dwds/dwds.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leo/leo.py" beforeDir="false" afterPath="$PROJECT_DIR$/leo/leo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/adj_adv_set.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/adj_adv_set.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/noun_article_set.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/noun_article_set.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/verb_rules_set.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/verb_rules_set.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quizlet/common.py" beforeDir="false" afterPath="$PROJECT_DIR$/quizlet/common.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reverso/depricated_parse_reverso_verb_noun.py" beforeDir="false" afterPath="$PROJECT_DIR$/reverso/depricated_parse_reverso_verb_noun.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reverso/download_reverso_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/reverso/download_reverso_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reverso/extract_clean_text.py" beforeDir="false" afterPath="$PROJECT_DIR$/reverso/extract_clean_text.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/translations/database_handler.py" beforeDir="false" afterPath="$PROJECT_DIR$/translations/database_handler.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/translations/google.py" beforeDir="false" afterPath="$PROJECT_DIR$/translations/google.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/translations/store_translations.py" beforeDir="false" afterPath="$PROJECT_DIR$/translations/store_translations.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
