@@ -3,8 +3,7 @@
 
 import requests
 from bs4 import BeautifulSoup
-import sys
-import reverso.constants as const
+import constants as const
 
 import configuration
 from random import randint

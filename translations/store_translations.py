@@ -1,11 +1,10 @@
-from requests_html import HTML
 import leo.leo as leo
-import time
-import reverso.constants as const
+import constants as const
 from reverso.download_reverso_page import ReversoDictionary
+import dwds.dwds as dwds
+
 import json
-from configparser import ConfigParser
-from reverso.database_handler import connect
+from translations.database_handler import connect
 
 import psycopg2
 from psycopg2.extras import execute_values
@@ -20,6 +19,7 @@ class Page:
         self.cur = self.conn.cursor()
         self.reverso = ReversoDictionary()
 
+
     def insert_entry(self, lst):
         sql = """INSERT INTO german(term, sense, ktype, value, update)
                  VALUES %s
@@ -27,8 +27,9 @@ class Page:
         try:
             execute_values(self.cur, sql, lst)
             self.conn.commit()
+
         except (Exception, psycopg2.DatabaseError) as error:
-            print(error)
+            print(f"postgress error {error}")
 
     def parse_all_terms(self, dir):
 
@@ -37,35 +38,34 @@ class Page:
             lines = list(line for line in (l.strip() for l in f) if line)
         lines = self.reverso.remove_dash(lines)
 
+        lst = []
         for term in lines:
-            lst = []
-            print(f" term:  {term}")
+            wordart = dwds.get_pos(term)
+            print(f" term: {term} : wordart:  {wordart}")
+            #### DWDS
+            dwds_res = dwds.search(term)
+            lst.append((term, wordart, "dwds", json.dumps(dwds_res, ensure_ascii=False), current_timestamp))
 
-            ### LEO
+
+            #### LEO
             leo_res = leo.search(term)
-            for k in leo_res.keys():
-                sense = leo_res[k][0]['de']
-                tup = (term, sense, k , json.dumps(leo_res[k], ensure_ascii=False), current_timestamp)
-                lst.append(tup)
-
-            # ### REVERSO uncomment to include reverso - sadly reverso does not always have an example sentence and its noisy and redundant (w.r.t leo)
-            # url = f"{const.reverso_base_url}{term}"
-            # soup_html = self.reverso.download(url)
-            # htm_str = HTML(html=soup_html, default_encoding="ISO-8859-15")
-            # usage = self.parse_definition(htm_str)
-            # lst.append((term, term, "reverso", usage, current_timestamp))
-
+            tup = (term, wordart, "leo", json.dumps(leo_res, ensure_ascii=False), current_timestamp)
+            lst.append(tup)
+            time.sleep(5)
             self.insert_entry(lst)
-            time.sleep(3)
+
 
     def parse_definition(self, res):
         lst = []
         selector = "#ctl00_cC_translate_box > font > div > div"
         res = res.find(selector)
         if len(res) > 0:
+            row = []
             for i in res:
                 val = i.text
-                lst.append(val)
+                split = val.split('\n')
+                row.append(split)
+            lst.append(row)
         return lst
 
     def shutdown(self):
@@ -76,6 +76,5 @@ class Page:
 if __name__ == "__main__":
 
     pg = Page()
-    #pg.parse_all_terms("/home/avare/repos/quizlet/data/terms_test.txt")
     pg.parse_all_terms(const.terms_file)
-    pg.shutdown()
+    #pg.shutdown()

@@ -1,7 +1,7 @@
 from configparser import ConfigParser
 
 import psycopg2
-from reverso import constants as const
+import constants as const
 from sqlalchemy import create_engine
 
 def dbconf(filename, section="postgresql"):

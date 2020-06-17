@@ -5,7 +5,7 @@ import csv
 import glob
 import leo.leo as leo
 import time
-import reverso.constants as const
+import constants as const
 
 csv.register_dialect("atters", delimiter="@")
 base_url = 'https://www.linguee.com/german-english/translation/'

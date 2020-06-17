@@ -1,84 +1,143 @@
-selectort = '#d-1-1'
-
-import leo.leo as leo
 import constants as const
-from reverso.download_reverso_page import ReversoDictionary
+import requests
+from requests_html import HTMLSession
+from translations.database_handler import connect_alchemy
 import json
-from translations.database_handler import connect
+engine = connect_alchemy(const.postgres_config)
 
-import psycopg2
-from psycopg2.extras import execute_values
-import  time
-current_timestamp = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime())
 
-from requests_html import HTML
-from bs4 import BeautifulSoup
 
-class Page:
-    def __init__(self):
+def get_pos(term):
+    # pos
+    url = (f"https://www.dwds.de/api/wb/snippet?q={term}")
 
-        self.conn = connect(const.postgres_config)
-        self.cur = self.conn.cursor()
-        self.reverso = ReversoDictionary()
+    try:
+        session = HTMLSession()
+        response = session.get(url)
 
-    def insert_entry(self, lst):
-        sql = """INSERT INTO german(term, sense, ktype, value, update)
-                 VALUES %s
-                 on conflict do nothing;"""
-        try:
-            execute_values(self.cur, sql, lst)
-            self.conn.commit()
-        except (Exception, psycopg2.DatabaseError) as error:
-            print(error)
+    except requests.exceptions.RequestException as e:
+        print(e)
 
-    def parse_all_terms(self, dir):
+    txt = response.text
+    # [{"url":"https://www.dwds.de/wb/Haus","wortart":"Substantiv","lemma":"Haus","input":"Haus"}]
+    jobj = json.loads(txt)
+    wortart = jobj[0]["wortart"]
+    return wortart
 
-        lines = []
-        with open(dir) as f:
-            lines = list(line for line in (l.strip() for l in f) if line)
-        lines = self.reverso.remove_dash(lines)
 
-        for term in lines:
-            lst = []
-            print(f" term:  {term}")
 
-            ### LEO
-            leo_res = leo.search(term)
-            for k in leo_res.keys():
-                sense = leo_res[k][0]['de']
-                tup = (term, sense, k , json.dumps(leo_res[k], ensure_ascii=False), current_timestamp)
-                lst.append(tup)
+import time
 
-            ### REVERSO
-            url = f"{const.reverso_base_url}{term}"
-            soup_html = self.reverso.download(url)
-            htm_str = HTML(html=soup_html, default_encoding="ISO-8859-15")
-            usage = self.parse_definition(htm_str)
-            lst.append((term, term, "reverso", json.dumps(usage, ensure_ascii=False), current_timestamp))
-            self.insert_entry(lst)
-            time.sleep(3)
 
-    def parse_definition(self, res):
-        lst = []
-        selector = "#ctl00_cC_translate_box > font > div > div"
-        res = res.find(selector)
-        if len(res) > 0:
-            row = []
-            for i in res:
-                val = i.text
-                split = val.split('\n')
-                row.append(split)
-            lst.append(row)
-        return lst
 
-    def shutdown(self):
-        pg.cur.close()
-        pg.conn.close()
+def search(term):
+
+
+
+    url = const.dwds_base_url + term
+    print(f"url {url}")
+
+    try:
+        session = HTMLSession()
+        response = session.get(url)
+
+    except requests.exceptions.RequestException as e:
+        print(e)
+
+    korpora_examples = get_korpora_examples(response)
+    print(korpora_examples)
+
+    selector = ".dwdswb-lesart"
+    lesart = response.html.find(selector)
+    #print(f"Number entries: {len(lesart)}")
+
+    lst = []
+    if len(lesart) > 0:
+        for i in lesart:
+            if 'id' in i.attrs:
+                id = i.attrs['id']
+                definition = get_definition(id,response)
+                print(definition)
+                lst.append(definition + "\n")
+
+                examples_level1 = get_examples_level1(id,response.html)
+                print(f"examples: {examples_level1}")
+
+                #examples_level2 = get_examples_level2(id, i)
+                #print(f"examples-2: {examples_level2}")
+
+                #"#d-1-1-1 > div.dwdswb-lesart-content > div.dwdswb-lesart > div.dwdswb-lesart-content > div.dwdswb-verwendungsbeispiele"
+                # selector = f".dwdswb-kompetenzbeispiel"
+                #"#d-1-1-1 > div.dwdswb-lesart-content > div.dwdswb-verwendungsbeispiele"
+                #"#d-1-1-1 > div.dwdswb-lesart-content > div.dwdswb-lesart > div.dwdswb-lesart-content > div.dwdswb-verwendungsbeispiele"
+                # ex = i.find(selector)
+                # if len(ex) > 0:
+                #     for j in ex:
+                #        print(f"text {j.text}")
+                #        lst.append(j.text + "\n")
+                # else:
+                #     print(f"alternative examples: ")
+                #     selector = "div.dwds-gb-list > div"
+                #     lesart = response.html.find(selector)
+                #     print(f"length {len(lesart)}")
+                #     if len(lesart) > 0:
+                #         for i in lesart:
+                #             print(i.text)
+                #             lst.append(i.text + "\n")
+                #     else:
+                #         print("***********************  No Translations obtained **********************")
+    return lst
+
+def get_korpora_examples(res):
+    lst = []
+    selector = "div.dwds-gb-list > div"
+    lesart = res.html.find(selector)
+    #print(f"length {len(lesart)}")
+    if len(lesart) > 0:
+        for i in lesart:
+            #print(i.text)
+            lst.append(i.text + "\n")
+    return lst
+
+def get_examples_level1(id,i):
+    result = []
+    selector = f"#{id} > div.dwdswb-lesart-content > div.dwdswb-verwendungsbeispiele"
+    #selector = f".dwdswb-kompetenzbeispiel"
+    ex = i.find(selector)
+    if len(ex) > 0:
+        for t in ex:
+            result.append(t.text)
+    return  result
+
+
+def get_examples_level2(id,i):
+    result = []
+
+    selector = f"#{id} > div.dwdswb-lesart-content > div.dwdswb-lesart > div.dwdswb-lesart-content > div.dwdswb-verwendungsbeispiele"
+    selector = f"#{id} > div.dwdswb-lesart-content > div.dwdswb-lesart > div.dwdswb-lesart-content > div.dwdswb-verwendungsbeispiele > div"
+
+    ex = i.find(selector)
+    if len(ex) > 0:
+        for t in ex:
+            result.append(t.text)
+    return result
+
+
+
+def get_definition(val, response):
+    definition = ""
+    sel_def = f"#{val} > div.dwdswb-lesart-content > div.dwdswb-lesart-def"
+    w = response.html.find(sel_def)  ## examples
+    if len(w) > 0:
+        definition = val + ": " + w[0].text
+    return definition
+
+
+def clean_text(txt):
+    # remove Bei
+    txt = txt.replace('Beispiel:', "")
+    return  txt
 
 
 if __name__ == "__main__":
-
-    pg = Page()
-    #pg.parse_all_terms("/home/avare/repos/quizlet/data/terms_test.txt")
-    pg.parse_all_terms(const.terms_file)
-    pg.shutdown()
+    search('erwerben')

@@ -10,11 +10,14 @@ import datetime
 import time
 
 
+from googletrans import Translator
 
-class Noun_Cards:
+translator = Translator()
+
+class AdjAdv_Cards:
 
     def __init__(self):
-        self.target = const.SUBS
+        self.target = const.ADJADV
         self.conn = connect(const.postgres_config)
         self.cur = self.conn.cursor()
 
@@ -29,10 +32,11 @@ class Noun_Cards:
             sense = row[1]
             value = row[2]
             leo_res = json.loads(value)
-            #print(leo_res)
             en = self.format_english(leo_res)
-            subst = self.getSubst(sense)
-            entry = f"{subst} @@@ {sense} {const.nl} {const.nl} {en} §§§{const.nl}"
+
+            ## get examples
+            examples = self.get_examples(term, target_date)
+            entry = f"{term} @@@ {term} {const.nl} {const.nl} {en} {const.nl} {const.aline}  {const.nl} {examples} §§§{const.nl}"
 
             batch.append(entry)
             if len(batch) == const.MAX_CARDS:
@@ -52,16 +56,45 @@ class Noun_Cards:
             for i in lst:
                 f.write(f"{i}")
 
+    def get_examples(self, term, target_date):
+        """
+        Note there is a difference if you pull the data into a dataframe or if you pull directly... pulling into dataframe is more overhead when  processing json - rather use multiple queries  if possible
+        # the original idea was to use group by ... was painful decision .. one day refactor this idea to directly perform database fetch
+        :param term:
+        :param target_date:
+        :return:
+        """
+        query = f"select value from german where ktype = '{const.DWDS}' and term = '{term}' and update = '{target_date}';"
+        self.cur.execute(query)
+        records = self.cur.fetchall()
+        batch = []
+        for row in records:
+            val = row[0]
+            ## DUPLICATED from non-modular code in verb module ...
+            if val is not None:
+                dwds = ""
+                print(f"text: {val}")
+                jobj = json.loads(val)
+                if len(jobj) > 0:
+                    for i in jobj:
+                        splits = i.split('\n')
+                        # translate and format
+                        for de in splits:
+                            if 'Beispiele' not in de:
+                                try:
+                                    en = translator.translate(de, src='de', dest='en')
+                                    dwds = dwds + "▢  " + de + ' ▪ ' + en.text + '\n\n'
+                                except:
+                                    pass
+                        #print(f"dwds: {dwds}")
+            ##################### DUPLICATED
+        return dwds
+
 
     def shutdown(self):
         pg.cur.close()
         pg.conn.close()
 
-
-    def getSubst(self, lst):
-        res = lst.split()[1]
-
-        return res
 
     def format_english(self, lst):
         tmp = []
@@ -74,6 +107,6 @@ class Noun_Cards:
         return str
 
 if __name__ == "__main__":
-    pg = Noun_Cards()
-    pg.create('2020-06-13 00:50:31')
+    pg = AdjAdv_Cards()
+    pg.create('2020-06-13 01:43:57')
     pg.shutdown()

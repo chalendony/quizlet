@@ -184,7 +184,7 @@ def get_english_definitions(res, part_of_speech):
 
 if __name__ == "__main__":
     # get term
-    res = search('mitten')
+    res = search('wirken')
     print(res)
 
     #en = get_verbs_english_definitions(res)
