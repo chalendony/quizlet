@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2ec03d32-e368-4a72-8551-923c6d1b2152" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/terms.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/terms.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/text_PENDING.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/text_PENDING.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dwds/dwds.py" beforeDir="false" afterPath="$PROJECT_DIR$/dwds/dwds.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/verb_rules_set.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/verb_rules_set.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
