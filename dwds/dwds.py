@@ -9,19 +9,21 @@ engine = connect_alchemy(const.postgres_config)
 
 def get_pos(term):
     # pos
+    wortart = ""
     url = (f"https://www.dwds.de/api/wb/snippet?q={term}")
 
     try:
         session = HTMLSession()
         response = session.get(url)
+        txt = response.text
+        # [{"url":"https://www.dwds.de/wb/Haus","wortart":"Substantiv","lemma":"Haus","input":"Haus"}]
+        jobj = json.loads(txt)
+        wortart = jobj[0]["wortart"]
 
     except requests.exceptions.RequestException as e:
         print(e)
 
-    txt = response.text
-    # [{"url":"https://www.dwds.de/wb/Haus","wortart":"Substantiv","lemma":"Haus","input":"Haus"}]
-    jobj = json.loads(txt)
-    wortart = jobj[0]["wortart"]
+
     return wortart
 
 
@@ -72,8 +74,9 @@ def search(term):
                 d["definition"] = definition
                 d["examples"] = examples_level1
                 lst.append(d)
+        fin['inline_examples'] = lst
     fin['korpora_examples'] =   korpora_examples
-    fin['inline_examples'] = lst
+
 
     return fin
 

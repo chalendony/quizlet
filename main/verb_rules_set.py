@@ -47,9 +47,10 @@ class Verb_Cards:
                 dw_val = dw_row[0]
                 #print(dw_val)
                 dw_lst = json.loads(dw_val)
-                #print(f"loaded json ßßßßßßßßßßßßßßßßßßßßßßßßßßßß {type(dw_lst)}")
-                examples = self.dwds_examples(dw_lst)
-                entry = f"{term} @@@{en}{const.nl}{const.aline}{const.nl}{examples}§§§"
+                #print(f"loaded json ---------------------------- {type(dw_lst)}")
+                inline_examples = self.dwds_inline_examples(dw_lst)
+                korpora_examples = self.dwds_korpora_examples(dw_lst)
+                entry = f"{term} @@@{en}{const.nl}{const.aline}{const.nl}{inline_examples}{const.aline}{const.nl}{korpora_examples}§§§"
                 print(entry)
                 batch.append(entry)
         if len(batch) == const.MAX_CARDS:
@@ -58,45 +59,45 @@ class Verb_Cards:
 
         self.write_to_file(batch, self.create_batch_name())
 
-    def create2(self, target_date):
-
-        query = f"select term , value from german where update = '{target_date}' and  sense = '{self.target}' and  ktype = 'leo';"
-        self.cur.execute(query)
-        records = self.cur.fetchall()
-        batch = []
-        for row in records:
-            term = row[0]  # term
-            value = row[1]  # value
-
-            print(json.loads(value).keys())
-            en = ""
-            if self.target.lower() in json.loads(value).keys():
-                leo_res = json.loads(value)[self.target.lower()]
-
-                ### LEO
-                en = self.leo_translations(leo_res)
-                en = common.remove_dangling_letter(en)
-
-                ### DWDS ## move to dw module ...
-                dw_query = f"select value from german where update = '{target_date}' and  sense = '{self.target}' and  ktype = 'dwds' and term = '{term}';"
-                self.cur_dwds.execute(dw_query)
-                dw_records = self.cur_dwds.fetchall()
-                dw_val = ""
-
-                for dw_row in dw_records:
-                    dw_val = dw_row[0]
-                    print(dw_val)
-                    dw_lst = json.loads(dw_val)
-                    print(f"loaded json ßßßßßßßßßßßßßßßßßßßßßßßßßßßß {type(dw_lst)}")
-                    examples = self.dwds_examples(dw_lst)
-                    entry = f"{term} @@@{en}{const.nl}{const.aline}{const.nl}{examples}§§§"
-                    print(entry)
-                    batch.append(entry)
-            if len(batch) == const.MAX_CARDS:
-                self.write_to_file(batch, self.create_batch_name())
-                batch = []
-
-        self.write_to_file(batch, self.create_batch_name())
+    # def create2(self, target_date):
+    #
+    #     query = f"select term , value from german where update = '{target_date}' and  sense = '{self.target}' and  ktype = 'leo';"
+    #     self.cur.execute(query)
+    #     records = self.cur.fetchall()
+    #     batch = []
+    #     for row in records:
+    #         term = row[0]  # term
+    #         value = row[1]  # value
+    #
+    #         print(json.loads(value).keys())
+    #         en = ""
+    #         if self.target.lower() in json.loads(value).keys():
+    #             leo_res = json.loads(value)[self.target.lower()]
+    #
+    #             ### LEO
+    #             en = self.leo_translations(leo_res)
+    #             en = common.remove_dangling_letter(en)
+    #
+    #             ### DWDS ## move to dw module ...
+    #             dw_query = f"select value from german where update = '{target_date}' and  sense = '{self.target}' and  ktype = 'dwds' and term = '{term}';"
+    #             self.cur_dwds.execute(dw_query)
+    #             dw_records = self.cur_dwds.fetchall()
+    #             dw_val = ""
+    #
+    #             for dw_row in dw_records:
+    #                 dw_val = dw_row[0]
+    #                 print(dw_val)
+    #                 dw_lst = json.loads(dw_val)
+    #                 print(f"loaded json ßßßßßßßßßßßßßßßßßßßßßßßßßßßß {type(dw_lst)}")
+    #                 examples = self.dwds_inline_examples(dw_lst)
+    #                 entry = f"{term} @@@{en}{const.nl}{const.aline}{const.nl}{examples}§§§"
+    #                 print(entry)
+    #                 batch.append(entry)
+    #         if len(batch) == const.MAX_CARDS:
+    #             self.write_to_file(batch, self.create_batch_name())
+    #             batch = []
+    #
+    #     self.write_to_file(batch, self.create_batch_name())
 
     ########################   Warningg: this code is duplicated from noun module--need to refactor later !!!!!!!!!!!
     def get_examples(self, term, target_date):
@@ -166,7 +167,7 @@ class Verb_Cards:
         str = common.remove_dangling_letter(str)
         return str
 
-    def dwds_examples(self, lst):
+    def dwds_examplesOLD(self, lst):
         temp = []
         dwds = ""
         for i in lst:
@@ -186,9 +187,72 @@ class Verb_Cards:
         dwds = " ".join(temp)
         return dwds
 
+    def dwds_inline_examples(self, dict):
+        ## {"inline_examples": [{"id": "d-1-1", "definition": "d-1-1: ein bevorstehendes Ereignis bekanntgeben", "examples": ["Beispiele:\neine Veranstaltung, ein Fest, Konzert durch Plakate ankündigen\nseinen Besuch ankündigen\neine Reform ankündigen\nein Buch ankündigen (= sein Erscheinen anzeigen)\nich kündige Dir [Münchhausen] hiemit Krieg und Fehde an (= sage dir an) [Immerm.Münchh.3,124]"]}, {"id": "d-1-1-1", "definition": "d-1-1-1: jmds. baldiges Erscheinen bekanntgeben, jmdn., sich anmelden", "examples": ["Beispiele:\neinen Sänger (auf der Bühne) ankündigen\nich hatte mich schon lange (bei dir) angekündigt"]}, {"id": "d-1-1-2", "definition": "d-1-1-2: bildlich", "examples": ["Beispiele:\nder Frühling kündigt sich an\ndas Gewitter kündigte sich durch Wetterleuchten an"]}], "korpora_examples": ["Er kündigte an, dass an den Strukturen weiter gefeilt werde.\nDie Zeit, 16.11.2012 (online)\n", "Eine neue Phase des Kampfes der römischen Kirche um ihre Freiheit kündigte sich an.\no. A.: Die mittelalterliche Kirche. In: Jedin, Hubert (Hg.) Handbuch der Kirchengeschichte, Berlin: Directmedia Publ. 2000 [1966], S. 8666\n", "Gleichzeitig kündigte er den Beginn der Operationen der japanischen Marine gegen diese Plätze an.\nArchiv der Gegenwart, 2001 [1940]\n", "Beim siebten Mal hatte er dasselbe angekündigt, aber dann auch getan.\nNadolny, Sten: Selim oder Die Gabe der Rede, München: Piper 1997 [1990], S. 316\n", "Der gesehene Rauch kann Brand ankündigen und auch Flucht veranlassen.\nKlix, Friedhart: Information und Verhalten, Berlin: Deutscher Verl. der Wissenschaften 1971, S. 191\n"]}
+
+        temp = []
+        dwds = ""
+
+        if "inline_examples" not in dict.keys():
+            return dwds
+
+        lst = dict["inline_examples"]
+
+        """
+        [{"id": "d-1-1", "definition": "d-1-1: ein bevorstehendes Ereignis bekanntgeben", "examples": ["Beispiele:\neine Veranstaltung, ein Fest, Konzert durch Plakate ankündigen\nseinen Besuch ankündigen\neine Reform ankündigen\nein Buch ankündigen (= sein Erscheinen anzeigen)\nich kündige Dir [Münchhausen] hiemit Krieg und Fehde an (= sage dir an) [Immerm.Münchh.3,124]"]}, 
+
+        {"id": "d-1-1-1", "definition": "d-1-1-1: jmds. baldiges Erscheinen bekanntgeben, jmdn., sich anmelden", "examples": ["Beispiele:\neinen Sänger (auf der Bühne) ankündigen\nich hatte mich schon lange (bei dir) angekündigt"]}, 
+
+        {"id": "d-1-1-2", "definition": "d-1-1-2: bildlich", "examples": ["Beispiele:\nder Frühling kündigt sich an\ndas Gewitter kündigte sich durch Wetterleuchten an"]}]
+        """
+        for i in lst:
+
+            definition = i["definition"]
+            temp.append(definition + "\n\n")
+
+            examples = i["examples"]
+
+            for ex in examples:
+                splits = ex.split("\n")
+                for de in splits:
+                    #print(de)
+                    #found = de.find("Beispiele")
+                    #if found < 0:
+                    if ("Beispiele" in de) or ("Beispiel" in de):
+                        pass
+                    else:
+                        translator = Translator()
+                        # en = translator.translate(de, src='de', dest='en').text
+                        en = "This is english"
+                        # time.sleep(5)
+                        temp.append("▢  " + de + " ▪ " + en + "\n\n")
+            dwds = "".join(temp)
+
+        return dwds
+
+    def dwds_korpora_examples(self, dict):
+        """
+        ## {"inline_examples": [{"id": "d-1-1", "definition": "d-1-1: ein bevorstehendes Ereignis bekanntgeben", "examples": ["Beispiele:\neine Veranstaltung, ein Fest, Konzert durch Plakate ankündigen\nseinen Besuch ankündigen\neine Reform ankündigen\nein Buch ankündigen (= sein Erscheinen anzeigen)\nich kündige Dir [Münchhausen] hiemit Krieg und Fehde an (= sage dir an) [Immerm.Münchh.3,124]"]}, {"id": "d-1-1-1", "definition": "d-1-1-1: jmds. baldiges Erscheinen bekanntgeben, jmdn., sich anmelden", "examples": ["Beispiele:\neinen Sänger (auf der Bühne) ankündigen\nich hatte mich schon lange (bei dir) angekündigt"]}, {"id": "d-1-1-2", "definition": "d-1-1-2: bildlich", "examples": ["Beispiele:\nder Frühling kündigt sich an\ndas Gewitter kündigte sich durch Wetterleuchten an"]}], "korpora_examples": ["Er kündigte an, dass an den Strukturen weiter gefeilt werde.\nDie Zeit, 16.11.2012 (online)\n", "Eine neue Phase des Kampfes der römischen Kirche um ihre Freiheit kündigte sich an.\no. A.: Die mittelalterliche Kirche. In: Jedin, Hubert (Hg.) Handbuch der Kirchengeschichte, Berlin: Directmedia Publ. 2000 [1966], S. 8666\n", "Gleichzeitig kündigte er den Beginn der Operationen der japanischen Marine gegen diese Plätze an.\nArchiv der Gegenwart, 2001 [1940]\n", "Beim siebten Mal hatte er dasselbe angekündigt, aber dann auch getan.\nNadolny, Sten: Selim oder Die Gabe der Rede, München: Piper 1997 [1990], S. 316\n", "Der gesehene Rauch kann Brand ankündigen und auch Flucht veranlassen.\nKlix, Friedhart: Information und Verhalten, Berlin: Deutscher Verl. der Wissenschaften 1971, S. 191\n"]}
+        :param dict:
+        :return:
+        """
+
+        dwds = ""
+        temp = []
+        lst = dict["korpora_examples"]
+        if len(lst) > 0:
+            nr = min(2, len(lst))
+            for de in lst[0:nr]:
+                translator = Translator()
+                # en = translator.translate(de, src='de', dest='en').text
+                en = "This is english"
+                # time.sleep(5)
+                temp.append("▢  " + de + " ▪ " + en + "\n\n")
+        dwds = "".join(temp)
+        return dwds
 
 
 if __name__ == "__main__":
 
     pg = Verb_Cards()
-    pg.create('2020-06-17 02:29:47')
+    pg.create('2020-06-18 19:54:47')
