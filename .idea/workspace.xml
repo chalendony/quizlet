@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ec03d32-e368-4a72-8551-923c6d1b2152" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/verb_rules_set.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/verb_rules_set.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/quizlet_input/term_history.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/quizlet_input/terms_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/quizlet_input/terms_2020-06-09.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/quizlet_input/terms_2020-06-13 00:44:33.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/quizlet_input/terms_2020-06-14-11 11:28.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/quizlet_input/terms_2020-06-19-11.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/terms.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/terms.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/text_PENDING.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/text_PENDING.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +64,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.verb_rules_set">
+  <component name="RunManager" selected="Python.parse_pos">
     <configuration name="adj_adv_set" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="quizlet" />
       <option name="INTERPRETER_OPTIONS" value="" />
