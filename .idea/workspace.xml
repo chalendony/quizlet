@@ -2,16 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ec03d32-e368-4a72-8551-923c6d1b2152" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/main/crossword.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pons/pons.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/quizlet_input/term_history.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/quizlet_input/terms_1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/quizlet_input/terms_2020-06-09.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/quizlet_input/terms_2020-06-13 00:44:33.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/quizlet_input/terms_2020-06-14-11 11:28.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/quizlet_input/terms_2020-06-19-11.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/constants.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/terms.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/terms.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/text_PENDING.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/text_PENDING.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dwds/dwds.py" beforeDir="false" afterPath="$PROJECT_DIR$/dwds/dwds.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/verb_rules_set.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/verb_rules_set.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/translations/store_translations.py" beforeDir="false" afterPath="$PROJECT_DIR$/translations/store_translations.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,23 +32,23 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/data" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/main" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/main" />
+      <recent name="$PROJECT_DIR$/data" />
+      <recent name="$PROJECT_DIR$/data/quizlet_input" />
+      <recent name="$PROJECT_DIR$/data/DONE/test" />
+      <recent name="$PROJECT_DIR$/reverso" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/quizlet" />
       <recent name="$PROJECT_DIR$/data" />
       <recent name="$PROJECT_DIR$/data/quizlet_input" />
       <recent name="$PROJECT_DIR$/linguee" />
       <recent name="$PROJECT_DIR$" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/data" />
-      <recent name="$PROJECT_DIR$/main" />
-      <recent name="$PROJECT_DIR$/data/quizlet_input" />
-      <recent name="$PROJECT_DIR$/data/DONE/test" />
-      <recent name="$PROJECT_DIR$/reverso" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -64,8 +63,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.parse_pos">
-    <configuration name="adj_adv_set" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.pons">
+    <configuration name="crossword" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="quizlet" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -78,7 +77,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main/adj_adv_set.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main/crossword.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -101,27 +100,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dwds/dwds.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="leo" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="quizlet" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leo" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leo/leo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -174,6 +152,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="pons" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="quizlet" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="PONS" value="cffcdd1c60b8c18d2b3efa758cf8d96d74895609cdacc3f5695ff508be83a1b0" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pons" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pons/pons.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="verb_rules_set" type="PythonConfigurationType" factoryName="Python">
       <module name="quizlet" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -198,19 +198,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.verb_rules_set" />
-      <item itemvalue="Python.leo" />
       <item itemvalue="Python.parse_pos" />
       <item itemvalue="Python.noun_cards" />
-      <item itemvalue="Python.adj_adv_set" />
       <item itemvalue="Python.dwds" />
+      <item itemvalue="Python.crossword" />
+      <item itemvalue="Python.pons" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.pons" />
+        <item itemvalue="Python.crossword" />
         <item itemvalue="Python.parse_pos" />
         <item itemvalue="Python.dwds" />
         <item itemvalue="Python.noun_cards" />
-        <item itemvalue="Python.adj_adv_set" />
-        <item itemvalue="Python.leo" />
       </list>
     </recent_temporary>
   </component>

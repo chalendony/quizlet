@@ -34,6 +34,7 @@ max_card_entries = 7
 headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:45.0) Gecko/20100101 Firefox/45.0'}
 reverso_base_url = 'https://dictionary.reverso.net/german-english/'
 
+CROSSWORD = "crossword"
 # defining structure of each quizlet set
 SUBS = 'Substantiv'
 VERB = 'Verb'
@@ -92,5 +93,10 @@ comma = ", "
 aline = "\n----------------\n" ## move to const
 
 postgres_config = os.environ['DATABASE']
+dlapikey = os.getenv('DLAPIKEY')
+from_language = 'DE'
+to_language = 'EN'
+
+
 
 

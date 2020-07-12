@@ -40,19 +40,21 @@ class Page:
 
         lst = []
         for term in lines:
-            wordart = dwds.get_pos(term)
-            print(f" term: {term} : wordart:  {wordart}")
-            #### DWDS
-            dwds_res = dwds.search(term)
-            lst.append((term, wordart, "dwds", json.dumps(dwds_res, ensure_ascii=False), current_timestamp))
+            # wordart = dwds.get_pos(term)
+            # print(f" term: {term} : wordart:  {wordart}")
+            # #### DWDS
+            # dwds_res = dwds.search(term)
+            # lst.append((term, wordart, "dwds", json.dumps(dwds_res, ensure_ascii=False), current_timestamp))
+            #
+            #
+            # #### LEO
+            # leo_res = leo.search(term)
+            # tup = (term, wordart, "leo", json.dumps(leo_res, ensure_ascii=False), current_timestamp)
+            # lst.append(tup)
+            # time.sleep(5)
+            # self.insert_entry(lst)
 
-
-            #### LEO
-            leo_res = leo.search(term)
-            tup = (term, wordart, "leo", json.dumps(leo_res, ensure_ascii=False), current_timestamp)
-            lst.append(tup)
-            time.sleep(5)
-            self.insert_entry(lst)
+            #### PONS
 
 
     def parse_definition(self, res):

@@ -7,9 +7,14 @@ import json
 import datetime
 import time
 import quizlet.common as common
+import os
+
 
 from googletrans import Translator
 translator = Translator()
+import requests
+import sys
+
 
 class Verb_Cards:
 
@@ -21,7 +26,8 @@ class Verb_Cards:
 
     def create(self, target_date):
 
-        query = f"select term , value from german where update = '{target_date}' and  sense = '{self.target}' and  ktype = 'leo';"
+        query = f"select term , value from german where update = '{target_date}' and  sense = '{self.target}' and  ktype = 'dwds';"
+        print(query)
         self.cur.execute(query)
         records = self.cur.fetchall()
         batch = []
@@ -29,30 +35,11 @@ class Verb_Cards:
             term = row[0]  # term
             value = row[1]  # value
 
-            en = ""
-            if self.target.lower() in json.loads(value).keys():
-                leo_res = json.loads(value)[self.target.lower()]
-
-                ### LEO
-                en = self.leo_translations(leo_res)
-                en = common.remove_dangling_letter(en)
-
-            ### DWDS ## move to dw module ...
-            dw_query = f"select value from german where update = '{target_date}' and  sense = '{self.target}' and  ktype = 'dwds' and term = '{term}';"
-            self.cur_dwds.execute(dw_query)
-            dw_records = self.cur_dwds.fetchall()
-            dw_val = ""
-
-            for dw_row in dw_records:
-                dw_val = dw_row[0]
-                #print(dw_val)
-                dw_lst = json.loads(dw_val)
-                #print(f"loaded json ---------------------------- {type(dw_lst)}")
-                inline_examples = self.dwds_inline_examples(dw_lst)
-                korpora_examples = self.dwds_korpora_examples(dw_lst)
-                entry = f"{term} @@@{en}{const.nl}{const.aline}{const.nl}{inline_examples}{const.aline}{const.nl}{korpora_examples}§§§"
-                print(entry)
-                batch.append(entry)
+            inline_examples = self.dwds_inline_examples(dw_lst)
+            #korpora_examples = self.dwds_korpora_examples(dw_lst)
+            entry = f"{term} @@@{en}{const.nl}{const.aline}{const.nl}{inline_examples}§§§"
+            print(entry)
+            batch.append(entry)
         if len(batch) == const.MAX_CARDS:
             self.write_to_file(batch, self.create_batch_name())
             batch = []
@@ -103,8 +90,10 @@ class Verb_Cards:
 
         lst = dict["inline_examples"]
 
-
-        for i in lst:
+        # limit the number of examples
+        exLimit = 3
+        upperexLimit = min(exLimit,len(lst))
+        for i in lst[0:upperexLimit]:
 
             definition = i["definition"]
             temp.append(definition + "\n\n")
@@ -113,15 +102,18 @@ class Verb_Cards:
 
             for ex in examples:
                 splits = ex.split("\n")
-                for de in splits:
+                upper = min(3,len(splits))
+                for de in splits[0:upper]:
                     if ("Beispiele" in de) or ("Beispiel" in de):
                         pass
                     else:
-                        translator = Translator()
-                        en = translator.translate(de, src='de', dest='en').text
-                        #en = "This is english"
-                        time.sleep(5)
+                        ## roughly make is a sentence, get better translation is some cases
+                        de = de[0].upper() + de[1:] + "."
+                        url = f"""https://api.deepl.com/v2/translate?auth_key={const.dlapikey}&text={de}&source_lang=DE&target_lang=EN"""
+                        r = requests.get(url)
+                        en = r.json()['translations'][0]['text']
                         temp.append("▢  " + de + " ▪ " + en + "\n\n")
+                        time.sleep(1)
             dwds = "".join(temp)
 
         return dwds
@@ -138,7 +130,6 @@ class Verb_Cards:
         if len(lst) > 0:
             nr = min(2, len(lst))
             for de in lst[0:nr]:
-                translator = Translator()
                 en = translator.translate(de, src='de', dest='en').text
                 #en = "This is english"
                 time.sleep(5)
@@ -149,5 +140,10 @@ class Verb_Cards:
 
 if __name__ == "__main__":
 
-    pg = Verb_Cards()
-    pg.create('2020-06-18 19:54:47')
+    #pg = Verb_Cards()
+    #pg.create('2020-06-19 02:09:30')
+
+    headers = {'X-Secret': 'cffcdd1c60b8c18d2b3efa758cf8d96d74895609cdacc3f5695ff508be83a1b0'}
+    url = f"""https://api.pons.com/v1/dictionary?q=warten&l=deen&in=de"""
+    r = requests.get(url, headers=headers)
+    print(r.text)

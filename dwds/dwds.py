@@ -6,6 +6,26 @@ import json
 engine = connect_alchemy(const.postgres_config)
 
 
+def get_translation(term):
+    # pos
+    wortart = ""
+    url = (f"https://www.dwds.de/api/wb/snippet?q={term}")
+
+    try:
+        session = HTMLSession()
+        response = session.get(url)
+        txt = response.text
+        # [{"url":"https://www.dwds.de/wb/Haus","wortart":"Substantiv","lemma":"Haus","input":"Haus"}]
+        jobj = json.loads(txt)
+        #wortart = jobj[0]["wortart"]
+
+    except requests.exceptions.RequestException as e:
+        print(e)
+
+
+    return wortart
+
+
 
 def get_pos(term):
     # pos
