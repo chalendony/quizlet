@@ -54,18 +54,6 @@ def roms(txt):
     t = txt[ROMS]
     return t
 
-def underline(string):
-    emptystring = ''
-    for i in range(0, len(string)):
-
-        if string[i] == ' ':
-            emptystring = emptystring + string[i]
-        else:
-            emptystring = emptystring + string[i] + str('\u0332')
-            print
-            f"\033[4m{string}033[0m"
-    return  "\033[4m{string}033[0m"
-
 
 def rote_memory_verb(s , pos):
     res = ""
@@ -78,7 +66,7 @@ def rote_memory_verb(s , pos):
         for j in rlst:
             #print(f"j {j} ")
 
-            if WORD_CLASS in j.keys() and pos.lower() in j[WORD_CLASS]:
+            if WORD_CLASS in j.keys() and pos.lower() in j[WORD_CLASS] and 'adjective and adverb' not in j[WORD_CLASS]:
 
                 ul = "\033[4m" + j[WORD_CLASS] + "\033[0m"
 
@@ -95,8 +83,10 @@ def rote_memory_verb(s , pos):
                         en = l[TARGET].strip()
 
                         temp.append("▢  " + de + " ▪ " + en + "\n\n")
-
-    res = "".join(temp)
+    if len(temp) > 0:
+        temp[-1] =temp[-1].rstrip()
+        #temp[-1] = temp[-1] + "\n"
+        res = "".join(temp)
     return res
 
 def parse(s):

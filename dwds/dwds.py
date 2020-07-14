@@ -12,7 +12,7 @@ conn = connect(const.postgres_config)
 cur = conn.cursor()
 
 
-def examples(term , pos, target_date, limit):
+def examples(term , pos, target_date, sense_limit, example_limit):
 
     query = f"select  value from german where update = '{target_date}' and  sense = '{pos}' and  ktype = 'dwds' and term='{term}';"
     #print(query)
@@ -22,7 +22,7 @@ def examples(term , pos, target_date, limit):
     for row in records:
         value = row[0]  # value
         dw_lst = json.loads(value)
-        inline_examples = dwds_inline_examples(dw_lst, limit)
+        inline_examples = dwds_inline_examples(dw_lst, sense_limit,example_limit)
     return inline_examples
 
 
@@ -186,7 +186,7 @@ def dwds_korpora_examples(dict):
     return dwds
 
 
-def dwds_inline_examples(dict, limit):
+def dwds_inline_examples(dict, sense_limit, example_limit):
 
     temp = []
     dwds = ""
@@ -197,8 +197,7 @@ def dwds_inline_examples(dict, limit):
     lst = dict["inline_examples"]
 
     # limit the number of examples
-    exLimit = limit
-    upperexLimit = min(exLimit, len(lst))
+    upperexLimit = min(sense_limit, len(lst))
     for i in lst[0:upperexLimit]:
 
         definition = i["definition"]
@@ -208,7 +207,7 @@ def dwds_inline_examples(dict, limit):
 
         for ex in examples:
             splits = ex.split("\n")
-            upper = min(3, len(splits))
+            upper = min(example_limit, len(splits))
             for de in splits[0:upper]:
                 if ("Beispiele" in de) or ("Beispiel" in de):
                     pass
