@@ -43,9 +43,9 @@ class Verb_RoteMemory:
                 entry = f"{term} @@@{leo_conjugations}{const.aline}{const.nl}{ponsentry}{const.aline}{dwdsexample}§§§"
                 print(entry)
                 batch.append(entry)
-        if len(batch) == const.MAX_CARDS:
-            self.write_to_file(batch, self.create_batch_name())
-            batch = []
+            if len(batch) == const.MAX_CARDS:
+                self.write_to_file(batch, self.create_batch_name())
+                batch = []
 
         self.write_to_file(batch, self.create_batch_name())
 
