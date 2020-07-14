@@ -54,6 +54,17 @@ def roms(txt):
     t = txt[ROMS]
     return t
 
+def underline(string):
+    emptystring = ''
+    for i in range(0, len(string)):
+
+        if string[i] == ' ':
+            emptystring = emptystring + string[i]
+        else:
+            emptystring = emptystring + string[i] + str('\u0332')
+            print
+            f"\033[4m{string}033[0m"
+    return  "\033[4m{string}033[0m"
 
 
 def rote_memory_verb(s , pos):
@@ -69,10 +80,13 @@ def rote_memory_verb(s , pos):
 
             if WORD_CLASS in j.keys() and pos.lower() in j[WORD_CLASS]:
 
-                temp.append(f"{j[WORD_CLASS]}:\n")
+                ul = "\033[4m" + j[WORD_CLASS] + "\033[0m"
+
+                temp.append(f"{ul}\n") # word class
+
                 for k in j[ARABS][0:MAX_HEADER]:
                     header = k[HEADER]
-                    temp.append("-------------------------\n\n")
+                    #temp.append(f"{const.aline}\n")
                     for l in k[TRANSLATIONS][0:MAX_TRANSLATION]:
 
                         # source

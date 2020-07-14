@@ -41,7 +41,7 @@ class Verb_RoteMemory:
                 ponsentry = pons.rote_memory_verb(entry[0], self.target)
                 #dwdsexample = dwds.examples(term , self.target, target_date, limit=2)
                 dwdsexample = ""
-                entry = f"{term} @@@{leo_conjugations}{const.aline}{const.nl}{ponsentry}{const.aline}{const.nl}{dwdsexample}§§§"
+                entry = f"{term} @@@{leo_conjugations}{const.aline}{const.nl}{ponsentry}{const.aline}{dwdsexample}§§§"
                 print(entry)
                 batch.append(entry)
         if len(batch) == const.MAX_CARDS:
