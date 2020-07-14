@@ -39,6 +39,12 @@ from lxml import etree
 from io import StringIO
 import unicodedata
 import re
+import json
+
+import constants as const
+from translations.database_handler import connect
+conn = connect(const.postgres_config)
+cur = conn.cursor()
 
 matcher = re.compile(r"^[^\|]*")
 # ==============================================================================
@@ -179,6 +185,20 @@ def get_english_definitions(res, part_of_speech):
     else:
         lst.append('-')
     return lst
+
+def leo_verb_conjugations(term, target_date):
+    query = f"select value from german where update = '{target_date}' and  sense = '{const.VERB}' and  ktype = 'leo' and term = '{term}';"
+    cur.execute(query)
+    records = cur.fetchall()
+    lst = []
+    de_conjugation = ""
+    for row in records:
+        value = row[0]  # value
+        entry = json.loads(value)
+        if const.VERB.lower() in entry.keys():
+            lst = entry[const.VERB.lower()]
+            de_conjugation = lst[0]["de"]
+    return de_conjugation
 
 
 

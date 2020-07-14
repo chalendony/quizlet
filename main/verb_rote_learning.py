@@ -8,13 +8,14 @@ import datetime
 import time
 import quizlet.common as common
 import os
-
+from dwds import  dwds
 
 from googletrans import Translator
 translator = Translator()
 import requests
 import sys
 from pons import pons
+from leo import leo
 
 
 class Verb_RoteMemory:
@@ -27,8 +28,7 @@ class Verb_RoteMemory:
 
     def create(self, target_date):
 
-        query = f"select term , value from german where update = '{target_date}' and  sense = '{self.target}' and  ktype = 'pons';"
-        print(query)
+        query = f"select term , value from german where update = '{target_date}' and  sense = '{self.target}' and ktype = 'pons';"
         self.cur.execute(query)
         records = self.cur.fetchall()
         batch = []
@@ -37,8 +37,11 @@ class Verb_RoteMemory:
             value = row[1]  # value
             entry = json.loads(value)
             if len(entry) > 0:
-                entry = pons.rote_memory_verb(entry[0], self.target)
-                entry = f"{term} @@@{entry}§§§"
+                leo_conjugations = leo.leo_verb_conjugations(term, target_date)
+                ponsentry = pons.rote_memory_verb(entry[0], self.target)
+                #dwdsexample = dwds.examples(term , self.target, target_date, limit=2)
+                dwdsexample = ""
+                entry = f"{term} @@@{leo_conjugations}{const.aline}{const.nl}{ponsentry}{const.aline}{const.nl}{dwdsexample}§§§"
                 print(entry)
                 batch.append(entry)
         if len(batch) == const.MAX_CARDS:

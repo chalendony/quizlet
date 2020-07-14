@@ -79,63 +79,7 @@ class Verb_Cards:
 
 
 
-    def dwds_inline_examples(self, dict):
 
-
-        temp = []
-        dwds = ""
-
-        if "inline_examples" not in dict.keys():
-            return dwds
-
-        lst = dict["inline_examples"]
-
-        # limit the number of examples
-        exLimit = 3
-        upperexLimit = min(exLimit,len(lst))
-        for i in lst[0:upperexLimit]:
-
-            definition = i["definition"]
-            temp.append(definition + "\n\n")
-
-            examples = i["examples"]
-
-            for ex in examples:
-                splits = ex.split("\n")
-                upper = min(3,len(splits))
-                for de in splits[0:upper]:
-                    if ("Beispiele" in de) or ("Beispiel" in de):
-                        pass
-                    else:
-                        ## roughly make is a sentence, get better translation is some cases
-                        de = de[0].upper() + de[1:] + "."
-                        url = f"""https://api.deepl.com/v2/translate?auth_key={const.dlapikey}&text={de}&source_lang=DE&target_lang=EN"""
-                        r = requests.get(url)
-                        en = r.json()['translations'][0]['text']
-                        temp.append("▢  " + de + " ▪ " + en + "\n\n")
-                        time.sleep(1)
-            dwds = "".join(temp)
-
-        return dwds
-
-    def dwds_korpora_examples(self, dict):
-        """
-        :param dict:
-        :return:
-        """
-
-        dwds = ""
-        temp = []
-        lst = dict["korpora_examples"]
-        if len(lst) > 0:
-            nr = min(2, len(lst))
-            for de in lst[0:nr]:
-                en = translator.translate(de, src='de', dest='en').text
-                #en = "This is english"
-                time.sleep(5)
-                temp.append("▢  " + de + " ▪ " + en + "\n\n")
-        dwds = "".join(temp)
-        return dwds
 
 
 if __name__ == "__main__":
