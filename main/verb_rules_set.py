@@ -34,7 +34,7 @@ class Verb_Cards:
         for row in records:
             term = row[0]  # term
             value = row[1]  # value
-
+            dw_lst = json.loads(value)
             inline_examples = self.dwds_inline_examples(dw_lst)
             #korpora_examples = self.dwds_korpora_examples(dw_lst)
             entry = f"{term} @@@{en}{const.nl}{const.aline}{const.nl}{inline_examples}§§§"

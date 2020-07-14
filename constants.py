@@ -83,7 +83,7 @@ PHRASE = 'phrase'
 DWDS = 'dwds'
 
 MAX_CARDS = 50
-MAX_EXAMPLES = 10
+MAX_EXAMPLES = 5
 
 
 # formating quizlet

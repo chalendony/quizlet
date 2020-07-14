@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ec03d32-e368-4a72-8551-923c6d1b2152" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/main/crossword.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pons/pons.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/verb_rote_learning.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/constants.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/terms.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/terms.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dwds/dwds.py" beforeDir="false" afterPath="$PROJECT_DIR$/dwds/dwds.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/verb_rules_set.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/verb_rules_set.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pons/pons.py" beforeDir="false" afterPath="$PROJECT_DIR$/pons/pons.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/translations/store_translations.py" beforeDir="false" afterPath="$PROJECT_DIR$/translations/store_translations.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -63,7 +61,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.pons">
+  <component name="RunManager" selected="Python.verb_rote_learning">
     <configuration name="crossword" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="quizlet" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -108,20 +106,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="noun_cards" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="pons" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="quizlet" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
-        <env name="DATABASE" value="$USER_HOME$/NewNextCloud/Avaré's Documents/Secrets/postgres.ini" />
+        <env name="PONS" value="cffcdd1c60b8c18d2b3efa758cf8d96d74895609cdacc3f5695ff508be83a1b0" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pons" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main/noun_article_set.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pons/pons.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -130,13 +128,14 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="parse_pos" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="store_translations" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="quizlet" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
         <env name="DATABASE" value="$USER_HOME$/NewNextCloud/Avaré's Documents/Secrets/postgres.ini" />
+        <env name="PONS" value="cffcdd1c60b8c18d2b3efa758cf8d96d74895609cdacc3f5695ff508be83a1b0" />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/reverso" />
@@ -152,20 +151,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pons" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="verb_rote_learning" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="quizlet" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
-        <env name="PONS" value="cffcdd1c60b8c18d2b3efa758cf8d96d74895609cdacc3f5695ff508be83a1b0" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pons" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/main" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pons/pons.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main/verb_rote_learning.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -198,19 +196,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.verb_rules_set" />
-      <item itemvalue="Python.parse_pos" />
-      <item itemvalue="Python.noun_cards" />
+      <item itemvalue="Python.store_translations" />
       <item itemvalue="Python.dwds" />
       <item itemvalue="Python.crossword" />
       <item itemvalue="Python.pons" />
+      <item itemvalue="Python.verb_rote_learning" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.verb_rote_learning" />
+        <item itemvalue="Python.store_translations" />
         <item itemvalue="Python.pons" />
         <item itemvalue="Python.crossword" />
-        <item itemvalue="Python.parse_pos" />
         <item itemvalue="Python.dwds" />
-        <item itemvalue="Python.noun_cards" />
       </list>
     </recent_temporary>
   </component>

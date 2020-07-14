@@ -9,8 +9,10 @@ from translations.database_handler import connect
 import psycopg2
 from psycopg2.extras import execute_values
 import  time
-current_timestamp = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime())
+from pons import pons
 
+#current_timestamp = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime())
+current_timestamp = '2020-06-19 02:09:30'
 
 class Page:
     def __init__(self):
@@ -40,7 +42,10 @@ class Page:
 
         lst = []
         for term in lines:
-            # wordart = dwds.get_pos(term)
+            print(f"term:{term}")
+            lst = []
+            wordart = dwds.get_pos(term)
+
             # print(f" term: {term} : wordart:  {wordart}")
             # #### DWDS
             # dwds_res = dwds.search(term)
@@ -55,6 +60,13 @@ class Page:
             # self.insert_entry(lst)
 
             #### PONS
+            pons_result = pons.search(term)
+            print(f"pons: {pons_result}")
+            tup = (term, wordart, "pons", json.dumps(pons_result, ensure_ascii=False), current_timestamp)
+            lst.append(tup)
+            time.sleep(3)
+            self.insert_entry(lst)
+
 
 
     def parse_definition(self, res):
