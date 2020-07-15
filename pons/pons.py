@@ -1,5 +1,8 @@
 import os
 import json
+import random
+
+
 import requests
 from bs4 import BeautifulSoup
 import constants as const
@@ -54,6 +57,32 @@ def roms(txt):
     t = txt[ROMS]
     return t
 
+
+def xword_verb(s, pos, sense=0):
+    random.seed(5)
+    res = ""
+    temp = []
+    hlst = hits(s)
+    for i in hlst: # there is only one hits
+        rlst = i[ROMS] ## type of verb, intran, trans or reflex, verb
+        random.shuffle(rlst)
+        for j in rlst: # only pick one type of verb, after shuffling
+            if WORD_CLASS in j.keys() and pos.lower() in j[WORD_CLASS] and 'adjective and adverb' not in j[WORD_CLASS]:
+                k= j[ARABS]
+                random.shuffle(k)
+                k = k[0]
+                #k = k[random.randint(0, len(k) - 1)] # randomly select a word class
+                l = k[TRANSLATIONS]
+                dict = l[min(sense, len(l)-1)] # pick the sense
+                en = dict[TARGET]
+                #print(en)
+                en = en.replace(',','')
+                en = en.replace('\n','')
+                temp.append(en)
+                break
+
+    res = "".join(temp)
+    return res
 
 def rote_memory_verb(s , pos):
     res = ""

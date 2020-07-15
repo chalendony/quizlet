@@ -24,7 +24,7 @@ html_dir = 'html_files'
 extension = ".html_files"
 cards_path = "/home/avare/repos/quizlet/data/quizlet_input/"
 
-
+WORD_SENSE=1
 min_secs = 10
 #max_secs = 300
 max_secs = 15
