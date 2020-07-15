@@ -19,7 +19,7 @@ SOURCE = "source"
 TARGET = 'target'
 
 MAX_HEADER = 2
-MAX_TRANSLATION = 3
+MAX_TRANSLATION = 2
 def get(term):
 
     url = "https://api.pons.com/v1/dictionary"
@@ -58,6 +58,7 @@ def roms(txt):
     return t
 
 
+
 def xword_verb(s, pos, sense=0):
     random.seed(5)
     res = ""
@@ -66,23 +67,58 @@ def xword_verb(s, pos, sense=0):
     for i in hlst: # there is only one hits
         rlst = i[ROMS] ## type of verb, intran, trans or reflex, verb
         random.shuffle(rlst)
+        #rlst = rlst[0]
         for j in rlst: # only pick one type of verb, after shuffling
             if WORD_CLASS in j.keys() and pos.lower() in j[WORD_CLASS] and 'adjective and adverb' not in j[WORD_CLASS]:
                 k= j[ARABS]
                 random.shuffle(k)
                 k = k[0]
-                #k = k[random.randint(0, len(k) - 1)] # randomly select a word class
                 l = k[TRANSLATIONS]
                 dict = l[min(sense, len(l)-1)] # pick the sense
                 en = dict[TARGET]
                 #print(en)
-                en = en.replace(',','')
-                en = en.replace('\n','')
+                en = en.replace(',',' ')
+                #en = en.replace('\n',';')
                 temp.append(en)
                 break
 
     res = "".join(temp)
     return res
+
+
+
+def xword_verb_repeat_senses(s , pos, term):
+    ## repeat senses and only use to, then just shuffles
+    res = ""
+    temp = []
+    hlst = hits(s)
+    for i in hlst: # there is only one hits
+        rlst = roms(i)
+
+        for j in rlst:
+            if WORD_CLASS in j.keys() and pos.lower() in j[WORD_CLASS] and 'adjective and adverb' not in j[WORD_CLASS]:
+                for k in j[ARABS][0:MAX_HEADER]:
+                    header = k[HEADER]
+                    for l in k[TRANSLATIONS][0:MAX_TRANSLATION]:
+                        en = l[TARGET].strip()
+                        if en.startswith("to"):
+                            temp.append(en + ','+ term + "\n")
+
+    if len(temp) > 0:
+        temp[-1] =temp[-1].rstrip()
+        temp = remove_dups(temp) # remove duplicates
+        res = "".join(temp)
+    return res
+
+def remove_dups(lst):
+    temp = []
+
+    for x in lst:
+        if x not in temp:
+            temp.append(x)
+
+    return temp
+
 
 def rote_memory_verb(s , pos):
     res = ""
@@ -97,9 +133,9 @@ def rote_memory_verb(s , pos):
 
             if WORD_CLASS in j.keys() and pos.lower() in j[WORD_CLASS] and 'adjective and adverb' not in j[WORD_CLASS]:
 
-                ul = "\033[4m" + j[WORD_CLASS] + "\033[0m"
+                #ul = "\033[4m" + j[WORD_CLASS] + "\033[0m"
 
-                temp.append(f"{ul}\n") # word class
+                temp.append(f"{j[WORD_CLASS]}\n") # word class
 
                 for k in j[ARABS][0:MAX_HEADER]:
                     header = k[HEADER]
@@ -117,6 +153,8 @@ def rote_memory_verb(s , pos):
         #temp[-1] = temp[-1] + "\n"
         res = "".join(temp)
     return res
+
+
 
 def parse(s):
     s = strip_html(s)

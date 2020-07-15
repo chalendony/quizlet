@@ -2,9 +2,49 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ec03d32-e368-4a72-8551-923c6d1b2152" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/main/xword_puzzle.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/constants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/quizlet_input/Verb_2020-07-14 21:16:24.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/quizlet_input/xword_2020-07-15 22:02:01.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/quizlet_input/xword_2020-07-15 22:02:29.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/quizlet_input/xword_2020-07-15 22:12:15.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/quizlet_input/xword_2020-07-15 22:13:17.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/quizlet_input/xword_2020-07-15 22:13:58.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/quizlet_input/xword_2020-07-15 22:14:44.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/quizlet_input/xword_2020-07-15 22:16:32.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/quizlet_input/xword_2020-07-15 22:16:48.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/quizlet_input/xword_2020-07-15 22:17:30.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/quizlet_input/xword_2020-07-15 22:22:06.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/quizlet_input/xword_2020-07-15 22:22:17.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/quizlet_input/xword_2020-07-15 23:01:39.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/quizlet_input/xword_2020-07-15 23:01:53.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/quizlet_input/xword_2020-07-15 23:03:54.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/quizlet_input/xword_2020-07-15 23:10:24.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/quizlet_input/xword_2020-07-15 23:14:06.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/quizlet_input/xword_2020-07-15 23:14:14.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/quizlet_input/xword_2020-07-15 23:14:26.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/quizlet_input/xword_2020-07-15 23:14:34.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/quizlet_input/xword_2020-07-15 23:15:25.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/quizlet_input/xword_2020-07-15 23:16:06.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/quizlet_input/xword_2020-07-15 23:16:59.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/quizlet_input/xword_2020-07-15 23:17:16.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/quizlet_input/xword_2020-07-15 23:18:54.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/quizlet_input/xword_2020-07-15 23:19:10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/quizlet_input/xword_2020-07-15 23:22:26.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/quizlet_input/xword_2020-07-15 23:38:13.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/quizlet_input/xword_2020-07-15 23:57:15.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/quizlet_input/xword_2020-07-15 23:57:31.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/quizlet_input/xword_2020-07-16 00:04:52.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/quizlet_input/xword_2020-07-16 00:08:00.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/quizlet_input/xword_2020-07-16 00:09:38.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/quizlet_input/xword_2020-07-16 00:12:26.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/quizlet_input/xword_2020-07-16 00:14:49.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/quizlet_input/xword_2020-07-16 00:15:58.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/quizlet_input/xword_2020-07-16 00:16:23.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/quizlet_input/xword_2020-07-16 00:16:52.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/quizlet_input/xword_2020-07-16 00:18:46.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/verb_rote_learning.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/verb_rote_learning.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/xword_puzzle.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/xword_puzzle.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pons/pons.py" beforeDir="false" afterPath="$PROJECT_DIR$/pons/pons.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -201,8 +241,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.xword_puzzle" />
-        <item itemvalue="Python.pons" />
         <item itemvalue="Python.verb_rote_learning" />
+        <item itemvalue="Python.pons" />
         <item itemvalue="Python.store_translations" />
         <item itemvalue="Python.crossword" />
       </list>

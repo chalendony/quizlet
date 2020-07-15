@@ -1,6 +1,8 @@
 """
 reads text from database to create cards Der, Die, Das cards
 """
+import random
+
 from translations.database_handler import connect
 import constants as const
 import json
@@ -26,9 +28,10 @@ class XWord:
         self.cur = self.conn.cursor()
         self.cur_dwds = self.conn.cursor()
 
-    def create(self, target_date):
+## need to simply quizlet even more - MOVE THIS
+    def key_quizlet(self, target_date):
 
-        query = f"select term , value from german where update = '{target_date}' and  sense = '{self.target}' and ktype = 'pons' order by random() limit {const.MAX_CARDS};"
+        query = f"select term , value from german where update = '{target_date}' and  sense = '{self.target}' and ktype = 'pons';"
         self.cur.execute(query)
         records = self.cur.fetchall()
         batch = []
@@ -37,11 +40,32 @@ class XWord:
             value = row[1]  # value
             entry = json.loads(value)
             if len(entry) > 0:
-                ponsentry = pons.xword_verb(entry[0], self.target, const.WORD_SENSE)
+                ponsentry = pons.croswword_rote_memory_verb(entry[0], self.target, const.WORD_SENSE, term)
                 if len(ponsentry) > 0:
-                    ponsentry = f"{term},{ponsentry}"
+                    ponsentry = f"{term}@@@{ponsentry}§§§{const.nl}"
                     print(ponsentry)
                     batch.append(ponsentry)
+        self.write_to_file(batch, self.create_batch_name_ALLL())
+
+    ### use multiple senses of the same term!!
+    def create(self, target_date):
+        query = f"select term , value from german where update = '{target_date}' and  sense = '{self.target}' and ktype = 'pons';"
+        self.cur.execute(query)
+        records = self.cur.fetchall()
+        batch = []
+        for row in records:
+            term = row[0]  # term
+            value = row[1]  # value
+            entry = json.loads(value)
+            if len(entry) > 0:
+                ponsentry = pons.xword_verb_repeat_senses(entry[0], self.target, term)
+                if len(ponsentry) > 0:
+                    ponsentry = f"{ponsentry}{const.nl}"
+                    print(ponsentry)
+                    batch.append(ponsentry)
+        random.seed(5)
+        random.shuffle(batch)
+        batch = batch[0:const.MAX_CROSSWORD]
         self.write_to_file(batch, self.create_batch_name())
 
 
@@ -58,7 +82,10 @@ class XWord:
         return const.cards_path +  "xword_" + st + ".txt"
 
 
-
+    def create_batch_name_ALLL(self):
+        ts = time.time()
+        st = datetime.datetime.fromtimestamp(ts).strftime("%Y-%m-%d %H:%M:%S")
+        return const.cards_path +  "xword_" + st + ".txt"
 
 
 

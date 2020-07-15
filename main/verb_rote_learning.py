@@ -39,8 +39,9 @@ class Verb_RoteMemory:
             if len(entry) > 0:
                 leo_conjugations = leo.leo_verb_conjugations(term, target_date)
                 ponsentry = pons.rote_memory_verb(entry[0], self.target)
-                dwdsexample = dwds.examples(term , self.target, target_date, sense_limit=3, example_limit=2)
-                entry = f"{term} @@@{leo_conjugations}{const.aline}{const.nl}{ponsentry}{const.aline}{dwdsexample}§§§"
+                #dwdsexample = dwds.examples(term , self.target, target_date, sense_limit=3, example_limit=2)
+                #entry = f"{term} @@@{leo_conjugations}{const.aline}{const.nl}{ponsentry}{const.aline}{dwdsexample}§§§"
+                entry = f"{term} @@@{leo_conjugations}{const.aline}{const.nl}{ponsentry}§§§"
                 print(entry)
                 batch.append(entry)
             if len(batch) == const.MAX_CARDS:

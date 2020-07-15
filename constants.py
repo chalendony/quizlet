@@ -84,7 +84,7 @@ DWDS = 'dwds'
 
 MAX_CARDS = 50
 MAX_EXAMPLES = 5
-
+MAX_CROSSWORD = 30
 
 # formating quizlet
 nl = "\n"
