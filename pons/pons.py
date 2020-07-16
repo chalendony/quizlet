@@ -104,8 +104,8 @@ def xword_verb_repeat_senses(s , pos, term):
                         if en.startswith("to"):
                             temp.append(en + ','+ term + "\n")
 
-    if len(temp) > 0:
-        temp[-1] =temp[-1].rstrip()
+    # if len(temp) > 0:
+    #     temp[-1] =temp[-1].rstrip()
     return temp
 
 def remove_dups(lst):

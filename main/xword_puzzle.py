@@ -62,14 +62,13 @@ class XWord:
             if len(entry) > 0:
                 ponsentry = pons.xword_verb_repeat_senses(entry[0], self.target, term)
                 if len(ponsentry) > 0:
-                    print(ponsentry)
+                    #print(ponsentry)
                     batch.append(ponsentry)
         random.seed(5)
-
         batch = list(itertools.chain(*batch)) # flatten the list
         random.shuffle(batch)
         print(batch)
-        #batch = batch[0:const.MAX_CROSSWORD]
+        batch = batch[0:const.MAX_CROSSWORD]
         self.write_to_file(batch, self.create_batch_name())
 
 
