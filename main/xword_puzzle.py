@@ -18,6 +18,7 @@ import requests
 import sys
 from pons import pons
 from leo import leo
+import itertools
 
 
 class XWord:
@@ -47,8 +48,9 @@ class XWord:
                     batch.append(ponsentry)
         self.write_to_file(batch, self.create_batch_name_ALLL())
 
-    ### use multiple senses of the same term!!
+
     def create(self, target_date):
+        ### use multiple senses of the same term!!
         query = f"select term , value from german where update = '{target_date}' and  sense = '{self.target}' and ktype = 'pons';"
         self.cur.execute(query)
         records = self.cur.fetchall()
@@ -60,12 +62,14 @@ class XWord:
             if len(entry) > 0:
                 ponsentry = pons.xword_verb_repeat_senses(entry[0], self.target, term)
                 if len(ponsentry) > 0:
-                    ponsentry = f"{ponsentry}{const.nl}"
                     print(ponsentry)
                     batch.append(ponsentry)
         random.seed(5)
+
+        batch = list(itertools.chain(*batch)) # flatten the list
         random.shuffle(batch)
-        batch = batch[0:const.MAX_CROSSWORD]
+        print(batch)
+        #batch = batch[0:const.MAX_CROSSWORD]
         self.write_to_file(batch, self.create_batch_name())
 
 

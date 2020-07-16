@@ -106,19 +106,18 @@ def xword_verb_repeat_senses(s , pos, term):
 
     if len(temp) > 0:
         temp[-1] =temp[-1].rstrip()
-        temp = remove_dups(temp) # remove duplicates
-        res = "".join(temp)
-    return res
-
-def remove_dups(lst):
-    temp = []
-
-    for x in lst:
-        if x not in temp:
-            temp.append(x)
-
     return temp
 
+def remove_dups(lst):
+    t = []
+    for x in lst:
+        if x not in t:
+            t.append(x)
+    return t
+
+def remove_empty(lst):
+    filtered = [x for x in lst if len(x.strip()) > 0]
+    return filtered
 
 def rote_memory_verb(s , pos):
     res = ""
