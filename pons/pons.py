@@ -19,7 +19,7 @@ SOURCE = "source"
 TARGET = 'target'
 
 MAX_HEADER = 2
-MAX_TRANSLATION = 2
+MAX_TRANSLATION = 3
 def get(term):
 
     url = "https://api.pons.com/v1/dictionary"
@@ -128,17 +128,12 @@ def rote_memory_verb(s , pos):
         rlst = roms(i)
 
         for j in rlst:
-            #print(f"j {j} ")
-
             if WORD_CLASS in j.keys() and pos.lower() in j[WORD_CLASS] and 'adjective and adverb' not in j[WORD_CLASS]:
 
-                #ul = "\033[4m" + j[WORD_CLASS] + "\033[0m"
-
-                temp.append(f"{j[WORD_CLASS]}\n") # word class
+                temp.append(f"{j[WORD_CLASS]}\n\n") # word class
 
                 for k in j[ARABS][0:MAX_HEADER]:
                     header = k[HEADER]
-                    #temp.append(f"{const.aline}\n")
                     for l in k[TRANSLATIONS][0:MAX_TRANSLATION]:
 
                         # source
@@ -149,7 +144,7 @@ def rote_memory_verb(s , pos):
                         temp.append("▢  " + de + " ▪ " + en + "\n\n")
     if len(temp) > 0:
         temp[-1] =temp[-1].rstrip()
-        #temp[-1] = temp[-1] + "\n"
+        temp[-1] = temp[-1] + "\n"
         res = "".join(temp)
     return res
 

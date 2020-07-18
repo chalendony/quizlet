@@ -29,25 +29,6 @@ class XWord:
         self.cur = self.conn.cursor()
         self.cur_dwds = self.conn.cursor()
 
-## need to simply quizlet even more - MOVE THIS
-    def key_quizlet(self, target_date):
-
-        query = f"select term , value from german where update = '{target_date}' and  sense = '{self.target}' and ktype = 'pons';"
-        self.cur.execute(query)
-        records = self.cur.fetchall()
-        batch = []
-        for row in records:
-            term = row[0]  # term
-            value = row[1]  # value
-            entry = json.loads(value)
-            if len(entry) > 0:
-                ponsentry = pons.croswword_rote_memory_verb(entry[0], self.target, const.WORD_SENSE, term)
-                if len(ponsentry) > 0:
-                    ponsentry = f"{term}@@@{ponsentry}§§§{const.nl}"
-                    print(ponsentry)
-                    batch.append(ponsentry)
-        self.write_to_file(batch, self.create_batch_name_ALLL())
-
 
     def create(self, target_date):
         ### use multiple senses of the same term!!
@@ -62,7 +43,6 @@ class XWord:
             if len(entry) > 0:
                 ponsentry = pons.xword_verb_repeat_senses(entry[0], self.target, term)
                 if len(ponsentry) > 0:
-                    #print(ponsentry)
                     batch.append(ponsentry)
         random.seed(5)
         batch = list(itertools.chain(*batch)) # flatten the list
@@ -84,12 +64,12 @@ class XWord:
         st = datetime.datetime.fromtimestamp(ts).strftime("%Y-%m-%d %H:%M:%S")
         return const.cards_path +  "xword_" + st + ".txt"
 
-
-    def create_batch_name_ALLL(self):
-        ts = time.time()
-        st = datetime.datetime.fromtimestamp(ts).strftime("%Y-%m-%d %H:%M:%S")
-        return const.cards_path +  "xword_" + st + ".txt"
-
+    #
+    # def create_batch_name_ALLL(self):
+    #     ts = time.time()
+    #     st = datetime.datetime.fromtimestamp(ts).strftime("%Y-%m-%d %H:%M:%S")
+    #     return const.cards_path +  "xword_" + st + ".txt"
+    #
 
 
 if __name__ == "__main__":

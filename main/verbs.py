@@ -1,6 +1,8 @@
 """
 reads text from database to create cards Der, Die, Das cards
 """
+import itertools
+
 from translations.database_handler import connect
 import constants as const
 import json
@@ -25,30 +27,33 @@ class Verb_RoteMemory:
         self.conn = connect(const.postgres_config)
         self.cur = self.conn.cursor()
         self.cur_dwds = self.conn.cursor()
+        self.counter = 0
+
+
 
     def create(self, target_date):
-
-        query = f"select term , value from german where update = '{target_date}' and  sense = '{self.target}' and ktype = 'pons';"
+        query = f"select ROW_NUMBER() OVER(ORDER BY term Asc) AS Row, term , value from german where update = '{target_date}' and  sense = '{self.target}' and ktype = 'pons';"
         self.cur.execute(query)
         records = self.cur.fetchall()
         batch = []
         for row in records:
-            term = row[0]  # term
-            value = row[1]  # value
+            rownr = row[0]  # value
+            term = row[1]  # term
+            value = row[2]  # value
             entry = json.loads(value)
             if len(entry) > 0:
                 leo_conjugations = leo.leo_verb_conjugations(term, target_date)
                 ponsentry = pons.rote_memory_verb(entry[0], self.target)
-                #dwdsexample = dwds.examples(term , self.target, target_date, sense_limit=3, example_limit=2)
-                #entry = f"{term} @@@{leo_conjugations}{const.aline}{const.nl}{ponsentry}{const.aline}{dwdsexample}§§§"
-                entry = f"{term} @@@{leo_conjugations}{const.aline}{const.nl}{ponsentry}§§§"
-                print(entry)
-                batch.append(entry)
-            if len(batch) == const.MAX_CARDS:
-                self.write_to_file(batch, self.create_batch_name())
+                if len(ponsentry) > 0:
+                    entry = f"{term}@@@{leo_conjugations}{const.aline}{const.nl}{ponsentry}§§§"
+                    batch.append(entry)
+                    print(entry)
+            if (rownr % const.MAX_CARDS) == 0:
+                self.counter = self.counter +1
+                self.write_to_file(batch, self.create_batch_name() + str(self.counter))
                 batch = []
-
-        self.write_to_file(batch, self.create_batch_name())
+        self.counter = self.counter + 1
+        self.write_to_file(batch, self.create_batch_name() + str(self.counter))
 
 
     def write_to_file(self, lst, filename):

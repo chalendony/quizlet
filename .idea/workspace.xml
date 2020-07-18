@@ -3,13 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="2ec03d32-e368-4a72-8551-923c6d1b2152" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/quizlet_input/xword_2020-07-16 00:48:00.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/quizlet_input/xword_2020-07-16 00:52:03.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/quizlet_input/xword_2020-07-16 00:53:12.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/quizlet_input/xword_2020-07-16 01:21:44.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/quizlet_input/xword_2020-07-16 01:26:11.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/quizlet_input/xword_2020-07-16 01:31:54.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/quizlet_input/xword_2020-07-16 01:34:06.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/constants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/quizlet_input/Verb_2020-07-16 01:02:05.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/quizlet_input/xword_2020-07-16 02:20:01.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/quizlet_input/xword_2020-07-16 02:22:39.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/quizlet_input/xword_2020-07-16 02:24:28.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/quizlet_input/xword_2020-07-16 02:27:02.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/verb_rote_learning.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/verbs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/verb_rules_set.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main/xword_puzzle.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/xword_puzzle.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pons/pons.py" beforeDir="false" afterPath="$PROJECT_DIR$/pons/pons.py" afterDir="false" />
     </list>
@@ -64,7 +65,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.xword_puzzle">
+  <component name="RunManager" selected="Python.verb_rote_learning">
     <configuration name="crossword" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="quizlet" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -144,7 +145,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main/verb_rote_learning.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main/verbs.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -206,8 +207,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.xword_puzzle" />
         <item itemvalue="Python.verb_rote_learning" />
+        <item itemvalue="Python.xword_puzzle" />
         <item itemvalue="Python.pons" />
         <item itemvalue="Python.store_translations" />
         <item itemvalue="Python.crossword" />
