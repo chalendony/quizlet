@@ -2,16 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ec03d32-e368-4a72-8551-923c6d1b2152" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/data/terms_pending.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reverso/reverso_2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/constants.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/quizlet_input/Verb_2020-07-16 01:02:05.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/quizlet_input/xword_2020-07-16 02:20:01.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/quizlet_input/xword_2020-07-16 02:22:39.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/quizlet_input/xword_2020-07-16 02:24:28.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/quizlet_input/xword_2020-07-16 02:27:02.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/verb_rote_learning.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/verbs.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/verb_rules_set.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/xword_puzzle.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/xword_puzzle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/quizlet_input/.~lock.xword_2020-07-16 02:27:27.csv#" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/quizlet_input/crossword_2020-06-26 00:49:17.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/quizlet_input/crossword_2020-06-26 01:02:37.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/quizlet_input/crossword_2020-06-26 01:04:49.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/quizlet_input/crossword_2020-06-26 01:07:42.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/quizlet_input/xword_2020-07-16 02:27:27.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/quizlet_input/xword_2020-07-16 02:27:27.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/terms.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/terms.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/text_PENDING.txt" beforeDir="false" afterPath="$PROJECT_DIR$/reverso/reverso_api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/crossword.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/Delete_crossword.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/verbs.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/verbs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/xword_puzzle.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/crossword_puzzle.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pons/pons.py" beforeDir="false" afterPath="$PROJECT_DIR$/pons/pons.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -65,21 +71,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.verb_rote_learning">
-    <configuration name="crossword" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.reverso_context_api">
+    <configuration name="download_reverso_page" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="quizlet" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
-        <env name="DATABASE" value="$USER_HOME$/NewNextCloud/Avaré's Documents/Secrets/postgres.ini" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/reverso" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main/crossword.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/reverso/download_reverso_page.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -110,21 +115,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="store_translations" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="reverso_context_api" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="quizlet" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
-        <env name="DATABASE" value="$USER_HOME$/NewNextCloud/Avaré's Documents/Secrets/postgres.ini" />
-        <env name="PONS" value="cffcdd1c60b8c18d2b3efa758cf8d96d74895609cdacc3f5695ff508be83a1b0" />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/reverso" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/translations/store_translations.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/reverso/reverso_2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -188,7 +191,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main/xword_puzzle.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main/crossword_puzzle.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -199,19 +202,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.verb_rules_set" />
-      <item itemvalue="Python.store_translations" />
-      <item itemvalue="Python.crossword" />
       <item itemvalue="Python.pons" />
       <item itemvalue="Python.verb_rote_learning" />
       <item itemvalue="Python.xword_puzzle" />
+      <item itemvalue="Python.download_reverso_page" />
+      <item itemvalue="Python.reverso_context_api" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.verb_rote_learning" />
+        <item itemvalue="Python.reverso_context_api" />
+        <item itemvalue="Python.download_reverso_page" />
         <item itemvalue="Python.xword_puzzle" />
+        <item itemvalue="Python.verb_rote_learning" />
         <item itemvalue="Python.pons" />
-        <item itemvalue="Python.store_translations" />
-        <item itemvalue="Python.crossword" />
       </list>
     </recent_temporary>
   </component>

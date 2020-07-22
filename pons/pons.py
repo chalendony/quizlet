@@ -59,42 +59,13 @@ def roms(txt):
 
 
 
-def xword_verb(s, pos, sense=0):
-    random.seed(5)
-    res = ""
-    temp = []
-    hlst = hits(s)
-    for i in hlst: # there is only one hits
-        rlst = i[ROMS] ## type of verb, intran, trans or reflex, verb
-        random.shuffle(rlst)
-        #rlst = rlst[0]
-        for j in rlst: # only pick one type of verb, after shuffling
-            if WORD_CLASS in j.keys() and pos.lower() in j[WORD_CLASS] and 'adjective and adverb' not in j[WORD_CLASS]:
-                k= j[ARABS]
-                random.shuffle(k)
-                k = k[0]
-                l = k[TRANSLATIONS]
-                dict = l[min(sense, len(l)-1)] # pick the sense
-                en = dict[TARGET]
-                #print(en)
-                en = en.replace(',',' ')
-                #en = en.replace('\n',';')
-                temp.append(en)
-                break
-
-    res = "".join(temp)
-    return res
-
-
-
-def xword_verb_repeat_senses(s , pos, term):
-    ## repeat senses and only use to, then just shuffles
+def flippity_verb(s , pos, term):
+    "create flippity crossword cards, term comes first"
     res = ""
     temp = []
     hlst = hits(s)
     for i in hlst: # there is only one hits
         rlst = roms(i)
-
         for j in rlst:
             if WORD_CLASS in j.keys() and pos.lower() in j[WORD_CLASS] and 'adjective and adverb' not in j[WORD_CLASS]:
                 for k in j[ARABS][0:MAX_HEADER]:
@@ -102,11 +73,11 @@ def xword_verb_repeat_senses(s , pos, term):
                     for l in k[TRANSLATIONS][0:MAX_TRANSLATION]:
                         en = l[TARGET].strip()
                         if en.startswith("to"):
-                            temp.append(en + ','+ term + "\n")
-
-    # if len(temp) > 0:
-    #     temp[-1] =temp[-1].rstrip()
+                            en = en.replace(',', ' ')
+                            temp.append(term + ','+ en + "\n")
     return temp
+
+
 
 def remove_dups(lst):
     t = []
@@ -120,6 +91,7 @@ def remove_empty(lst):
     return filtered
 
 def rote_memory_verb(s , pos):
+    "repeat senses, remove the example sentences because cards are too long"
     res = ""
     temp = []
     #s = s[0]
@@ -141,7 +113,7 @@ def rote_memory_verb(s , pos):
 
                         en = l[TARGET].strip()
 
-                        temp.append("▢  " + de + " ▪ " + en + "\n\n")
+                        temp.append("▢  " + de + " ▪ " + en + "\n\n") # make a function so same code can be used for qui
     if len(temp) > 0:
         temp[-1] =temp[-1].rstrip()
         temp[-1] = temp[-1] + "\n"

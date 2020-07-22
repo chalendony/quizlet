@@ -48,6 +48,7 @@ class Verb_RoteMemory:
                     entry = f"{term}@@@{leo_conjugations}{const.aline}{const.nl}{ponsentry}§§§"
                     batch.append(entry)
                     print(entry)
+                    ## TODO insert the terms as flippity entry : "ergeben	,Verb	,flippity, entry"
             if (rownr % const.MAX_CARDS) == 0:
                 self.counter = self.counter +1
                 self.write_to_file(batch, self.create_batch_name() + str(self.counter))

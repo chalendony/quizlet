@@ -18,7 +18,7 @@ dwds_base_url = "https://www.dwds.de/wb/"
 
 root_dir = configuration.root_dir
 #terms_file = root_dir + '/data/terms_2020-06-13 00:44:33.txt'
-terms_file = root_dir + '/data/terms.txt'
+terms_file = root_dir + '/data/terms_pending.txt'
 html_path = root_dir + '/data/html_files/'
 html_dir = 'html_files'
 extension = ".html_files"
