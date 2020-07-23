@@ -75,7 +75,7 @@ class Page:
         batchnr_nouns = INIT_BATCHNR_NOUNS
         ##--------------------------------
 
-        for i in files_lst:
+        for i in files_lst[0]:
             print(f"file {i}")
             # parse reverso file...
             ## logic: if reverso sees it as a verb, then use leo verb stuff, if reverso sees it as a noun then get leo noun stuff

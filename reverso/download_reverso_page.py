@@ -31,7 +31,7 @@ class ReversoDictionary:
         for term in lines:
             print(term)
             ## skip term if start with symbol
-            url = f"{const.reverso_base_url}{term}"
+            url = f"{const.reverso_context_url}{term}"
             html = self.download(url)
             try:
                 with open(f"{const.html_path}{term}.html", "wb") as file:

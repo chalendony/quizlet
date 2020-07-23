@@ -17,23 +17,21 @@ dwds_base_url = "https://www.dwds.de/wb/"
 #################################
 
 root_dir = configuration.root_dir
-#terms_file = root_dir + '/data/terms_2020-06-13 00:44:33.txt'
-terms_file = root_dir + '/data/terms_pending.txt'
+terms_file = root_dir + '/data/terms.txt'
 html_path = root_dir + '/data/html_files/'
 html_dir = 'html_files'
 extension = ".html_files"
 cards_path = "/home/avare/repos/quizlet/data/quizlet_input/"
 
 WORD_SENSE=1
-min_secs = 10
-#max_secs = 300
-max_secs = 15
+min_secs = 5 # 60, 300 all day
+max_secs = 30
 max_card_entries = 7
 
 # html
 headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:45.0) Gecko/20100101 Firefox/45.0'}
 reverso_base_url = 'https://dictionary.reverso.net/german-english/'
-
+reverso_context_url = "https://context.reverso.net/translation/german-english/"
 CROSSWORD = "crossword"
 # defining structure of each quizlet set
 SUBS = 'Substantiv'

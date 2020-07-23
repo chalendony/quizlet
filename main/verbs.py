@@ -18,6 +18,7 @@ import requests
 import sys
 from pons import pons
 from leo import leo
+from reverso import reverso_context_simple
 
 
 class Verb_RoteMemory:
@@ -44,11 +45,11 @@ class Verb_RoteMemory:
             if len(entry) > 0:
                 leo_conjugations = leo.leo_verb_conjugations(term, target_date)
                 ponsentry = pons.rote_memory_verb(entry[0], self.target)
+
                 if len(ponsentry) > 0:
                     entry = f"{term}@@@{leo_conjugations}{const.aline}{const.nl}{ponsentry}§§§"
                     batch.append(entry)
                     print(entry)
-                    ## TODO insert the terms as flippity entry : "ergeben	,Verb	,flippity, entry"
             if (rownr % const.MAX_CARDS) == 0:
                 self.counter = self.counter +1
                 self.write_to_file(batch, self.create_batch_name() + str(self.counter))
