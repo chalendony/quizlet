@@ -21,6 +21,7 @@ from leo import leo
 from reverso import reverso_context_simple
 
 
+
 class Verb_RoteMemory:
 
     def __init__(self):
@@ -33,7 +34,7 @@ class Verb_RoteMemory:
 
 
     def create(self, target_date):
-        query = f"select ROW_NUMBER() OVER(ORDER BY term Asc) AS Row, term , value from german where update = '{target_date}' and  sense = '{self.target}' and ktype = 'pons';"
+        query = f"select ROW_NUMBER() OVER(ORDER BY term Asc) AS Row, term , value from german where update = '{target_date}' and  sense = '{self.target}' and ktype = 'reverso_en';"
         self.cur.execute(query)
         records = self.cur.fetchall()
         batch = []
@@ -43,13 +44,17 @@ class Verb_RoteMemory:
             value = row[2]  # value
             entry = json.loads(value)
             if len(entry) > 0:
-                leo_conjugations = leo.leo_verb_conjugations(term, target_date)
-                ponsentry = pons.rote_memory_verb(entry[0], self.target)
-
-                if len(ponsentry) > 0:
-                    entry = f"{term}@@@{leo_conjugations}{const.aline}{const.nl}{ponsentry}§§§"
-                    batch.append(entry)
-                    print(entry)
+                #print(entry)
+                #leo_conjugations = leo.leo_verb_conjugations(term, target_date)
+                tmp = []
+                for i in entry:
+                    tmp.append(i)
+                entry = tmp[0:8]
+                entry = ",  ".join(entry)
+                #entry = f"{term}@@@{leo_conjugations}{const.aline}{const.nl}{entry}§§§"
+                entry = f"{term}@@@{entry}§§§{const.nl}"
+                batch.append(entry)
+                print(entry)
             if (rownr % const.MAX_CARDS) == 0:
                 self.counter = self.counter +1
                 self.write_to_file(batch, self.create_batch_name() + str(self.counter))

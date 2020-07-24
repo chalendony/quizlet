@@ -80,7 +80,7 @@ ADJADV = 'adjadv'
 PHRASE = 'phrase'
 DWDS = 'dwds'
 
-MAX_CARDS = 30
+MAX_CARDS = 50
 MAX_EXAMPLES = 5
 MAX_CROSSWORD = 30
 
