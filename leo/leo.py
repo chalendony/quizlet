@@ -202,7 +202,7 @@ def leo_verb_conjugations(term, target_date):
 
 
 
-def leo_noun_(term, target_date):
+def leo_noun(term, target_date):
     query = f"select value from german where update = '{target_date}' and  sense = '{const.SUBS}' and  ktype = 'leo' and term = '{term}';"
     cur.execute(query)
     records = cur.fetchall()

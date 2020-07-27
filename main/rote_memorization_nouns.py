@@ -51,8 +51,8 @@ class Nouns_RoteMemory:
                 for i in entry:
                     tmp.append(i)
                 entry = tmp[0:5]
-                entry = f"({art}) " + ",  ".join(entry)
-                entry = f"{term}@@@{entry}§§§{const.nl}"
+                entry = ",  ".join(entry)
+                entry = f"{art} {term}@@@{entry}§§§{const.nl}"
                 batch.append(entry)
                 #print(entry)
             if (rownr % const.MAX_CARDS) == 0:
