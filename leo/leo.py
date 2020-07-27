@@ -202,6 +202,39 @@ def leo_verb_conjugations(term, target_date):
 
 
 
+def leo_noun_(term, target_date):
+    query = f"select value from german where update = '{target_date}' and  sense = '{const.SUBS}' and  ktype = 'leo' and term = '{term}';"
+    cur.execute(query)
+    records = cur.fetchall()
+    lst = []
+    de_conjugation = ""
+    for row in records:
+        value = row[0]  # value
+        entry = json.loads(value)
+        if 'subst' in entry.keys():
+            lst = entry['subst']
+            de_conjugation = lst[0]["de"]
+    return de_conjugation
+
+
+def leo_article(term, target_date):
+    query = f"select value from german where update = '{target_date}' and  sense = '{const.SUBS}' and  ktype = 'leo' and term = '{term}';"
+    cur.execute(query)
+    records = cur.fetchall()
+    lst = []
+    article = ""
+    de_conjugation = ""
+    for row in records:
+        value = row[0]  # value
+        entry = json.loads(value)
+        if 'subst' in entry.keys():
+            lst = entry['subst']
+            de_conjugation = lst[0]["de"]
+            splits = de_conjugation.split()
+            article = splits[0]
+    return article
+
+
 if __name__ == "__main__":
     # get term
     res = search('wirken')

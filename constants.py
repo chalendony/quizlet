@@ -25,7 +25,7 @@ cards_path = "/home/avare/repos/quizlet/data/quizlet_input/"
 
 WORD_SENSE=1
 min_secs = 5 # 60, 300 all day
-max_secs = 30
+max_secs = 60
 max_card_entries = 7
 
 # html
@@ -82,7 +82,7 @@ DWDS = 'dwds'
 
 MAX_CARDS = 50
 MAX_EXAMPLES = 5
-MAX_CROSSWORD = 30
+MAX_CROSSWORD = 50
 
 # formating quizlet
 nl = "\n"

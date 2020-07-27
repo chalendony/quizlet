@@ -2,16 +2,369 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ec03d32-e368-4a72-8551-923c6d1b2152" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/main/rote_memorization.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/constants.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/html_files/begaben.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/quizlet_input/Verb_2020-07-18 12:37:07.txt1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/quizlet_input/Verb_2020-07-18 12:37:07.txt2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/quizlet_input/Verb_2020-07-18 12:37:07.txt3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/quizlet_input/Verb_2020-07-18 12:37:07.txt4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/quizlet_input/Verb_2020-07-18 12:37:07.txt5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/verbs.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/rote_memorization_verbs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/Ableitung.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/Absprache.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/Anpassung.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/Aufführung.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/Auslösung.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/Beifall.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/Belletristik.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/Berücksichtigung.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/Bodenschatz.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/Bullauge.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/Büchse.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/Einbruch.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/Einfall.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/Einhaltung.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/Entgegenkommen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/Entsprechung.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/Enttäuschung.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/Ermittelung.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/Eroberung.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/Feier.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/Firma.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/Friseur.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/Geborgenheit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/Gedöns.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/Gefecht.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/Gegenwart.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/Geltung.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/Generalprobe.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/Geschichte.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/Gesicht.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/Gewebe.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/Gewissen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/Gleiche.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/Glied.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/Holztafel.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/Klampfe.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/Kragen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/Kunde.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/Leitfaden.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/Mal.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/Mensch.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/Nachwuchs.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/Nächste.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/Peitsche.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/Pfütze.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/Querulant.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/Raubtier.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/Riemen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/Schar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/Schererei.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/Schulter.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/Spürsinn.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/Staffel.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/Stau.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/abarbeiten.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/abartig.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/abkommen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/ablegen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/ableiten.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/allerdings.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/andauern.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/anfallen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/angeblich.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/angepasst.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/ankündigen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/anschließend.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/anstoßen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/anstupsen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/aufarbeiten.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/aufbringen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/aufführen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/aufrappeln.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/aufwerfen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/ausarbeiten.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/ausüben.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/backen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/beanspruchen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/bearbeiten.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/bedenken.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/begründen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/beherbergen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/beinahe.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/belegen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/benachteiligen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/berücksichtigen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/bescheiden.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/bescheren.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/bewältigen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/beziehungsweise.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/bisher.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/blasen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/dabei.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/darstellen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/demütig.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/doch#2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/doch.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/dreinschauen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/drängen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/einbringen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/eindeutig.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/eindreschen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/eingehen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/eingehend.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/eingreifen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/einnisten.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/einreichen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/einschränken.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/einsetzen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/eintragen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/einwandfrei.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/entfallen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/entgegenkommen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/entgegennehmen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/entnehmen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/entschlafen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/entsinnen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/entsprechen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/entstehen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/entstellen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/erbringen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/ergeben.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/erhalten.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/erhoffen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/erkennen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/erklingen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/ermahnen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/ermitteln.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/erschrecken.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/erschwingen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/erstarren.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/erstehen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/ersteigern.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/erteilen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/erwerben.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/erwirtschaften.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/erwähnen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/erzeugen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/fassen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/fordern.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/fortwirken.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/freudig.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/fungieren.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/fällen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/führen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/gebieten.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/gebürtig.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/gedrängt.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/gehoben.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/geistesgestört.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/gelangen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/genesen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/geraten.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/gereift.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/gestalten.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/gewaltig.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/gewähren.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/hechten.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/heftig.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/hergeben.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/hervorbringen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/hervorragend.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/hinterlassen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/hinziehen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/hüten.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/infolgedessen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/inwendig.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/irgendein.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/kehlen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/kentern.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/klauen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/knistern.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/kreisen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/kreuz.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/laben.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/lechzen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/lediglich.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/lichten.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/locken.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/lähmen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/lösen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/mitten.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/mühen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/nacharbeiten.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/nachreichen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/nachstehend.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/nämlich.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/patchen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/platschen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/quittieren.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/sausen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/schaffen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/scheppern.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/schlüpfrig.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/schmeicheln.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/schwanken.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/schwärmen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/solch.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/stellen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files/stetig.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/Geborgenheit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/Gedöns.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/Gefecht.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/Gegenwart.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/Geltung.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/Generalprobe.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/Geschichte.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/Gesicht.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/Gewebe.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/Gewissen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/Gleiche.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/Glied.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/Holztafel.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/Klampfe.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/Kragen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/Kunde.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/Leitfaden.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/Mal.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/Mensch.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/Nachwuchs.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/Nächste.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/Peitsche.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/Pfütze.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/Querulant.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/Raubtier.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/Riemen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/Schar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/Schererei.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/Schulter.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/Spürsinn.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/Staffel.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/Stau.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/Stundung.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/Talbrücke.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/Trümmer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/Trümmerfeld.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/Täuschung.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/Verabredung.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/Vermittler.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/Verschiebung.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/Verweis.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/Wartung.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/Wirtin.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/Witterung.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/Zielfernrohr.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/Zusammenstoß.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/fungieren.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/gebieten.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/gebürtig.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/gedrängt.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/gehoben.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/geistesgestört.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/gelangen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/genesen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/geraten.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/gereift.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/gestalten.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/gewaltig.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/gewähren.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/hechten.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/heftig.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/hergeben.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/hervorbringen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/hervorragend.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/hinterlassen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/hinziehen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/hüten.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/infolgedessen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/inwendig.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/irgendein.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/kehlen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/kentern.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/klauen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/knistern.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/kreisen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/kreuz.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/laben.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/lechzen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/lediglich.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/lichten.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/locken.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/lähmen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/lösen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/mitten.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/mühen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/nacharbeiten.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/nachreichen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/nachstehend.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/nämlich.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/patchen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/platschen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/quittieren.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/sausen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/schaffen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/scheppern.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/schlüpfrig.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/schmeicheln.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/schwanken.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/schwärmen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/solch.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/stellen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/stetig.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/strampeln.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/strömen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/treffen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/trotzen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/täuschen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/umhüllen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/unentbehrlich.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/ungesittet.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/unvermittelt.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/unverzüglich.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/unwiderstehlich.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/unübersichtlich.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/urheberrechtlich.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/verarbeiten.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/verdächtigen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/vergeuden.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/verharren.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/verirren.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/verlernen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/versagen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/versessen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/versetzen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/verstreichen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/verzweifelt.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/vorarbeiten.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/voraussetzen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/vorhalten.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/vorkommen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/vornehmen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/vorverlegen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/vorwärtsbringen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/vorübergehend.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/wehen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/wenigstens.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/widerborstig.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/widernatürlich.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/wiederum.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/winken.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/wirken.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/wirtschaften.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/wohl.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/würgen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/zerkleinern.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/zerklüftet.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/zittrig.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/zuführen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/zuversichtlich.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/html_files_dictionary/übersät.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/quizlet_input/crossword_2020-07-19 12:18:12.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/quizlet_input/crossword_2020-07-20 10:28:01.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/quizlet_input/crossword_2020-07-20 10:29:52.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/quizlet_input/crossword_2020-07-20 10:33:35.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/terms.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/terms.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/terms_pending.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leo/leo.py" beforeDir="false" afterPath="$PROJECT_DIR$/leo/leo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/crossword_puzzle.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/crossword_puzzle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverso/download_reverso_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/reverso/download_reverso_context_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reverso/parse_reverso_context.py" beforeDir="false" afterPath="$PROJECT_DIR$/reverso/parse_reverso_context.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/translations/store_translations.py" beforeDir="false" afterPath="$PROJECT_DIR$/translations/store_translations.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,23 +386,23 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/reverso" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/main" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/reverso" />
-      <recent name="$PROJECT_DIR$/main" />
-      <recent name="$PROJECT_DIR$/data" />
-      <recent name="$PROJECT_DIR$/data/quizlet_input" />
-      <recent name="$PROJECT_DIR$/data/DONE/test" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/data/DONE" />
       <recent name="$PROJECT_DIR$/quizlet" />
       <recent name="$PROJECT_DIR$/data" />
       <recent name="$PROJECT_DIR$/data/quizlet_input" />
       <recent name="$PROJECT_DIR$/linguee" />
-      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/main" />
+      <recent name="$PROJECT_DIR$/reverso" />
+      <recent name="$PROJECT_DIR$/data" />
+      <recent name="$PROJECT_DIR$/data/quizlet_input" />
+      <recent name="$PROJECT_DIR$/data/DONE/test" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -64,8 +417,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.parse_reverso_context">
-    <configuration name="constants" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.crossword_puzzle">
+    <configuration name="crossword_puzzle" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="quizlet" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -73,11 +426,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/main" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/constants.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main/crossword_puzzle.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -98,7 +451,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/reverso/download_reverso_page.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/reverso/download_reverso_context_page.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -128,7 +481,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="store_translations" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="rote_memorization" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="quizlet" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -136,11 +489,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/translations" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/main" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/translations/store_translations.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main/rote_memorization.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -195,18 +548,18 @@
     <list>
       <item itemvalue="Python.verb_rules_set" />
       <item itemvalue="Python.download_reverso_page" />
-      <item itemvalue="Python.store_translations" />
-      <item itemvalue="Python.constants" />
       <item itemvalue="Python.parse_reverso_context" />
       <item itemvalue="Python.verbs" />
+      <item itemvalue="Python.crossword_puzzle" />
+      <item itemvalue="Python.rote_memorization" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.crossword_puzzle" />
+        <item itemvalue="Python.rote_memorization" />
+        <item itemvalue="Python.download_reverso_page" />
         <item itemvalue="Python.parse_reverso_context" />
         <item itemvalue="Python.verbs" />
-        <item itemvalue="Python.store_translations" />
-        <item itemvalue="Python.download_reverso_page" />
-        <item itemvalue="Python.constants" />
       </list>
     </recent_temporary>
   </component>

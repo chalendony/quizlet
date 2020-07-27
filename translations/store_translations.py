@@ -1,6 +1,6 @@
 import leo.leo as leo
 import constants as const
-from reverso.download_reverso_page import ReversoDictionary
+from reverso.download_reverso_context_page import ReversoDictionary
 import dwds.dwds as dwds
 
 import json
