@@ -82,4 +82,4 @@ class Nouns_RoteMemory:
 
 if __name__ == "__main__":
     v = Nouns_RoteMemory()
-    v.create("2020-06-19 02:09:30")
+    v.create("2020-08-01 20:44:59")

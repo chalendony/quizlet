@@ -25,7 +25,7 @@ cards_path = "/home/avare/repos/quizlet/data/quizlet_input/"
 
 WORD_SENSE=1
 min_secs = 5 # 60, 300 all day
-max_secs = 60
+max_secs = 120
 max_card_entries = 7
 
 # html

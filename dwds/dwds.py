@@ -56,7 +56,8 @@ def get_pos(term):
         txt = response.text
         # [{"url":"https://www.dwds.de/wb/Haus","wortart":"Substantiv","lemma":"Haus","input":"Haus"}]
         jobj = json.loads(txt)
-        wortart = jobj[0]["wortart"]
+        if len(jobj) > 0:
+            wortart = jobj[0]["wortart"]
 
     except requests.exceptions.RequestException as e:
         print(e)

@@ -44,14 +44,11 @@ class Verb_RoteMemory:
             value = row[2]  # value
             entry = json.loads(value)
             if len(entry) > 0:
-                #print(entry)
-                #leo_conjugations = leo.leo_verb_conjugations(term, target_date)
                 tmp = []
                 for i in entry:
                     tmp.append(i)
-                entry = tmp[0:8]
+                entry = tmp[0:5]
                 entry = ",  ".join(entry)
-                #entry = f"{term}@@@{leo_conjugations}{const.aline}{const.nl}{entry}§§§"
                 entry = f"{term}@@@{entry}§§§{const.nl}"
                 batch.append(entry)
                 print(entry)
@@ -82,4 +79,4 @@ class Verb_RoteMemory:
 
 if __name__ == "__main__":
     v = Verb_RoteMemory()
-    v.create("2020-06-19 02:09:30")
+    v.create("2020-08-02 02:00:04")

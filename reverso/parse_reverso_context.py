@@ -54,8 +54,7 @@ class Context:
     def parse_all_files(self, dir,dat):
         lst = []
         files_lst = glob.glob(dir)
-        for i in files_lst:
-            #print(f"file {i}")
+        for i in files_lst:            #print(f"file {i}")
             de = self.parse_german(i)
             print(de)
             pos = self.get_pos(de)
@@ -63,8 +62,8 @@ class Context:
             print(en)
             tup = (de, pos, "reverso_en", json.dumps(en, ensure_ascii=False), dat)
             lst.append(tup)
-            #print(lst)
-        #self.insert_entry(lst)
+            print(lst)
+        self.insert_entry(lst)
 
     def parse_german(self,i):
         splits = i.split("/")
@@ -101,6 +100,6 @@ class Context:
 
 if __name__ == "__main__":
     pg = Context()
-    pg.parse_all_files('/home/avare/repos/quizlet/data/html_files/*.html', '2020-06-19 02:09:30')
+    pg.parse_all_files('/home/avare/repos/quizlet/data/html_files/*.html', '2020-08-01 20:44:59')
 
 
