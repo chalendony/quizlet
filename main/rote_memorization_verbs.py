@@ -34,7 +34,7 @@ class Verb_RoteMemory:
 
 
     def create(self, target_date):
-        query = f"select ROW_NUMBER() OVER(ORDER BY term Asc) AS Row, term , value from german where update = '{target_date}' and  sense = '{self.target}' and ktype = 'reverso_en';"
+        query = f"select ROW_NUMBER() OVER(ORDER BY term Asc) AS Row, term , value from german where update = '{target_date}' and  sense = '{self.target}' and ktype = 'reverso_senses';"
         self.cur.execute(query)
         records = self.cur.fetchall()
         batch = []
