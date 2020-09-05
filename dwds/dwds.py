@@ -28,7 +28,7 @@ def examples(term , pos, target_date, sense_limit, example_limit):
 
 def get_translation(term):
     # pos
-    wortart = ""
+    wortart = None
     url = f"https://www.dwds.de/api/wb/snippet?q={term}"
 
     try:
@@ -42,6 +42,8 @@ def get_translation(term):
     except requests.exceptions.RequestException as e:
         print(e)
 
+    if wortart is None:
+        wortart = "unknown"
     return wortart
 
 
