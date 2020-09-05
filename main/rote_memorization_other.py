@@ -34,7 +34,7 @@ class Other_RoteMemory:
 
 
     def create(self, target_date):
-        query = f"select ROW_NUMBER() OVER(ORDER BY term Asc) AS Row, term , value from german where update = '{target_date}' and  sense != '{const.VERB}' and  sense != '{const.SUBS}' and ktype = 'reverso_en';"
+        query = f"select ROW_NUMBER() OVER(ORDER BY term Asc) AS Row, term , value from german where update = '{target_date}' and  sense != '{const.VERB}' and  sense != '{const.SUBS}' and ktype = 'reverso_senses';"
         self.cur.execute(query)
         records = self.cur.fetchall()
         batch = []
@@ -82,4 +82,7 @@ class Other_RoteMemory:
 
 if __name__ == "__main__":
     v = Other_RoteMemory()
-    v.create("2020-08-01 20:44:59")
+    v.create("2020-08-27 09:44:12")
+
+    #v.create("2020-08-27 11:04:31")
+    #v.create("2020-09-05 03:27:59")
