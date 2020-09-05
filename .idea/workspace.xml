@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ec03d32-e368-4a72-8551-923c6d1b2152" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/term_pending.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/term_pending.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/rote_memorization_nouns.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/rote_memorization_nouns.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/rote_memorization_verbs.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/rote_memorization_verbs.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +58,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.store_translations">
+  <component name="RunManager" selected="Python.rote_memorization_nouns">
     <configuration name="extract_table" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="quizlet" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -98,7 +101,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="rote_memorization_other" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="rote_memorization_nouns" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="quizlet" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -110,7 +113,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main/rote_memorization_other.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main/rote_memorization_nouns.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -185,19 +188,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.verb_rules_set" />
-      <item itemvalue="Python.rote_memorization_other" />
       <item itemvalue="Python.store_translations" />
       <item itemvalue="Python.rote_memorization_verbs" />
       <item itemvalue="Python.reverso_context_simple" />
       <item itemvalue="Python.extract_table" />
+      <item itemvalue="Python.rote_memorization_nouns" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.rote_memorization_nouns" />
+        <item itemvalue="Python.rote_memorization_verbs" />
         <item itemvalue="Python.store_translations" />
         <item itemvalue="Python.extract_table" />
-        <item itemvalue="Python.rote_memorization_verbs" />
         <item itemvalue="Python.reverso_context_simple" />
-        <item itemvalue="Python.rote_memorization_other" />
       </list>
     </recent_temporary>
   </component>
