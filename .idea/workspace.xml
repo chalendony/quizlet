@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ec03d32-e368-4a72-8551-923c6d1b2152" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/translations/store_sentences.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/done" beforeDir="false" afterPath="$PROJECT_DIR$/data/done" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/term_pending.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/term_pending.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/terms.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/terms.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/rote_memorization_other.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/rote_memorization_other.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/rote_memorization_verbs.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/rote_memorization_verbs.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reverso/reverso_context_simple.py" beforeDir="false" afterPath="$PROJECT_DIR$/reverso/reverso_context_simple.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,16 +26,16 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/main" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/translations" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/translations" />
       <recent name="$PROJECT_DIR$/main" />
       <recent name="$PROJECT_DIR$/reverso" />
       <recent name="$PROJECT_DIR$/data" />
       <recent name="$PROJECT_DIR$/data/quizlet_input" />
-      <recent name="$PROJECT_DIR$/data/DONE/test" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/data/DONE" />
@@ -61,7 +57,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.reverso_context_simple">
+  <component name="RunManager" selected="Python.store_sentences">
     <configuration name="reverso_context_simple" type="PythonConfigurationType" factoryName="Python">
       <module name="quizlet" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -146,6 +142,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="store_sentences" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="quizlet" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/translations" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/translations/store_sentences.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="store_translations" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="quizlet" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -196,9 +213,11 @@
       <item itemvalue="Python.rote_memorization_other" />
       <item itemvalue="Python.store_translations" />
       <item itemvalue="Python.rote_memorization_verbs" />
+      <item itemvalue="Python.store_sentences" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.store_sentences" />
         <item itemvalue="Python.rote_memorization_other" />
         <item itemvalue="Python.rote_memorization_nouns" />
         <item itemvalue="Python.rote_memorization_verbs" />

@@ -75,6 +75,6 @@ if __name__ == "__main__":
     #print(rev)
 
     ## get example sentences
-    de = examples("fortan", "henceforth")
+    de  = examples("fortan", "henceforth")
     print(list(de))
 
