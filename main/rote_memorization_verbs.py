@@ -36,6 +36,9 @@ class Verb_RoteMemory:
     def create(self, target_date):
         query = f"select ROW_NUMBER() OVER(ORDER BY term Asc) AS Row, term , value from german where update = '{target_date}' and  sense = '{self.target}' and ktype = 'reverso_senses';"
         self.cur.execute(query)
+
+
+
         records = self.cur.fetchall()
         batch = []
         for row in records:
@@ -44,12 +47,28 @@ class Verb_RoteMemory:
             value = row[2]  # value
             entry = json.loads(value)
             if len(entry) > 0:
+
+                # get dwds
+                query_dwds = f"select value from german where sense = '{self.target}' and ktype = 'dwds' and term = '{term}';"
+                self.cur_dwds.execute(query_dwds)
+                dwds_records = self.cur_dwds.fetchall()
+                for r in dwds_records:
+                    dwds_stuff = r[0]
+
+                    dwds_stuff = json.loads(dwds_stuff)
+
+                    dwds_example = dwds.dwds_inline_examples(dwds_stuff, term, 3, 2, False)
+
+
                 tmp = []
                 for i in entry:
                     tmp.append(i)
                 entry = tmp[0:5]
                 entry = ",  ".join(entry)
-                entry = f"{term}@@@{entry}§§§{const.nl}"
+
+                ## get context from dwds, we dont know which leo term matches the example sentence - could use reverso context for examples but i like dwds examples better
+                #entry = f"{term}@@@{entry}{const.nl}{const.nl}{dwds_example}§§§{const.nl}"
+                entry = f"{term}@@@{entry}{const.nl}{const.nl}{dwds_example}§§§{const.nl}"
                 batch.append(entry)
                 print(entry)
             if (rownr % const.MAX_CARDS) == 0:
@@ -79,6 +98,7 @@ class Verb_RoteMemory:
 
 if __name__ == "__main__":
     v = Verb_RoteMemory()
-    #v.create("2020-08-27 09:44:12")
-    #v.create("2020-08-27 11:04:31")
-    v.create("2020-09-05 03:27:59")
+    #v.create("2020-06-19 02:09:30")
+    v.create('2020-10-08 01:23:58')
+
+

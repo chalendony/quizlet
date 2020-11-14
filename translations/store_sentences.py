@@ -64,12 +64,12 @@ class Page:
         print(f" The current timestamp {current_timestamp}")
 
         lines = self.get_terms_and_senses(current_timestamp)
+        print(f"number of terms {len(lines)}")
         for term in lines:
             german = term['term']
             senses = term['senses'][0:limit]
             pos = term['pos']
 
-            lst = []
             dbentry = []
 
             for sense in senses:
@@ -78,14 +78,13 @@ class Page:
 
                 baustein = []
                 sense_baustein = {}
-                for j in tup: # many sentences are here, stuff them all in database ..
+                for j in tup: # stuff sentences in database ..
                     s = re.sub(r'<em>.*<\/em>', ' [~] ', j[0]) ## german sentence
-                    print(f"baustein: {sense} : {s} : {german} ")
+                    #print(f"baustein: {sense} : {s} : {german} ")
                     baustein.append(s)
 
                 sense_baustein['sense'] = sense
                 sense_baustein['baustein'] = baustein
-
                 dbentry.append(sense_baustein)
 
             print(dbentry)
@@ -96,7 +95,7 @@ class Page:
             dummy.append(tup)
             self.insert_entry(dummy)
 
-            #sleep
+            #sleep : can it handle two calls back to back???
             time = randint(const.min_secs, const.max_secs)
             print(time)
             sleep(time)
@@ -105,6 +104,7 @@ class Page:
 
 if __name__ == "__main__":
     pg = Page()
-    pg.get_sentences("2020-08-02 02:00:04", 2)
+    number_of_senses = 2
+    pg.get_sentences("2020-08-02 02:00:04", number_of_senses)
 
 

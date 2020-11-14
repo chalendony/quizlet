@@ -189,7 +189,7 @@ def dwds_korpora_examples(dict):
     return dwds
 
 
-def dwds_inline_examples(dict, sense_limit, example_limit):
+def dwds_inline_examples(dict, term , sense_limit, example_limit, translation=False):
 
     temp = []
     dwds = ""
@@ -217,12 +217,19 @@ def dwds_inline_examples(dict, sense_limit, example_limit):
                 else:
                     ## roughly make is a sentence, get better translation is some cases
                     de = de[0].upper() + de[1:] + "."
-                    url = f"""https://api.deepl.com/v2/translate?auth_key={const.dlapikey}&text={de}&source_lang=DE&target_lang=EN"""
-                    r = requests.get(url)
-                    en = r.json()["translations"][0]["text"]
-                    temp.append("▢  " + de + " ▪ " + en + "\n\n")
-                    time.sleep(1)
+
+                    if translation:
+                        url = f"""https://api.deepl.com/v2/translate?auth_key={const.dlapikey}&text={de}&source_lang=DE&target_lang=EN"""
+                        r = requests.get(url)
+                        en = r.json()["translations"][0]["text"]
+                        temp.append("▢  " + de + " ▪ " + en + "\n\n")
+                        time.sleep(1)
+                    else:
+                        temp.append("▢  " + de + "\n\n")
         dwds = "".join(temp)
+        dwds = dwds.replace(term, '~')
+        dwds = dwds.replace('gehoben', "")
+
 
     return dwds
 
