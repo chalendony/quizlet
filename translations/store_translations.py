@@ -46,6 +46,7 @@ class Page:
         for term in lines:
             print(f"term:{term}")
             lst = []
+
             wordart = dwds.get_pos(term)
 
             print(f" term: {term} : wordart:  {wordart}")

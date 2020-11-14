@@ -8,9 +8,6 @@ from translations.database_handler import connect
 
 import psycopg2
 from psycopg2.extras import execute_values
-import  time
-from pons import pons
-from reverso import reverso_context_simple
 from random import randint
 from time import sleep
 import re

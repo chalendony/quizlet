@@ -4,6 +4,11 @@ import psycopg2
 import constants as const
 from sqlalchemy import create_engine
 
+
+
+## TODO make clas and include all db ops here
+
+
 def dbconf(filename, section="postgresql"):
     parser = ConfigParser()
     parser.read(filename)
@@ -44,3 +49,7 @@ def write_to_file(self, lst, batchnr, filename):
     with f:
         for i in lst:
             f.write(f"{i}")
+
+
+
+

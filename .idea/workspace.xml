@@ -2,41 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ec03d32-e368-4a72-8551-923c6d1b2152" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/translations/store_duden_examples.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/constants.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/quizlet_input/Non_Subs_Verb_2020-07-27 22:54:09.txt1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/quizlet_input/Non_Subs_Verb_2020-08-01 21:02:13.txt1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/quizlet_input/Non_Subs_Verb_2020-09-05 13:23:47.txt1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/quizlet_input/Non_Subs_Verb_2020-09-05 13:24:00.txt1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/quizlet_input/Non_Subs_Verb_2020-09-05 13:24:07.txt1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/quizlet_input/Substantiv_2020-07-27 22:41:05.txt1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/quizlet_input/Substantiv_2020-08-01 21:01:57.txt1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/quizlet_input/Substantiv_2020-09-05 13:08:34.txt1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/quizlet_input/Substantiv_2020-09-05 13:09:42.txt1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/quizlet_input/Substantiv_2020-09-05 13:09:54.txt1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/quizlet_input/Substantiv_2020-09-05 13:10:01.txt1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/quizlet_input/Verb_2020-07-24 08:55:41.txt1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/quizlet_input/Verb_2020-07-24 08:55:41.txt2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/quizlet_input/Verb_2020-08-01 21:01:02.txt1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/quizlet_input/Verb_2020-08-02 09:05:45.txt1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/quizlet_input/Verb_2020-08-02 09:05:45.txt2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/quizlet_input/Verb_2020-09-05 13:06:10.txt1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/quizlet_input/Verb_2020-09-05 13:06:41.txt1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/quizlet_input/Verb_2020-09-05 13:06:41.txt2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/quizlet_input/Verb_2020-09-05 13:06:41.txt3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/quizlet_input/Verb_2020-09-05 13:06:55.txt1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/quizlet_input/Verb_2020-09-05 13:06:55.txt2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/quizlet_input/crossword_2020-07-27 19:46:38.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/quizlet_input/crossword_2020-07-27 19:46:56.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/quizlet_input/crossword_2020-07-27 22:26:56.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/quizlet_input/terms_2020-06-19-11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/term_pending.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/term_pending.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/terms.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/terms.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dwds/dwds.py" beforeDir="false" afterPath="$PROJECT_DIR$/dwds/dwds.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/rote_memorization_nouns.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/rote_memorization_nouns.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/rote_memorization_other.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/rote_memorization_other.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/rote_memorization_verbs.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/rote_memorization_verbs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/duden/word.py" beforeDir="false" afterPath="$PROJECT_DIR$/duden/word.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/quizlet/common.py" beforeDir="false" afterPath="$PROJECT_DIR$/quizlet/common.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/translations/database_handler.py" beforeDir="false" afterPath="$PROJECT_DIR$/translations/database_handler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/translations/store_duden_examples.py" beforeDir="false" afterPath="$PROJECT_DIR$/translations/store_duden_examples.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/translations/store_sentences.py" beforeDir="false" afterPath="$PROJECT_DIR$/translations/store_sentences.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -90,7 +63,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.rote_memorization_nouns">
+  <component name="RunManager" selected="Python.store_duden_examples">
     <configuration name="reverso_context_simple" type="PythonConfigurationType" factoryName="Python">
       <module name="quizlet" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -175,7 +148,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="store_sentences" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="store_duden_examples" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="quizlet" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -187,7 +160,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/translations/store_sentences.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/translations/store_duden_examples.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -246,15 +219,15 @@
       <item itemvalue="Python.rote_memorization_other" />
       <item itemvalue="Python.store_translations" />
       <item itemvalue="Python.rote_memorization_verbs" />
-      <item itemvalue="Python.store_sentences" />
+      <item itemvalue="Python.store_duden_examples" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.store_duden_examples" />
         <item itemvalue="Python.rote_memorization_nouns" />
         <item itemvalue="Python.rote_memorization_other" />
         <item itemvalue="Python.rote_memorization_verbs" />
         <item itemvalue="Python.store_translations" />
-        <item itemvalue="Python.store_sentences" />
       </list>
     </recent_temporary>
   </component>

@@ -55,8 +55,12 @@ class DudenWord():
         """
         if ', ' not in self.title:
             return self.title
-
-        name, _ = self.title.split(', ')
+        blah = self.title.split(', ')
+        if len(blah) > 2:
+            ## ['Friseur', 'Frisör', 'der']
+            name  = blah[0]
+        else:
+            name, _ = self.title.split(', ')
         return name
 
     @property
@@ -89,7 +93,12 @@ class DudenWord():
         if ', ' not in self.title:
             return None
 
-        _, article = self.title.split(', ')
+        blah = self.title.split(', ')
+        if len(blah) > 2:
+            ## ['Friseur', 'Frisör', 'der']
+            article  = blah[-1]
+        else:
+            _, article = self.title.split(', ')
         return article
 
     def _find_tuple_dl(self, key, element=None):
