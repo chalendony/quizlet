@@ -2,15 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ec03d32-e368-4a72-8551-923c6d1b2152" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/data/done.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/constants.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/term_pending.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/term_pending.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/quizlet_input/Non_Subs_Verb_2020-10-08 00:17:10.txt1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/quizlet_input/Non_Subs_Verb_2020-10-08 00:18:15.txt1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/quizlet_input/Non_Subs_Verb_2020-10-08 00:18:15.txt2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/quizlet_input/Non_Subs_Verb_2020-11-06 20:18:14.txt1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/quizlet_input/Substantiv_2020-10-08 00:02:44.txt1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/quizlet_input/Substantiv_2020-10-08 00:02:44.txt2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/quizlet_input/Substantiv_2020-11-06 20:18:26.txt1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/quizlet_input/Verb_2020-11-06 20:10:55.txt1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/quizlet_input/Verb_2020-11-06 20:10:55.txt2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/quizlet_input/Verb_2020-11-06 20:10:55.txt3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/quizlet_input/Verb_2020-11-06 20:10:55.txt4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/quizlet_input/Verb_2020-11-06 20:10:55.txt5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/quizlet_input/Verb_2020-11-06 20:10:55.txt6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/quizlet_input/Verb_2020-11-06 20:17:45.txt1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/sad" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/term_pending.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/data/terms.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/terms.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/duden/word.py" beforeDir="false" afterPath="$PROJECT_DIR$/duden/word.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quizlet/common.py" beforeDir="false" afterPath="$PROJECT_DIR$/quizlet/common.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/translations/database_handler.py" beforeDir="false" afterPath="$PROJECT_DIR$/translations/database_handler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/rote_memorization_verbs.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/rote_memorization_verbs.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/translations/store_duden_examples.py" beforeDir="false" afterPath="$PROJECT_DIR$/translations/store_duden_examples.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/translations/store_sentences.py" beforeDir="false" afterPath="$PROJECT_DIR$/translations/store_sentences.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/translations/store_translations.py" beforeDir="false" afterPath="$PROJECT_DIR$/translations/store_translations.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -224,10 +237,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.store_duden_examples" />
+        <item itemvalue="Python.store_translations" />
         <item itemvalue="Python.rote_memorization_nouns" />
         <item itemvalue="Python.rote_memorization_other" />
         <item itemvalue="Python.rote_memorization_verbs" />
-        <item itemvalue="Python.store_translations" />
       </list>
     </recent_temporary>
   </component>

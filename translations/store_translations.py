@@ -13,6 +13,7 @@ from pons import pons
 from reverso import reverso_context_simple
 from random import randint
 from time import sleep
+from translations.store_duden_examples import get_entry, get_word_url
 
 
 class Page:
@@ -45,44 +46,29 @@ class Page:
         lst = []
         for term in lines:
             print(f"term:{term}")
-            lst = []
 
-            wordart = dwds.get_pos(term)
 
-            print(f" term: {term} : wordart:  {wordart}")
-            #### DWDS nicely structures parts of speech overcomes problem Leo,
-            dwds_res = dwds.search(term)
-            lst.append((term, wordart, "dwds", json.dumps(dwds_res, ensure_ascii=False), current_timestamp))
-            #
-            #
-            # #### LEO :  using conjugations : parts of speech senses and examples not ordered,
-            leo_res = leo.search(term)
-            tup = (term, wordart, "leo", json.dumps(leo_res, ensure_ascii=False), current_timestamp)
-            lst.append(tup)
-            #time.sleep(5)
-            #self.insert_entry(lst)
+            # DUDEN:
+            word_url = get_word_url(term)
+            print(f"word url:  {word_url}")
 
-            #### PONS hard to study for rote memorization need simple single word translation with matching sense, (+)json api
-            # pons_result = pons.search(term)
-            # prin
-            # t(f"pons: {pons_result}")
-            # tup = (term, wordart, "pons", json.dumps(pons_result, ensure_ascii=False), current_timestamp)
-            # lst.append(tup)
-            # time.sleep(3)
-            # self.insert_entry(lst)
+            if len(word_url) > 0:
+                duden_entry = get_entry(word_url[0])
+                print(f"duden_entry :  {duden_entry}")
+                part_of_speech = duden_entry['part_of_speech']
+                lst.append((term, part_of_speech, "duden", json.dumps(duden_entry, ensure_ascii=False), current_timestamp))
 
-            ### Reverso : overcomes problems of pons : too many requests .. seriously!! - reverting to parsing page - how annoying is this!?
-            # for every term we call reverso max_senses + 1 times. the original code hammers the api by grabing all senses without pausing.
-            # i have two versions of the reverso context api: reverso_senses just gets sense, and reverso_context restricts the number of  calls and sleep in between eaach calls
-            reverso_result =  reverso_context_simple.reverso_senses(term)
-            print(f"reverso: {reverso_result}")
-            tup = (term, wordart, "reverso_senses", json.dumps(reverso_result, ensure_ascii=False), current_timestamp)
-            lst.append(tup)
+                # LEO
+                leo_res = leo.search(duden_entry['name'])
+                tup = (term, part_of_speech, "leo", json.dumps(leo_res, ensure_ascii=False), current_timestamp)
+                lst.append(tup)
 
-            self.insert_entry(lst)
+                self.insert_entry(lst)
 
-            time = randint(const.min_secs, const.max_secs) # for calling to reverso api
-            sleep(time)
+                time = randint(const.min_secs, const.max_secs)
+                sleep(time)
+            else:
+                print(f"Not found ************* {term}")
 
     def parse_definition(self, res):
         lst = []
@@ -105,4 +91,4 @@ class Page:
 if __name__ == "__main__":
     current_timestamp = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime())
     pg = Page()
-    pg.parse_all_terms(const.terms_file, current_timestamp)
+    pg.parse_all_terms(const.terms_file, '2020-11-14 23:00:00')

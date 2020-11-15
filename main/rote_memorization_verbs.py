@@ -25,16 +25,16 @@ from reverso import reverso_context_simple
 class Verb_RoteMemory:
 
     def __init__(self):
-        self.target = const.VERB
+        self.target = '%Verb%'
         self.conn = connect(const.postgres_config)
         self.cur = self.conn.cursor()
-        self.cur_dwds = self.conn.cursor()
+        self.cur_B = self.conn.cursor()
         self.counter = 0
 
 
 
     def create(self, target_date):
-        query = f"select ROW_NUMBER() OVER(ORDER BY term Asc) AS Row, term , value from german where update = '{target_date}' and  sense = '{self.target}' and ktype = 'reverso_senses';"
+        query = f"select ROW_NUMBER() OVER(ORDER BY term Asc) AS Row, term , value from german where sense like  '{self.target}' and ktype = 'reverso_senses';"
         self.cur.execute(query)
 
 
@@ -49,9 +49,9 @@ class Verb_RoteMemory:
             if len(entry) > 0:
 
                 # get dwds
-                query_dwds = f"select value from german where sense = '{self.target}' and ktype = 'dwds' and term = '{term}';"
-                self.cur_dwds.execute(query_dwds)
-                dwds_records = self.cur_dwds.fetchall()
+                query_B = f"select value from german where sense like '{self.target}' and ktype = 'duden' and term = '{term}';"
+                self.cur_B.execute(query_B)
+                dwds_records = self.cur_B.fetchall()
                 for r in dwds_records:
                     dwds_stuff = r[0]
 
@@ -66,8 +66,6 @@ class Verb_RoteMemory:
                 entry = tmp[0:5]
                 entry = ",  ".join(entry)
 
-                ## get context from dwds, we dont know which leo term matches the example sentence - could use reverso context for examples but i like dwds examples better
-                #entry = f"{term}@@@{entry}{const.nl}{const.nl}{dwds_example}§§§{const.nl}"
                 entry = f"{term}@@@{entry}{const.nl}{const.nl}{dwds_example}§§§{const.nl}"
                 batch.append(entry)
                 print(entry)
