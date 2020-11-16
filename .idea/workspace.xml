@@ -2,35 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ec03d32-e368-4a72-8551-923c6d1b2152" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/main/context_other.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/context_verbs.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/quizlet_input/%Verb%_2020-11-16 18:08:13.txt1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/quizlet_input/%Verb%_2020-11-16 18:08:13.txt2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/quizlet_input/%Verb%_2020-11-16 18:08:13.txt3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/quizlet_input/%Verb%_2020-11-16 18:09:41.txt1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/quizlet_input/%Verb%_2020-11-16 18:09:41.txt2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/quizlet_input/%Verb%_2020-11-16 18:09:41.txt3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/quizlet_input/%Verb%_2020-11-16 18:09:53.txt1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/quizlet_input/%Verb%_2020-11-16 18:09:54.txt2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/quizlet_input/%Verb%_2020-11-16 18:09:54.txt3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/quizlet_input/%Verb%_2020-11-16 18:17:27.txt1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/quizlet_input/%Verb%_2020-11-16 18:17:27.txt2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/quizlet_input/%Verb%_2020-11-16 18:17:27.txt3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/quizlet_input/%Verb%_2020-11-16 18:18:51.txt1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/quizlet_input/%Verb%_2020-11-16 18:18:51.txt2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/quizlet_input/%Verb%_2020-11-16 18:18:51.txt3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/quizlet_input/%Verb%_2020-11-16 18:18:51.txt4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/quizlet_input/%Verb%_2020-11-16 18:18:51.txt5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/quizlet_input/Verb_2020-11-16 18:23:04.txt1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/quizlet_input/Verb_2020-11-16 18:23:04.txt2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/quizlet_input/Verb_2020-11-16 18:23:04.txt3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/quizlet_input/Verb_2020-11-16 18:23:04.txt4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/quizlet_input/Verb_2020-11-16 18:23:04.txt5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/quizlet_input/Verb_2020-11-16 18:23:04.txt6" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/data/terms.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/terms.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/rote_memorization_verbs.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/context_nouns.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/translations/store_duden_examples.py" beforeDir="false" afterPath="$PROJECT_DIR$/translations/store_duden_examples.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/context_verbs.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/context_verbs.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

@@ -36,6 +36,9 @@ class Verb_RoteMemory:
 
     def create(self):
         query = f"select ROW_NUMBER() OVER(ORDER BY term Asc) AS Row, term , value from german where sense like  '{self.target}' and ktype = 'reverso_senses';"
+
+
+        ## todo include query that uses date when flag is set
         self.cur.execute(query)
         records = self.cur.fetchall()
         batch = []
