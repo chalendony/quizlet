@@ -19,13 +19,14 @@ import sys
 from pons import pons
 from leo import leo
 from reverso import reverso_context_simple
-
+from translations.store_duden_examples import parse_duden_context
 
 
 class Verb_RoteMemory:
 
     def __init__(self):
         self.target = '%Verb%'
+
         self.conn = connect(const.postgres_config)
         self.cur = self.conn.cursor()
         self.cur_B = self.conn.cursor()
@@ -36,39 +37,49 @@ class Verb_RoteMemory:
     def create(self, target_date):
         query = f"select ROW_NUMBER() OVER(ORDER BY term Asc) AS Row, term , value from german where sense like  '{self.target}' and ktype = 'reverso_senses';"
         self.cur.execute(query)
-
-
-
         records = self.cur.fetchall()
         batch = []
+
+        ## get english translations
         for row in records:
             rownr = row[0]  # value
             term = row[1]  # term
             value = row[2]  # value
-            entry = json.loads(value)
-            if len(entry) > 0:
+            english = json.loads(value) # english
+            print(term)
+            if len(english) > 0: # there may be reverso, but no duden !!
 
-                # get dwds
+                # get context in german : IF EXISTS
                 query_B = f"select value from german where sense like '{self.target}' and ktype = 'duden' and term = '{term}';"
                 self.cur_B.execute(query_B)
-                dwds_records = self.cur_B.fetchall()
-                for r in dwds_records:
-                    dwds_stuff = r[0]
+                recordsB = self.cur_B.fetchall()
+                for r in recordsB:
+                    if r is not None:
+                        contents = r[0]
+                        contents = json.loads(contents)
+                        context = parse_duden_context(contents)
 
-                    dwds_stuff = json.loads(dwds_stuff)
+                        if context is not None:
+                            # format english and limit to 5 entries
+                            tmp = []
+                            for i in english:
+                                tmp.append(i)
+                            english = tmp[0:5]
+                            english = ",  ".join(english)
 
-                    dwds_example = dwds.dwds_inline_examples(dwds_stuff, term, 3, 2, False)
+                            # proper formating for nouns
+                            article = contents['article']
+                            if article is None:
+                                german = contents['name']
+                            else:
+                                german =  article + " " + contents['name']
 
 
-                tmp = []
-                for i in entry:
-                    tmp.append(i)
-                entry = tmp[0:5]
-                entry = ",  ".join(entry)
-
-                entry = f"{term}@@@{entry}{const.nl}{const.nl}{dwds_example}§§§{const.nl}"
-                batch.append(entry)
-                print(entry)
+                            entry = f"{german}@@@{english}{const.nl}{const.nl}{context}§§§{const.nl}"
+                            batch.append(entry)
+                            print(entry)
+                        else:
+                            print(f"NOT FOUND ************************************* {term}")
             if (rownr % const.MAX_CARDS) == 0:
                 self.counter = self.counter +1
                 self.write_to_file(batch, self.create_batch_name() + str(self.counter))
@@ -87,7 +98,7 @@ class Verb_RoteMemory:
     def create_batch_name(self):
         ts = time.time()
         st = datetime.datetime.fromtimestamp(ts).strftime("%Y-%m-%d %H:%M:%S")
-        return const.cards_path + self.target + "_" + st + ".txt"
+        return const.cards_path + self.target.replace('%', '') + "_" + st + ".txt"
 
 
 
@@ -97,6 +108,6 @@ class Verb_RoteMemory:
 if __name__ == "__main__":
     v = Verb_RoteMemory()
     #v.create("2020-06-19 02:09:30")
-    v.create('2020-10-08 01:23:58')
+    v.create('2020-11-14 23:00:00')
 
 
