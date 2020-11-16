@@ -83,11 +83,22 @@ def format_context(merg, term):
 ▪  den Kofferraum zuschlagen  ▪  jemandem die Tür vor der Nase zuschlagen  ▪  ein Buch zuschlagen (zuklappen)"""
     res = []
     for i in merg:
-        res.append("▢  " + i[0] + "\n\n" + "▪ " + " ▪ ".join(i[1]).replace(term, '~'))
-    return res
+        ex = i[1]
+        ex = ex[0:2]
+        res.append("\n▢  " + remove_noise(i[0], term) + "\n" + "▪ " + remove_noise(" ▪ ".join(ex), term) + "\n\n")
 
-def remove_word(str, target):
-    return  str.replace(target, '~')
+    # put new lines
+    str = "".join(res)
+    return str
+
+def remove_noise(str, target):
+    str = str.replace(target, '~')
+    str = str.replace("\u2004%", '')
+    str = str.replace("o.\xa0Ä", '')
+    str = str.replace("Perfektbildung mit „hat“", '')
+
+    return str
+
 
 
 
@@ -98,7 +109,7 @@ def parse_context(c):
     splits = c.split('Beispiel')
     if len(splits) == 0:
         return merg
-    print(splits)
+    ##print(splits)
     cnt = 0
     definition = []
     examples = []

@@ -34,7 +34,7 @@ class Verb_RoteMemory:
 
 
 
-    def create(self, target_date):
+    def create(self):
         query = f"select ROW_NUMBER() OVER(ORDER BY term Asc) AS Row, term , value from german where sense like  '{self.target}' and ktype = 'reverso_senses';"
         self.cur.execute(query)
         records = self.cur.fetchall()
@@ -46,7 +46,7 @@ class Verb_RoteMemory:
             term = row[1]  # term
             value = row[2]  # value
             english = json.loads(value) # english
-            print(term)
+            #print(term)
             if len(english) > 0: # there may be reverso, but no duden !!
 
                 # get context in german : IF EXISTS
@@ -77,7 +77,7 @@ class Verb_RoteMemory:
 
                             entry = f"{german}@@@{english}{const.nl}{const.nl}{context}§§§{const.nl}"
                             batch.append(entry)
-                            print(entry)
+                            #print(entry)
                         else:
                             print(f"NOT FOUND ************************************* {term}")
             if (rownr % const.MAX_CARDS) == 0:
@@ -107,7 +107,4 @@ class Verb_RoteMemory:
 
 if __name__ == "__main__":
     v = Verb_RoteMemory()
-    #v.create("2020-06-19 02:09:30")
-    v.create('2020-11-14 23:00:00')
-
-
+    v.create()
