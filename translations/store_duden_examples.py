@@ -82,10 +82,12 @@ def format_context(merg, term):
 
 ▪  den Kofferraum zuschlagen  ▪  jemandem die Tür vor der Nase zuschlagen  ▪  ein Buch zuschlagen (zuklappen)"""
     res = []
-    for i in merg:
+    for i in merg[0:3]: # we need to limit the example when trying to learn the term for the first time
         ex = i[1]
         ex = ex[0:2]
-        res.append("\n▢  " + remove_noise(i[0], term) + "\n" + "▪ " + remove_noise(" ▪ ".join(ex), term) + "\n\n")
+        if "umgangssprachlich" not in i[0] or "veraltend" not in i[0]:
+            meaning = remove_noise(i[0], term)
+            res.append("\n▢  " + meaning + "\n" + "▪ " + remove_noise(" ▪ ".join(ex), term) + "\n")
 
     # put new lines
     str = "".join(res)
@@ -96,6 +98,8 @@ def remove_noise(str, target):
     str = str.replace("\u2004%", '')
     str = str.replace("o.\xa0Ä", '')
     str = str.replace("Perfektbildung mit „hat“", '')
+    str = str.replace("umgangssprachlich", '')
+    str = str.strip()
 
     return str
 

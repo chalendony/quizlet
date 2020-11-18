@@ -3,8 +3,103 @@
   <component name="ChangeListManager">
     <list default="true" id="2ec03d32-e368-4a72-8551-923c6d1b2152" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/quizlet_input/Verb_2020-11-16 19:32:00.txt1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/quizlet_input/Verb_2020-11-16 19:32:00.txt2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/quizlet_input/Verb_2020-11-16 19:32:00.txt3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/quizlet_input/Verb_2020-11-16 19:32:00.txt4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/quizlet_input/Verb_2020-11-16 19:32:00.txt5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/quizlet_input/Verb_2020-11-16 19:32:00.txt6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/quizlet_input/other_2020-11-16 20:00:24.txt1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/quizlet_input/other_2020-11-16 20:00:24.txt2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/quizlet_input/ubstantiv_2020-11-16 19:42:59.txt1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/quizlet_input/ubstantiv_2020-11-16 19:42:59.txt2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/quizlet_input/ubstantiv_2020-11-16 19:42:59.txt3" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/data/terms.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/terms.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/wget/Ableitung.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/wget/Ableitung.html.1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/wget/Anpassung.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/wget/Anschlag.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/wget/Einfall.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/wget/Einschränkung.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/wget/Enttäuschung.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/wget/Enttäuschung.html.1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/wget/Generalprobe.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/wget/Geschichte.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/wget/Gesicht.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/wget/Gischt.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/wget/Spendenbüchse.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/wget/Stundung.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/wget/Stundung.html.1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/wget/Täuschung.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/wget/Verweis erteilen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/wget/Verweis.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/wget/Zielfernrohr.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/wget/ableiten.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/wget/ableiten.html.1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/wget/angepasst.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/wget/anstupsen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/wget/aufarbeiten.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/wget/aufgeführt.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/wget/aufwerfen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/wget/ausarbeiten.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/wget/auswendig.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/wget/beanspruchen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/wget/bearbeiten.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/wget/beehren.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/wget/benachteiligt.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/wget/bescheren.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/wget/beziehungsweise.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/wget/beziehungsweise.html.1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/wget/durcharbeiten.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/wget/eingehen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/wget/eingriefen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/wget/entfallen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/wget/entnehmen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/wget/entsprechen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/wget/erklang.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/wget/erstanden.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/wget/erwirtschaften.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/wget/geistesgestört.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/wget/gestalten.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/wget/gestalten.html.1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/wget/gestalten.html.2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/wget/hingezogen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/wget/hüten.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/wget/infolgedessen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/wget/inwendig.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/wget/irgendein.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/wget/knisternd.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/wget/lediglich.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/wget/nacharbeiten.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/wget/nachreichen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/wget/nachstehend.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/wget/nachstehend.html.1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/wget/scheppern.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/wget/stetig.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/wget/täuschen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/wget/unbar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/wget/unvermittelt.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/wget/veranlassen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/wget/veranlassen.html.1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/wget/verarbeiten.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/wget/vergeuden.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/wget/versagen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/wget/vorarbeiten.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/wget/vornehmen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/wget/vorverlegen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/wget/vorverlegen.html.1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/wget/vorwärtsbringen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/wget/winkende.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/wget/zuführen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/wget/zuführen.html.1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/wget/zuführen.html.2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/wget/zuführen.html.3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/wget/zuversichtlich.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/context_nouns.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/context_nouns.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/context_verbs.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/context_verbs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverso/reverso_context_simple.py" beforeDir="false" afterPath="$PROJECT_DIR$/reverso/reverso_context_simple.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/translations/store_duden_examples.py" beforeDir="false" afterPath="$PROJECT_DIR$/translations/store_duden_examples.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/translations/store_translations.py" beforeDir="false" afterPath="$PROJECT_DIR$/translations/store_translations.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +152,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.context_other">
+  <component name="RunManager" selected="Python.store_translations">
     <configuration name="context_nouns" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="quizlet" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -217,11 +312,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.context_other" />
+        <item itemvalue="Python.store_translations" />
         <item itemvalue="Python.context_nouns" />
         <item itemvalue="Python.rote_memorization_verbs" />
+        <item itemvalue="Python.context_other" />
         <item itemvalue="Python.store_duden_examples" />
-        <item itemvalue="Python.store_translations" />
       </list>
     </recent_temporary>
   </component>

@@ -71,7 +71,7 @@ def examples(de, sense):
 
 if __name__ == "__main__":
     ## get the translations
-    #rev = reverso_senses("stellen", 5)
+    rev = reverso_senses("stellen", 5)
     #print(rev)
 
     ## get example sentences

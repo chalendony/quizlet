@@ -75,7 +75,7 @@ class Noun_RoteMemory:
                                 german =  article + " " + contents['name']
 
 
-                            entry = f"{german}@@@{english}{const.nl}{const.nl}{context}§§§{const.nl}"
+                            entry = f"{german}@@@{english}{const.nl}{context}§§§{const.nl}"
                             batch.append(entry)
                             #print(entry)
                         else:

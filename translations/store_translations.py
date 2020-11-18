@@ -63,6 +63,12 @@ class Page:
                 tup = (term, part_of_speech, "leo", json.dumps(leo_res, ensure_ascii=False), current_timestamp)
                 lst.append(tup)
 
+                # REVERSO
+                reverso_result = reverso_context_simple.reverso_senses(term)
+                print(f"reverso: {reverso_result}")
+                tup = (term, part_of_speech, "reverso", json.dumps(reverso_result, ensure_ascii=False), current_timestamp)
+                lst.append(tup)
+
                 self.insert_entry(lst)
 
                 time = randint(const.min_secs, const.max_secs)
